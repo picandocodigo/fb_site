@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FbSite</title>
+  <title><%= title %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+  <div id="header">
+    <div class="izq">
+      <h1>Fernando Briano</h1>
+    </div>
+    <div class="der">
+      Meh, texto sobre m&iacute;.
+    </div>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><%= link_to "Inicio", root_path %></li>
+      <li><%= link_to "Contacto", contact_path %></li>
+      <li><%= link_to "WordPress", wordpress_path %></li>
+  </div>
+  
+  <div class="container">
+    <%= yield %>
+  </div>
 
 </body>
 </html>

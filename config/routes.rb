@@ -9,6 +9,11 @@ FbSite::Application.routes.draw do
 
   get "pages/freesoftware"
 
+  match '/contact', :to => 'pages#contact'
+  match '/wordpress', :to => 'pages#wordpress'
+  match '/github', :to => 'pages#github'
+  match '/freesoftware', :to => 'pages#freesoftware'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

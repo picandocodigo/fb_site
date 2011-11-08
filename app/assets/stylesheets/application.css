@@ -5,3 +5,69 @@
  *= require_self
  *= require_tree . 
 */
+
+
+body {
+	 background: #e4dad4 url("img/fondo.jpg") no-repeat;
+	 margin: 0;
+	 padding: 0;
+	 font-size: 12px;
+}
+
+#column{
+	width: 900px;
+	background: #8a7a61;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: #c2b8b2;
+	width: 100%;
+	height: 125px;
+}
+
+.der{
+	float: right;
+}
+
+.izq{
+	float: left;
+}
+
+#header .der{
+	width: 300px;
+	font-size: 12px;
+	text-align: right;
+	margin: 20px;
+}
+
+#header .izq{
+	margin: 20px;
+}
+
+.menu{
+	background: #b7b5b3;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.menu li{
+	display: inline;
+	float: left;
+	list-style: none;
+	width: 92px;
+	height: 30px;
+	z-index:100;
+	text-align: center;
+}
+
+.menu li:hover{
+	background: #8a7a61;
+}
+.menu li p{
+	
+}
