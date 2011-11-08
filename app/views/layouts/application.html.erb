@@ -10,9 +10,10 @@
   <div id="header">
     <div class="izq">
       <h1>Fernando Briano</h1>
+      Programador
     </div>
     <div class="der">
-      Meh, texto sobre m&iacute;.
+      
     </div>
   </div>
   <div class="menu">
@@ -20,11 +21,65 @@
       <li><%= link_to "Inicio", root_path %></li>
       <li><%= link_to "Contacto", contact_path %></li>
       <li><%= link_to "WordPress", wordpress_path %></li>
+	</ul>
   </div>
   
-  <div class="container">
-    <%= yield %>
+  <div id="container">
+	<div id="info">
+    	<%= yield %>
+    </div>
+    
+    <div id="sidebar">
+  	<ul>
+		<li>devel</li>
+  		<li>
+			<a href="http://profiles.wordpress.org/users/fernandobt/" title="Perfil en WordPress.org">
+				<%= image_tag("wordpress.png", :alt => "Perfil en WordPress.org")%>
+			</a>
+		</li>
+		<li>
+			<a href="https://github.com/picandocodigo" title="Pefil en github">
+				<%= image_tag("github.png", :alt => "Perfil en github")%>
+			</a>
+		</li>
+		<li>
+			<a href="http://www.linkedin.com/in/fernandobriano" title="Pefil en LinkedIn">
+				<%= image_tag("linkedin.png", :alt => "Perfil en LinkedIn")%>
+			</a>
+		</li>
+		
+		<li>social</li>
+  		<li>
+			<a href="http://twitter.com/picandocodigo" title="@picandocodigo en Twitter">
+				<%= image_tag("twitter.png", :alt => "@picandocodigo en Twitter")%>
+			</a>
+		</li>
+		<li>
+			<a href="http://identi.ca/picandocodigo">
+				<%= image_tag("identica.png", :alt => "@picandocodigo en Identica", :title => "@picandocodigo en Identica")%>
+			</a>
+		</li>
+		<li>
+			<a href="http://www.last.fm/user/picandocodigo" title="Pefil en Last.fm">
+				<%= image_tag("lastfm.png", :alt => "Perfil en Last.fm")%>
+			</a>
+		</li>
+		<li>
+			<a href="http://www.youtube.com/user/picandocodigo" title="Pefil en YouTube">
+				<%= image_tag("youtube.png", :alt => "Perfil en YouTube")%>
+			</a>
+		</li>
+		
+  	</ul>
+  	
   </div>
+  </div>
+<!-- RubyConf Ribbon-->
+<%= image_tag("rubyconfuy.png", :alt => "RubyConf Uruguay 2011", :id => "rubyconfuy_ribbon", :usemap => '#rcuymap') %>
+<!--img id="rubyconfuy_ribbon" src="rubyconfuy.png" alt="RubyConf Uruguay 2011" usemap="#rcuymap" /-->
+<map name="rcuymap">
+  <area shape="polygon" coords="0,0,200,0,200,200" href="http://rubyconfuruguay.org" alt="RubyConf Uruguay" />
+</map>
 
 </body>
 </html>

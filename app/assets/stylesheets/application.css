@@ -5,20 +5,16 @@
  *= require_self
  *= require_tree . 
 */
-
+html{
+	height: 100%;
+}
 
 body {
-	 background: #e4dad4 url("img/fondo.jpg") no-repeat;
+	 background: #e4dad4 url("fondo.jpg") no-repeat;
 	 margin: 0;
 	 padding: 0;
 	 font-size: 12px;
-}
-
-#column{
-	width: 900px;
-	background: #8a7a61;
-	margin: 0 auto;
-	overflow: hidden;
+	 height: 100%;
 }
 
 #header{
@@ -68,6 +64,44 @@ body {
 .menu li:hover{
 	background: #8a7a61;
 }
-.menu li p{
-	
+
+#container{
+	width: 900px;
+	background: #8a7a61;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 100%;
+}
+
+#info{
+	margin: 20px;
+	background: #e4dad4;
+	float: left;
+	width: 728px;
+}
+
+#sidebar{
+	margin: 20px;
+	float: left;
+	width: 72px;
+	background: #c2b8b2;
+	font-family: Courier;
+}
+
+#sidebar ul{
+	margin: 0;
+	padding: 20px;
+}
+
+#sidebar li{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+#rubyconfuy_ribbon {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
 }
