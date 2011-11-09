@@ -1,7 +1,19 @@
 <h1>Desarrollo con WordPress</h1>
+<p>Administro varios blogs con WordPress, he desarrollado algunos plugins e intento participar activamente
+en las comunidades de <%= link_to "WordPress.org", "http://wordpress.org" %> 
+(<%=link_to "fernandobt", "http://profiles.wordpress.org/users/fernandobt/"%>) 
+y <%= link_to "WordPress Answers", "http://wordpress.stackexchange.com"%>.</p>
+<a href="http://wordpress.stackexchange.com/users/298/fernando">
+    <img src="http://wordpress.stackexchange.com/users/flair/298.png" width="208" height="58" alt="profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators" title="profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators">
+</a>
+
 <h2>Plugins de WordPress</h2>
-<ul>
-	<li>List Category Posts</li>
-	<li>List Category Posts</li>
-	<li>List Category Posts</li>
+<ul class="wp-plugin">
+    <% @plugins.each do |p| %>
+	<li class="wp_plugin_div"><%= raw(p) %></li>
+   <% end%>
 </ul>
+<div class="clear"> </div>
+
+
+<h2>Blogs administrados con WordPress</h2>

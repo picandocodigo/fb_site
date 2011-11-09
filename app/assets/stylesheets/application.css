@@ -20,8 +20,13 @@ body {
 
 a {
 	text-decoration: none;
-	
+	color: #1D2B08;
 }
+
+a:visited{
+	color: #4c6f15;
+}
+
 #header{
 	background: #1D2B08;
 	width: 100%;
@@ -91,7 +96,7 @@ a {
 	background: #7FA34B;
 	margin: 0 auto;
 	overflow: hidden;
-	height: 100%;
+	min-height: 100%;
 }
 
 #info{
@@ -106,7 +111,7 @@ a {
 	margin: 20px;
 	float: left;
 	width: 72px;
-	background: #c2b8b2;
+	background: #ccdbbc;
 	font-family: Courier;
 }
 
@@ -119,6 +124,39 @@ a {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+/* WordPress plugins */
+.wp-plugin ul{
+    display: inline;
+    clear: both;
+}
+
+.wp_plugin_div{
+    float:left;
+    background:#7FA34B;
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    height: 200px;
+}
+
+.wp-plugin li li{
+    list-style: circle;
+    margin-left: 20px;
+}
+.star-holder{
+    display: none;
+}
+
+
+.info-marker{
+    font-weight: bold;
 }
 
 #rubyconfuy_ribbon {

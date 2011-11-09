@@ -1,4 +1,8 @@
+require 'wordpress_plugins'
+
 class PagesController < ApplicationController
+include WordPressPlugins
+
   def home
   end
 
@@ -8,6 +12,7 @@ class PagesController < ApplicationController
 
   def wordpress
     @title = 'Trabajo con WordPress'
+    @plugins = WordPressPlugins.get_plugins 'fernandobt'
   end
 
   def about
