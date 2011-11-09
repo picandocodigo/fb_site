@@ -10,12 +10,8 @@ class PagesController < ApplicationController
     @title = 'Trabajo con WordPress'
   end
 
-  def github
-    @title = 'Proyectos en GitHub'
-  end
-
-  def freesoftware
-    @title = 'Software libre y Open Source'
+  def about
+    @title = 'Acerca de este sitio'
   end
 
 end

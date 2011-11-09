@@ -16,11 +16,15 @@
       
     </div>
   </div>
-  <div class="menu">
+  <div class="menu gen_menu">
     <ul>
       <li><%= link_to "Inicio", root_path %></li>
       <li><%= link_to "Contacto", contact_path %></li>
-      <li><%= link_to "WordPress", wordpress_path %></li>
+      <li>
+      	<%= image_tag("wpmini.png", :alt => "WordPress devel")%>
+      	<%= link_to "WordPress devel", wordpress_path %>
+      </li>
+      <li><%= link_to "Acerca de este sitio", about_path %></li>
 	</ul>
   </div>
   
@@ -47,6 +51,12 @@
 				<%= image_tag("linkedin.png", :alt => "Perfil en LinkedIn")%>
 			</a>
 		</li>
+		<li>
+			<a href="http://careers.stackoverflow.com/picandocodigo" title="Pefil en StackOverflow Careers">
+				<%= image_tag("careers.png", :alt => "Perfil en StackOverflow Careers")%>
+			</a>
+		</li>
+		
 		
 		<li>social</li>
   		<li>

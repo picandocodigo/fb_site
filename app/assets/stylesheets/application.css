@@ -10,17 +10,27 @@ html{
 }
 
 body {
-	 background: #e4dad4 url("fondo.jpg") no-repeat;
-	 margin: 0;
-	 padding: 0;
-	 font-size: 12px;
-	 height: 100%;
+	background: 0px 150px #4c6f15 url('fondo.png') repeat-x;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
 }
 
+a {
+	text-decoration: none;
+	
+}
 #header{
-	background: #c2b8b2;
+	background: #1D2B08;
 	width: 100%;
 	height: 125px;
+	color: #84c225;
+}
+
+#header h1{
+	color: #fff;
 }
 
 .der{
@@ -45,29 +55,40 @@ body {
 .menu{
 	background: #b7b5b3;
 	width: 100%;
-	margin: 0;
-	padding: 0;
-	clear: both;
-	overflow: hidden;
 }
 
 .menu li{
-	display: inline;
-	float: left;
-	list-style: none;
-	width: 92px;
 	height: 30px;
 	z-index:100;
 	text-align: center;
+	font-weight: bold;
+	margin-right: 40px;
+}
+
+.menu li img{
+	vertical-align:text-bottom;
 }
 
 .menu li:hover{
 	background: #8a7a61;
+} 
+
+.gen_menu{
+	margin: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.gen_menu li{
+	display: inline;
+	float: left;
+	list-style: none;
+	padding-right: 20px;
 }
 
 #container{
 	width: 900px;
-	background: #8a7a61;
+	background: #7FA34B;
 	margin: 0 auto;
 	overflow: hidden;
 	height: 100%;
@@ -75,9 +96,10 @@ body {
 
 #info{
 	margin: 20px;
-	background: #e4dad4;
+	padding: 20px;
+	background: #DFF2B8;
 	float: left;
-	width: 728px;
+	width: 688px;
 }
 
 #sidebar{
