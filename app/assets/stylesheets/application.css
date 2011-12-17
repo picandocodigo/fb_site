@@ -10,7 +10,7 @@ html{
 }
 
 body {
-	background: 0px 150px #4c6f15 url('fondo.png') repeat-x;
+	background: 0px 150px #4c6f15 url('fondo.png') repeat;
 	margin: 0;
 	padding: 0;
 	font-size: 12px;
@@ -20,11 +20,13 @@ body {
 
 a {
 	text-decoration: none;
+	font-weight: bold;
 	color: #1D2B08;
 }
 
 a:visited{
 	color: #4c6f15;
+	font-weight: bold;
 }
 
 #header{
@@ -101,6 +103,7 @@ a:visited{
 	background: #DFF2B8;
 	float: left;
 	width: 688px;
+	border-radius: 15px;
 }
 
 #sidebar{
@@ -109,6 +112,7 @@ a:visited{
 	width: 72px;
 	background: #ccdbbc;
 	font-family: Courier;
+	border-radius: 15px;
 }
 
 #sidebar ul{
@@ -155,9 +159,9 @@ a:visited{
     font-weight: bold;
 }
 
-#rubyconfuy_ribbon {
+/*#rubyconfuy_ribbon {
   position: fixed;
   right: 0;
   top: 0;
   z-index: 100;
-}
+}*/
