@@ -157,12 +157,21 @@ a {
   font-weight: bold;
 }
 
-.tweet{
-  border-radius: $radius;
-  background: $block_bg;
-  padding: 5px;
-  margin: 5px;
+
+.tweets{
   overflow: hidden;
+  border-radius: $radius;
+  li {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    &.odd {
+      background: $block_bg;
+    }
+    &.even {
+      background: lighten($block_bg, 10%);
+    }
+  }
 }
 
 /*#rubyconfuy_ribbon {

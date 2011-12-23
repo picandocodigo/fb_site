@@ -19,7 +19,7 @@
     %h3 Tweets recientes
     %ul.tweets
       -@tweets.each do |tweet|
-        %li{ :class => cycle('odd', 'even')} 
+        %li{ :class => cycle('tweets odd', 'tweets even')} 
           =raw tweet['text'] 
           %br
           %small
