@@ -8,6 +8,7 @@
 
 $radius: 15px;
 $block_bg: #ccdbbc;
+$cont_bg: #DFF2B8;
 
 html{
   height: 100%;
@@ -55,10 +56,12 @@ a {
 
 .der{
   float: right;
+  margin-left: 10px;
 }
 
 .izq{
   float: left;
+  margin-right: 10px;
 }
 
 .menu{
@@ -99,7 +102,7 @@ a {
 #info{
   margin: 20px;
   padding: 20px;
-  background: #DFF2B8;
+  background: $cont_bg;
   float: left;
   width: 688px;
   border-radius: $radius;
@@ -157,6 +160,9 @@ a {
   font-weight: bold;
 }
 
+.twitter_pic{
+  float: right;
+}
 
 .tweets{
   overflow: hidden;
@@ -169,7 +175,7 @@ a {
       background: $block_bg;
     }
     &.even {
-      background: lighten($block_bg, 10%);
+      background: darken($block_bg, 10%);
     }
   }
 }
