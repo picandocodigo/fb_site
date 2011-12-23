@@ -10,6 +10,7 @@ FbSite::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
   match '/wordpress', :to => 'pages#wordpress'
   match '/about', :to => 'pages#about'
+  match '/twitter', :to => 'pages#twitter'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

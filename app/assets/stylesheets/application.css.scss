@@ -5,6 +5,10 @@
  *= require_self
  *= require_tree . 
 */
+
+$radius: 15px;
+$block_bg: #ccdbbc;
+
 html{
   height: 100%;
 }
@@ -98,7 +102,7 @@ a {
   background: #DFF2B8;
   float: left;
   width: 688px;
-  border-radius: 15px;
+  border-radius: $radius;
 }
 
 #sidebar{
@@ -107,7 +111,7 @@ a {
   width: 72px;
   background: #ccdbbc;
   font-family: Courier;
-  border-radius: 15px;
+  border-radius: $radius;
   ul{
     margin: 0;
     padding: 20px;
@@ -135,13 +139,13 @@ a {
 
 .wp_plugin_div{
   float:left;
-  background:#ccdbbc;
+  background: $block_bg;
   width: 280px;
   margin: 10px;
   padding: 10px;
   list-style: none;
   height: 200px;
-  border-radius: 15px;
+  border-radius: $radius;
 }
 
 .star-holder{
@@ -151,6 +155,14 @@ a {
 
 .info-marker{
   font-weight: bold;
+}
+
+.tweet{
+  border-radius: $radius;
+  background: $block_bg;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
 }
 
 /*#rubyconfuy_ribbon {

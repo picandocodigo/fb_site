@@ -1,0 +1,29 @@
+#twitter_info
+  = image_tag( "twitter.png", :alt => "Twitter")
+  #twitter_info_wrap
+    %img{:src => @twitter_user.profile_image_url, :alt => @twitter_user.screen_name}
+    %p
+      %strong
+        =@twitter_user.name
+        %a{ :href => "http://twitter.com/#{@twitter_user.screen_name}", :title => "@#{@twitter_user.screen_name}"}
+          =@twitter_user.screen_name
+    %p
+      =@twitter_user.description
+        
+    %p 
+      Siguiendo: 
+      =@twitter_user.friends_count 
+      Seguidores: 
+      =@twitter_user.followers_count
+      
+    %h3 Tweets recientes
+    -@tweets.each do |tweet|
+      .tweet
+        =tweet['text'] 
+        %br
+        %small
+          %a{ :href=> "http://twitter.com/#{@twitter_user.screen_name}/status/#{tweet['id_str']}"}
+            =image_tag("twitter-link.png", :alt => "Link")
+            =tweet['created_at']
+          %br
+      .clear
