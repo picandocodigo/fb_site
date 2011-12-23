@@ -17,13 +17,13 @@
       =@twitter_user.followers_count
       
     %h3 Tweets recientes
-    -@tweets.each do |tweet|
-      .tweet
-        =tweet['text'] 
-        %br
-        %small
-          %a{ :href=> "http://twitter.com/#{@twitter_user.screen_name}/status/#{tweet['id_str']}"}
-            =image_tag("twitter-link.png", :alt => "Link")
-            =tweet['created_at']
+    %ul.tweets
+      -@tweets.each do |tweet|
+        %li{ :class => cycle('odd', 'even')} 
+          =raw tweet['text'] 
           %br
-      .clear
+          %small
+            %a{ :href=> "http://twitter.com/#{@twitter_user.screen_name}/status/#{tweet['id_str']}"}
+              =image_tag("twitter-link.png", :alt => "Link")
+              =tweet['created_at']
+            -#=tweet.inspect
