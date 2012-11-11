@@ -1,0 +1,29 @@
+general:
+  name: Fernando Briano
+  home: Home
+  about: About
+  wordpress_devel: WordPress Devel
+  contact: Contact
+
+home:
+  first: I'm a programmer, actually living in Montevideo, Uruguay. This site is some sort of business card and a sandbox to test some programming stuff.
+  second: You can see here a collection of links to various profiles where you can see the technologies and code I've worked on.
+
+about:
+  first: This site is like a sandbox to practice web technologies stuff. It started as a <strong><a href="http://rubyonrails.org/" class="tachado">Rails</a></strong> webapp. But using Rails had no sense, so it became a <a href="http://www.sinatrarb.com" title="Sinatra">Sinatra</a> + <a href="http://haml.info" title="Haml">Haml</a> + <a href="http://sass-lang.com" title="Sass">Sass</a> app.
+  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web applicationun. esqueleto de sitios web con Sinatra + Haml + Sass + i18n. I'll probably keep adding stuff to this site and keep it in sync with Frankspace to make it more useful for future sites.
+  icons: Some icons by
+
+wordpress:
+  first: I run several blogs with WordPress and have developed some plugins. My profile on the <a href="http://wordpress.org" title="WordPress.org">WordPress.org</a> community is <a href="http://profiles.wordpress.org/users/fernandobt/" title="fernandobt">fernandobt</a>.
+  second: I also try to to contribute on the WordPress Answers site
+  blogs: Blogs ran with WordPress
+  plugins: Plugins developed
+
+
+contact:
+  name: Name
+  email: E-Mail
+  message: Message
+  send_msg: Send Message
+  success: Thanks for contacting! 
