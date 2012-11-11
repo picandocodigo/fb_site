@@ -1,6 +1,5 @@
 !!!
-
-%html
+%html{:xmlns=>"http://www.w3.org/1999/xhtml"}
   %head
     %title
       Fernando Briano
@@ -20,26 +19,26 @@
       src: "images/forkme.png", alt: "Fork me on GitHub"}
     #header
       .izq
-        %h1 Fernando Briano
+        %h1= t.general.name
       .der
     .menu.gen_menu
       %ul
         %li
-          %img{:src=>"images/home.png", :alt=> "Inicio"}
-          %a{:href=>"/"}
-            Inicio
+          %img{src: "images/home.png", alt: t.general.home}
+          %a{href: "/"}
+            = t.general.home
         %li
-          %img{:src=>"images/wpmini.png", :alt=> "WordPress devel"}
-          %a{:href=>"/wordpress"}
-            WordPress devel
+          %img{src: "images/wpmini.png", alt: t.general.wordpress_devel}
+          %a{href: "/wordpress"}
+            = t.general.wordpress_devel
         %li
-          %img{:src=>"images/ror-logo-16.png", :alt=> "Acerca del sitio"}
-          %a{:href=>"/about"}
-            Acerca de este sitio
+          %img{src: "images/ror-logo-16.png", alt: t.general.about}
+          %a{href: "/about"}
+            = t.general.about
         %li
-          %img{:src=>"images/contact.png", :alt=> "Contacto"}
-          %a{:href=>"/contact"}
-            Contacto
+          %img{src: "images/contact.png", alt: t.general.contact}
+          %a{href: "/contact"}
+            = t.general.contact
     #container
       #info
         = yield
@@ -48,31 +47,31 @@
         %ul
           %li devel
           %li
-            %a{:href=> "https://github.com/picandocodigo", :title=> "Pefil en github"}
-              %img{:src=>"images/github.png", :alt => "Perfil en github"}
+            %a{href: "https://github.com/picandocodigo", title: "Github"}
+              %img{src: "images/github.png", alt: "Github"}
           %li
-            %a{:href=> "http://coderwall.com/picandocodigo",:title=> "Perfil en Coderwall"}
-              %img{:src=>"images/coderwall.png", :alt => "Perfil en Coderwall"}
+            %a{href: "http://coderwall.com/picandocodigo", title: "Coderwall"}
+              %img{src: "images/coderwall.png", alt: "Coderwall"}
           %li
-            %a{:href=> "http://www.linkedin.com/in/fernandobriano", :title=> "Pefil en LinkedIn"}
-              %img{:src=>"images/linkedin.png", :alt => "Perfil en LinkedIn"}
+            %a{href: "http://www.linkedin.com/in/fernandobriano", title: "LinkedIn"}
+              %img{src: "images/linkedin.png", alt: "LinkedIn"}
           %li
-            %a{:href=> "http://careers.stackoverflow.com/picandocodigo", :title=> "Pefil en StackOverflow Careers"}
-              %img{:src=>"images/careers.png", :alt => "Perfil en StackOverflow Careers"}
+            %a{href: "http://careers.stackoverflow.com/picandocodigo", title: "StackOverflow Careers"}
+              %img{src: "images/careers.png", alt: "StackOverflow Careers"}
           %li
-            %a{:href=> "http://profiles.wordpress.org/users/fernandobt/",:title=> "Perfil en WordPress.org"}
-              %img{:src=>"images/wordpress.png", :alt => "Perfil en WordPress.org"}
+            %a{href: "http://profiles.wordpress.org/users/fernandobt/",title: "WordPress.org"}
+              %img{src: "images/wordpress.png", alt: "WordPress.org"}
 
           %li social
           %li
-            %a{:href=> "http://twitter.com/picandocodigo", :title=> "@picandocodigo en Twitter"}
-              %img{:src=>"images/twitter.png", :alt => "@picandocodigo en Twitter"}
+            %a{href: "http://twitter.com/picandocodigo", title: "Twitter"}
+              %img{src: "images/twitter.png", alt: "Twitter"}
           %li
-            %a{:href=> "http://identi.ca/picandocodigo", :title=> "@picandocodigo en Identi.ca"}
-              %img{:src=>"images/identica.png", :alt => "@picandocodigo en Identica", :title => "@picandocodigo en Identica"}
+            %a{href: "http://identi.ca/picandocodigo", title: "Identi.ca"}
+              %img{src: "images/identica.png", alt: "Identica", title: "Identica"}
           %li
-            %a{:href=> "http://www.last.fm/user/picandocodigo", :title=> "Pefil en Last.fm"}
-              %img{:src=>"images/lastfm.png", :alt => "Perfil en Last.fm"}
+            %a{href: "http://www.last.fm/user/picandocodigo", title: "Last.fm"}
+              %img{src: "images/lastfm.png", alt: "Last.fm"}
           %li
-            %a{:href=> "http://www.youtube.com/user/picandocodigo", :title=> "Pefil en YouTube"}
-              %img{:src=>"images/youtube.png", :alt => "Perfil en YouTube"}
+            %a{href: "http://www.youtube.com/user/picandocodigo", title: "YouTube"}
+              %img{src: "images/youtube.png", alt: "YouTube"}

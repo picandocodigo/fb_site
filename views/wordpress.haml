@@ -1,28 +1,23 @@
-%h1 Desarrollo con WordPress
+%h1= t.general.wordpress_devel
+%p= t.wordpress.first
+%p= t.wordpress.second
 %p
-  Administro varios blogs con WordPress y he desarrollado algunos plugins. Mi perfil en la comunidad de
-  %a{href: "http://wordpress.org", title: "WordPress.org"}
-    WordPress.org
-  es
-  %a{href: "http://profiles.wordpress.org/users/fernandobt/", title: "fernandobt"}
-    "fernandobt"
-%p  
-  También intento ayudar a veces en WordPress Answers:
-%p
-  %a{:href=> "http://wordpress.stackexchange.com/users/298/fernando"}
-    %img{:src=> "http://wordpress.stackexchange.com/users/flair/298.png", :width=> "208", :height=> "58", :alt=> "Profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators",
-         :title=> "profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators"}
-
+  %a{href:"http://wordpress.stackexchange.com/users/298/fernando"}
+    %img{src: "http://wordpress.stackexchange.com/users/flair/298.png",
+         width: "208",
+         height: "58",
+         alt: "Profile for Fernando at WordPress, Q&A for WordPress developers and administrators",
+         title: "profile for Fernando at WordPress, Q&A for WordPress developers and administrators"}
 
 - unless @plugins.nil?
-  %h2 Plugins de WordPress
+  %h2= t.wordpress.plugins
   %ul.wp-plugin
     - @plugins.each do |p|
       %li.wp_plugin_div
         = raw(p)
 
 
-%h2 Blogs administrados con WordPress
+%h2= t.wordpress.blogs
 %ul.wp-plugin
   %a{ href: "http://picandocodigo.net" }
     %li.wp_plugin_div

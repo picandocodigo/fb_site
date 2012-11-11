@@ -1,14 +1,14 @@
-%h1 Contacto
+%h1= t.general.contact
 %form{action: "", method: "post"}
   %fieldset.fields
     %ul
       %li
-        %label{for: "name"} Nombre
+        %label{for: "name"}=t.contact.name
         %input{type: "text", name: "name"}
       %li
-        %label{for: "mail"} E-Mail
+        %label{for: "mail"}=t.contact.email
         %input{type: "text", name: "mail"}
       %li
-        %label{for: "body"} Mensaje
+        %label{for: "body"}=t.contact.message
         %textarea{name: "body"}
-    %input{type: "submit", class: "sendmail", value: "Enviar"}
+    %input{type: "submit", class: "sendmail", value: t.contact.send_msg}

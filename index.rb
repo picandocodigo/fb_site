@@ -1,6 +1,16 @@
 require 'sinatra'
+require 'sinatra/r18n'
 require 'sass'
 require './lib/coderwall'
+
+# Set default locale on session
+before do
+  if params[:locale]
+    session[:locale] = params[:locale]
+  else
+    session[:locale] = 'en'
+  end
+end
 
 get '/style.css' do
   content_type 'text/css', :charset => 'utf-8'
