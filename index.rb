@@ -13,7 +13,7 @@ before do
 end
 
 get '/style.css' do
-  content_type 'text/css', :charset => 'utf-8'
+  content_type 'text/css', charset: 'utf-8'
   scss :style
 end
 
@@ -42,21 +42,21 @@ post '/contact' do
   
   Pony.mail(
     # Configured for Heroku here:
-    :name => params[:name],
-    :mail => params[:mail],
-    :body => params[:body],
-    # Change contact e-mail here:
-    :to => 'fernando@picandocodigo.net',
-    :subject => params[:name] + ' ' + params[:mail] + " has contacted you",
-    :via => :smtp,
-    :via_options => {
-      :address => 'smtp.sendgrid.net',
-      :port => '587',
-      :domain => 'heroku.com',
-      :user_name => ENV['SENDGRID_USERNAME'],
-      :password => ENV['SENDGRID_PASSWORD'],
-      :authentication => :plain,
-      :enable_starttls_auto => true
+    name: params[:name],
+    mail: params[:mail],
+    from: params[:mail],
+    body: params[:body],
+    to: 'fernando@picandocodigo.net',
+    subject: params[:name] + ' ' + params[:mail] + " has contacted you",
+    via: :smtp,
+    via_options: {
+      address: 'smtp.sendgrid.net',
+      port: '587',
+      domain: 'heroku.com',
+      user_name: ENV['SENDGRID_USERNAME'],
+      password: ENV['SENDGRID_PASSWORD'],
+      authentication: :plain,
+      enable_starttls_auto: true
     }
   )
   
@@ -64,5 +64,5 @@ post '/contact' do
 end
 
 get '/success' do
-  haml :success, :layout => :index
+  haml :success
 end
