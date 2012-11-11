@@ -1,0 +1,78 @@
+!!!
+
+%html
+  %head
+    %title
+      Fernando Briano
+    %link{ rel: 'stylesheet', type: 'text/css', href: 'style.css'}
+    %script{:type=> "text/javascript"}
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-2107177-10']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  %body
+    %a{href: "https://github.com/picandocodigo/fb_site"}
+      %img{style: "position: absolute; top: 0; right: 0; border: 0;",
+      src: "images/forkme.png", alt: "Fork me on GitHub"}
+    #header
+      .izq
+        %h1 Fernando Briano
+      .der
+    .menu.gen_menu
+      %ul
+        %li
+          %img{:src=>"images/home.png", :alt=> "Inicio"}
+          %a{:href=>"/"}
+            Inicio
+        %li
+          %img{:src=>"images/wpmini.png", :alt=> "WordPress devel"}
+          %a{:href=>"/wordpress"}
+            WordPress devel
+        %li
+          %img{:src=>"images/ror-logo-16.png", :alt=> "Acerca del sitio"}
+          %a{:href=>"/about"}
+            Acerca de este sitio
+        %li
+          %img{:src=>"images/contact.png", :alt=> "Contacto"}
+          %a{:href=>"/contact"}
+            Contacto
+    #container
+      #info
+        = yield
+
+      #sidebar
+        %ul
+          %li devel
+          %li
+            %a{:href=> "https://github.com/picandocodigo", :title=> "Pefil en github"}
+              %img{:src=>"images/github.png", :alt => "Perfil en github"}
+          %li
+            %a{:href=> "http://coderwall.com/picandocodigo",:title=> "Perfil en Coderwall"}
+              %img{:src=>"images/coderwall.png", :alt => "Perfil en Coderwall"}
+          %li
+            %a{:href=> "http://www.linkedin.com/in/fernandobriano", :title=> "Pefil en LinkedIn"}
+              %img{:src=>"images/linkedin.png", :alt => "Perfil en LinkedIn"}
+          %li
+            %a{:href=> "http://careers.stackoverflow.com/picandocodigo", :title=> "Pefil en StackOverflow Careers"}
+              %img{:src=>"images/careers.png", :alt => "Perfil en StackOverflow Careers"}
+          %li
+            %a{:href=> "http://profiles.wordpress.org/users/fernandobt/",:title=> "Perfil en WordPress.org"}
+              %img{:src=>"images/wordpress.png", :alt => "Perfil en WordPress.org"}
+
+          %li social
+          %li
+            %a{:href=> "http://twitter.com/picandocodigo", :title=> "@picandocodigo en Twitter"}
+              %img{:src=>"images/twitter.png", :alt => "@picandocodigo en Twitter"}
+          %li
+            %a{:href=> "http://identi.ca/picandocodigo", :title=> "@picandocodigo en Identi.ca"}
+              %img{:src=>"images/identica.png", :alt => "@picandocodigo en Identica", :title => "@picandocodigo en Identica"}
+          %li
+            %a{:href=> "http://www.last.fm/user/picandocodigo", :title=> "Pefil en Last.fm"}
+              %img{:src=>"images/lastfm.png", :alt => "Perfil en Last.fm"}
+          %li
+            %a{:href=> "http://www.youtube.com/user/picandocodigo", :title=> "Pefil en YouTube"}
+              %img{:src=>"images/youtube.png", :alt => "Perfil en YouTube"}

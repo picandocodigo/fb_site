@@ -1,0 +1,36 @@
+%p
+  Soy programador, actualmente vivo en Montevideo, Uruguay. Este sitio es una pseudo carta de presentación y sandbox para probar cosas para programar.
+%p
+  Este sitio es una colección de enlaces a varios perfiles donde se pueden ver las tecnologías y el código con el que he trabajado.
+
+%p
+  Uno de mis proyectos es 
+  %strong
+    %a{:href=>"http://picandocodigo.net"}
+      Picando Código 
+  , blog personal donde escribo, opino e investigo sobre
+  %strong programación
+  , software libre, videojuegos, conferencias y eventos a los que asisto y otros temas que me interesan.
+
+.badges
+  %strong Coderwall Badges <br/>
+  - @coderwall.each do |achievement|
+    %img{src: achievement.badge, alt: achievement.name, class: "badge"}
+    
+.gen_menu
+  %ul
+    %li
+      %a{:href=> "http://stackoverflow.com/users/1492/fernando"}
+        %img{:src => "http://stackoverflow.com/users/flair/1492.png", 
+          :width=> "208", 
+          :height=> "58",
+          :alt=> "profile for Fernando at Stack Overflow, Q&amp;A for professional and enthusiast programmers",
+          :title=>"profile for Fernando at Stack Overflow, Q&amp;A for professional and enthusiast programmers"}
+    %li
+      %a{:href=> "http://wordpress.stackexchange.com/users/298/fernando"}
+        %img{:src=> "http://wordpress.stackexchange.com/users/flair/298.png", 
+          :width=> "208",
+          :height=> "58",
+          :alt=> "profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators",
+          :title=> "profile for Fernando at WordPress, Q&amp;A for WordPress developers and administrators"}
+

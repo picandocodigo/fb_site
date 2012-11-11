@@ -1,0 +1,14 @@
+%h1 Contacto
+%form{action: "", method: "post"}
+  %fieldset.fields
+    %ul
+      %li
+        %label{for: "name"} Nombre
+        %input{type: "text", name: "name"}
+      %li
+        %label{for: "mail"} E-Mail
+        %input{type: "text", name: "mail"}
+      %li
+        %label{for: "body"} Mensaje
+        %textarea{name: "body"}
+    %input{type: "submit", class: "sendmail", value: "Enviar"}
