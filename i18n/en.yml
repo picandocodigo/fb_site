@@ -11,7 +11,7 @@ home:
 
 about:
   first: This site is like a sandbox to practice web technologies stuff. It started as a <strong><a href="http://rubyonrails.org/" class="tachado">Rails</a></strong> webapp. But using Rails had no sense, so it became a <a href="http://www.sinatrarb.com" title="Sinatra">Sinatra</a> + <a href="http://haml.info" title="Haml">Haml</a> + <a href="http://sass-lang.com" title="Sass">Sass</a> app.
-  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web applicationun. esqueleto de sitios web con Sinatra + Haml + Sass + i18n. I'll probably keep adding stuff to this site and keep it in sync with Frankspace to make it more useful for future sites.
+  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web applicationun. I'll probably keep adding stuff to this site and keep it in sync with Frankspace to make it more useful for future sites.
   icons: Some icons by
 
 wordpress:
