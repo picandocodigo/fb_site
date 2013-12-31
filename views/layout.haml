@@ -4,80 +4,36 @@
     %title
       Fernando Briano
     %link{rel: 'stylesheet', type: 'text/css', href: 'style.css'}
-    %script{type: "text/javascript"}
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2107177-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
   %body
     %a{href: "https://github.com/picandocodigo/fb_site"}
-      %img{style: "position: absolute; top: 0; right: 0; border: 0;",
+      %img{class: "github",
       src: "images/forkme.png", alt: "Fork me on GitHub"}
-    #header
-      .izq
+    #header.pure-g-r
+      .pure-u-1
         %h1= t.general.name
-      .der
-    .menu.gen_menu
-      %ul
-        %li
-          %img{src: "images/home.png", alt: t.general.home}
-          %a{href: "/"}
-            = t.general.home
-        %li
-          %img{src: "images/wpmini.png", alt: t.general.wordpress_devel}
-          %a{href: "/wordpress"}
-            = t.general.wordpress_devel
-        %li
-          %img{src: "images/ror-logo-16.png", alt: t.general.about}
-          %a{href: "/about"}
-            = t.general.about
-        %li
-          %img{src: "images/contact.png", alt: t.general.contact}
-          %a{href: "/contact"}
-            = t.general.contact
-    #container
-      #info
-        = yield
+      .pure-u-1
+        .pure-menu.pure-menu-open.pure-menu-horizontal
+          %ul
+            %li
+              %a{href: "/"}
+                = t.general.home
+            %li
+              %a{href: "/about"}
+                = t.general.about
+            %li
+              %a{href: "/wordpress"}
+                = t.general.wordpress_devel
+            %li
+              %a{href: "/contact"}
+                = t.general.contact
+            %li
+              %a{href: "http://picandocodigo.net"}
+                = t.general.blog
 
-      #sidebar
-        %ul
-          %li devel
-          %li
-            %a{href: "https://github.com/picandocodigo", title: "Github"}
-              %img{src: "images/github.png", alt: "Github"}
-          %li
-            %a{href: "http://speakerdeck.com/picandocodigo", title: "Speaker Deck"}
-              %img{src: "images/speakerdeck.png", alt: "Speaker Deck"}
-          %li
-            %a{href: "http://lanyrd.com/profile/picandocodigo/", title: "Lanyrd"}
-              %img{src: "images/lanyrd.png", alt: "Lanyrd"}
-          %li
-            %a{href: "http://coderwall.com/picandocodigo", title: "Coderwall"}
-              %img{src: "images/coderwall.png", alt: "Coderwall"}
-          %li
-            %a{href: "http://www.linkedin.com/in/fernandobriano", title: "LinkedIn"}
-              %img{src: "images/linkedin.png", alt: "LinkedIn"}
-          %li
-            %a{href: "http://careers.stackoverflow.com/picandocodigo", title: "StackOverflow Careers"}
-              %img{src: "images/careers.png", alt: "StackOverflow Careers"}
-          %li
-            %a{href: "http://profiles.wordpress.org/users/fernandobt/",title: "WordPress.org"}
-              %img{src: "images/wordpress.png", alt: "WordPress.org"}
-
-          %li social
-          %li
-            %a{href: "http://twitter.com/picandocodigo", title: "Twitter"}
-              %img{src: "images/twitter.png", alt: "Twitter"}
-          %li
-            %a{href: "http://identi.ca/picandocodigo", title: "Identi.ca"}
-              %img{src: "images/identica.png", alt: "Identica", title: "Identica"}
-          %li
-            %a{href: "http://www.last.fm/user/picandocodigo", title: "Last.fm"}
-              %img{src: "images/lastfm.png", alt: "Last.fm"}
-          %li
-            %a{href: "http://www.youtube.com/user/picandocodigo", title: "YouTube"}
-              %img{src: "images/youtube.png", alt: "YouTube"}
+    #container.pure-g-r
+      .pure-u-1-5
+        = haml :_sidebar
+      .pure-u-3-5
+        #info
+          = yield
+    %script{src: "js/min.js", type:"text/javascript"}

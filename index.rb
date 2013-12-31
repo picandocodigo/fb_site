@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'sinatra/r18n'
 require 'sass'
-require './lib/coderwall'
 
 # Set default locale on session
 before do
@@ -18,17 +17,14 @@ get '/style.css' do
 end
 
 get '/' do
-  @coderwall = CoderWall.achievements_of("picandocodigo")
   haml :home
 end
 
 get '/about' do
-  @title = 'Acerca de este sitio'
   haml :about
 end
 
 get '/wordpress' do
-  @title = 'Desarrollo en WordPress'
   haml :wordpress
 end
 

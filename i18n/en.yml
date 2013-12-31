@@ -2,22 +2,23 @@ general:
   name: Fernando Briano
   home: Home
   about: About
+  blog: Blog
   wordpress_devel: WordPress Devel
   contact: Contact
 
 home:
-  first: I'm a programmer, actually living in Montevideo, Uruguay. This site is some sort of business card and a sandbox to test some programming stuff.
-  second: You can see here a collection of links to various profiles where you can see the technologies and code I've worked on.
+  first: Hello, my name is Fernando and I live in Montevideo, Uruguay.
+  second: I am a programmer, I read comic books, play Nintendo, I collect t-shirts and like drawing stuff. This is my website where I just write and experiment with HTML, CSS and JavaScript.
+  third: I share some opinions and knowledge on my blog <a href="http://picandocodigo.net" title="Picando C&oacute;digo">Picando C&oacute;digo</a>, I try to post there often about programming, code, free software, and other things I find are worth sharing.
 
 about:
   first: This site is like a sandbox to practice web technologies stuff. It started as a <strong><a href="http://rubyonrails.org/" class="tachado">Rails</a></strong> webapp. But using Rails had no sense, so it became a <a href="http://www.sinatrarb.com" title="Sinatra">Sinatra</a> + <a href="http://haml.info" title="Haml">Haml</a> + <a href="http://sass-lang.com" title="Sass">Sass</a> app.
-  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web applicationun. I'll probably keep adding stuff to this site and keep it in sync with Frankspace to make it more useful for future sites.
-  icons: Some icons by
+  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web application.
 
 wordpress:
-  first: I run several blogs with WordPress and have developed <a href="http://profiles.wordpress.org/fernandobt/">some plugins</a>. My profile on the <a href="http://wordpress.org" title="WordPress.org">WordPress.org</a> community is <a href="http://profiles.wordpress.org/users/fernandobt/" title="fernandobt">fernandobt</a>.
-  second: I also try to to contribute on the WordPress Answers site
-  blogs: Blogs ran with WordPress
+  first: <p>I've used WordPress for quite some time, and have developed <a href="http://profiles.wordpress.org/fernandobt/">some plugins</a>. I don't maintain all of them, but <a href="" title="List Category Posts">List Category Posts</a> is still maintained and pretty popular among WordPress users.</p><p>Some day I'll build my own blogging engine, soon...</p>
+  second: <p>My profile on the <a href="http://wordpress.org" title="WordPress.org">WordPress.org</a> community is <a href="http://profiles.wordpress.org/users/fernandobt/" title="fernandobt">fernandobt</a>I also try to to contribute on the WordPress Answers site when I can.</p>
+  blogs: Some of my blogs using WordPress
   plugins: Plugins developed
 
 
