@@ -24,8 +24,8 @@ get '/about' do
   haml :about
 end
 
-get '/wordpress' do
-  haml :wordpress
+get '/devel' do
+  haml :devel
 end
 
 get '/contact' do
