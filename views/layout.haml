@@ -14,16 +14,16 @@
       .pure-u-1
         .pure-menu.pure-menu-open.pure-menu-horizontal
           %ul.clear
-            %li
+            %li{ request.path_info == "/" ? {class: "pure-menu-selected"} : {}}
               %a{href: "/"}
                 = t.general.home
-            %li
+            %li{ request.path_info == "/about" ? {class: "pure-menu-selected"} : {}}
               %a{href: "/about"}
                 = t.general.about
-            %li
+            %li{ request.path_info == "/devel" ? {class: "pure-menu-selected"} : {}}
               %a{href: "/devel"}
                 = t.general.devel
-            %li
+            %li{ request.path_info == "/contact" ? {class: "pure-menu-selected"} : {}}
               %a{href: "/contact"}
                 = t.general.contact
             %li

@@ -1,8 +1,8 @@
 general:
   name: Fernando Briano
   home: Home
-  about: About
   blog: Blog
+  about: About
   devel: Development
   contact: Contact
 
@@ -12,13 +12,13 @@ home:
   third: I share some opinions and knowledge on my blog <a href="http://picandocodigo.net" title="Picando C&oacute;digo">Picando C&oacute;digo</a>, I try to post there often about programming, code, free software, and other things I find are worth sharing.
 
 about:
-  first: This site is like a sandbox to practice web technologies stuff. It started as a <strong><a href="http://rubyonrails.org/" class="tachado">Rails</a></strong> webapp. But using Rails had no sense, so it became a <a href="http://www.sinatrarb.com" title="Sinatra">Sinatra</a> + <a href="http://haml.info" title="Haml">Haml</a> + <a href="http://sass-lang.com" title="Sass">Sass</a> app.
-  second: From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for a Sinatra + HAML + Sass + i18n web application.
-
+  first: This site is a sandbox for me to play around. It started as a <strong><a href="http://rubyonrails.org/" class="tachado">Rails</a></strong> webapp. Then it became a <a href="http://www.sinatrarb.com" title="Sinatra">Sinatra</a> + <a href="http://haml.info" title="Haml">Haml</a> + <a href="http://sass-lang.com" title="Sass">Sass</a> app. From developing almost static sites like this one with the mentioned technologies, I created <a href="https://github.com/picandocodigo/frankspace" title="Frankspace">Frankspace</a>, a small app to use as a mold for web applications.
+  second: Right now I'm also using <a href="http://purecss.io/" title="Pure CSS">Pure</a>, a set of small CSS modules for responsiveness.
 
 devel:
-  first: I use Emacs as my text processor and developing tool. I keep my <a href="https://github.com/picandocodigo/emacs-config" title="Emacs config files">config-files</a> on GitHub and have tried some Elisp for a couple of simple tasks, you can see the code <a href="https://github.com/picandocodigo/emacs-elisp" title="Emacs Lisp tests">here</a>.
-  second: Here's some fun stuff I've developed. You can see more on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>.
+  first: I use <strong>Emacs</strong> as my text processor and developing tool. I keep my <a href="https://github.com/picandocodigo/emacs-config" title="Emacs config files">config-files</a> on GitHub and have tried some Elisp for a couple of simple tasks, you can see the code <a href="https://github.com/picandocodigo/emacs-elisp" title="Emacs Lisp tests">here</a>.
+  languages: <p>I've been using <strong>Ruby</strong> for a while, as it's currently the language with which I enjoy programming the most. I also code with <strong>Java</strong>, <strong>PHP</strong>, <strong>JavaScript</strong> and am interested in <strong>Python</strong>, <strong>Scala</strong> and <strong>Clojure</strong> among others and I really like writing <strong>bash</strong> scripts and one-liners with awk, sed and grep.</p>
+  second: You can see some of my code on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>, and here are some projects I've developed
   wordpress:
     title: WordPress
     first: <p>I've used WordPress for quite some time, and have developed <a href="http://profiles.wordpress.org/fernandobt/">some plugins</a>. I don't maintain all of them, but <a href="" title="List Category Posts">List Category Posts</a> is still maintained and pretty popular among WordPress users. Some day I'll build my own blogging engine, soon...</p>

@@ -20,7 +20,13 @@ a {
   h1{
       padding: 0;
       margin: 20px 20px 0 20px;
+      background-image: url("images/nombre.jpg");
+      background-repeat: no-repeat;
+      height: 42px;
+      text-indent: 100%;
+      white-space: nowrap;
   }
+  margin-bottom: 20px;
 }
 
 .der{
@@ -38,20 +44,22 @@ a {
 }
 
 #info{
-  padding: 20px 20px 20px 40px;
+  padding: 40px;
   border-radius: $radius;
+  background: #eee;
+  overflow: hidden;
 }
 
 #sidebar{
-  padding: 20px;
+  padding: 40px;
   font-family: Courier;
   ul{
     margin: 0;
+    padding: 20px 0;
   }
   li{
     list-style: none;
     padding: 0;
-    margin-bottom: 10px;
     display: inline;
   }
   #fernando{
@@ -95,4 +103,19 @@ a {
 
 ul.blogs{
   padding-bottom: 20px;
+}
+
+.mega_title{
+    padding: 30px 0;
+}
+
+.project{
+    background-color: #ddd;
+    padding: 0px 20px 80px 20px;
+    border-radius: $radius;
+}
+#wordpress{
+    background-image: url("images/wp.png");
+    background-position: 98% 98%;
+    background-repeat: no-repeat;
 }
