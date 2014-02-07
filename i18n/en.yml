@@ -18,13 +18,20 @@ about:
 devel:
   first: I use <strong>Emacs</strong> as my text processor and developing tool. I keep my <a href="https://github.com/picandocodigo/emacs-config" title="Emacs config files">config-files</a> on GitHub and have tried some Elisp for a couple of simple tasks, you can see the code <a href="https://github.com/picandocodigo/emacs-elisp" title="Emacs Lisp tests">here</a>.
   languages: <p>I've been using <strong>Ruby</strong> for a while, as it's currently the language with which I enjoy programming the most. I also code with <strong>Java</strong>, <strong>PHP</strong>, <strong>JavaScript</strong> and am interested in <strong>Python</strong>, <strong>Scala</strong> and <strong>Clojure</strong> among others and I really like writing <strong>bash</strong> scripts and one-liners with awk, sed and grep.</p>
-  second: You can see some of my code on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>, and here are some projects I've developed
+  second: You can see some of my code on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>, and here is some of the stuff I work on
+
+  supertt:
+    title: Super Time Tracker
+    first: A web app to track time. You don't need to create an account, group or client. You don't need to share your e-mail address, name or phone number with the site. Just track your time.
+    list: <ul><li>Website - <a href=\"http://supertimetracker.com\" title=\"Super Time Tracker\">supertimetracker.com</a></li><li>Source code - <a href=\"https://github.com/picandocodigo/supertimetracker\" title=\"Super Time Tracker on GitHub\">on GitHub</a></li></ul>
+
   wordpress:
     title: WordPress
-    first: <p>I've used WordPress for quite some time, and have developed <a href="http://profiles.wordpress.org/fernandobt/">some plugins</a>. I don't maintain all of them, but <a href="" title="List Category Posts">List Category Posts</a> is still maintained and pretty popular among WordPress users. Some day I'll build my own blogging engine, soon...</p>
+    first: <p>I've used WordPress for quite some time, and have developed <a href="http://profiles.wordpress.org/fernandobt/">some plugins</a>. I don't maintain all of them, but <a href="http://wordpress.org/plugins/list-category-posts/" title="List Category Posts">List Category Posts</a> is still maintained and pretty popular among WordPress users. Some day I'll build my own blogging engine, soon...</p>
     second: <p>My profile on the <a href="http://wordpress.org" title="WordPress.org">WordPress.org</a> community is <a href="http://profiles.wordpress.org/users/fernandobt/" title="fernandobt">fernandobt</a>. I also try to to contribute on the WordPress Answers site when I can.</p>
     blogs: Some of my blogs using WordPress
     plugins: Plugins developed
+
   instantoh:
     title: Instant "Oh, the humanity!"
     first: A website I built for fun. I really like Herbert Morrison's report of the Hindenburg disaster expression for 'facepalm moments'. Since I couldn't find any, I created a button to get an instant audio of Morrison's 'Oh, the humanity!'.
