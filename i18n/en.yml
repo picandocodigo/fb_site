@@ -16,14 +16,14 @@ about:
   second: Right now I'm also using <a href="http://purecss.io/" title="Pure CSS">Pure</a>, a set of small CSS modules for responsiveness.
 
 devel:
-  first: I use <strong>Emacs</strong> as my text processor and developing tool. I keep my <a href="https://github.com/picandocodigo/emacs-config" title="Emacs config files">config-files</a> on GitHub and have tried some Elisp for a couple of simple tasks, you can see the code <a href="https://github.com/picandocodigo/emacs-elisp" title="Emacs Lisp tests">here</a>.
-  languages: <p>I've been using <strong>Ruby</strong> for a while, as it's currently the language with which I enjoy programming the most. I also code with <strong>Java</strong>, <strong>PHP</strong>, <strong>JavaScript</strong> and am interested in <strong>Python</strong>, <strong>Scala</strong> and <strong>Clojure</strong> among others and I really like writing <strong>bash</strong> scripts and one-liners with awk, sed and grep.</p>
-  second: You can see some of my code on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>, and here is some of the stuff I work on
+  first: I use <strong>Emacs</strong> as my text processor and developing tool (check out <a href="http://emacs.sexy" title="Emacs is Sexy">Emacs.sexy</a> a site I made about Emacs). I keep my <a href="https://github.com/picandocodigo/emacs-config" title="Emacs config files">config-files</a> on GitHub and have tried some Elisp for a couple of simple tasks, you can see the code <a href="https://github.com/picandocodigo/emacs-elisp" title="Emacs Lisp tests">here</a>.
+  languages: <p>I've been using <strong>Ruby</strong> for a while, as it's currently the language with which I enjoy programming the most. I also code with <strong class="tachado">Java</strong>, <strong>JavaScript</strong>, <strong>PHP</strong> and am interested in <strong>Python</strong>, <strong>Scala</strong> and <strong>Clojure</strong> among others and I really like writing <strong>bash</strong> scripts and one-liners with awk, sed and grep.</p>
+  second: You can see some of my code on my <a href="https://github.com/picandocodigo" title="GitHub profile">GitHub profile</a>, and here is some of the stuff I work on. This page is of course a work in progress, there's more up to date info on my GitHub profile.
 
   supertt:
     title: Super Time Tracker
     first: A web app to track time. You don't need to create an account, group or client. You don't need to share your e-mail address, name or phone number with the site. Just track your time.
-    list: <ul><li>Website - <a href=\"http://supertimetracker.com\" title=\"Super Time Tracker\">supertimetracker.com</a></li><li>Source code - <a href=\"https://github.com/picandocodigo/supertimetracker\" title=\"Super Time Tracker on GitHub\">on GitHub</a></li></ul>
+    list: <ul><li>Website - <a href=\"http://supertimetracker.com\" title=\"Super Time Tracker\">supertimetracker.com</a></li><li>Source code - <a href=\"https://github.com/picandocodigo/supertimetracker\" title=\"Super Time Tracker on GitHub\">on GitHub</a></li><li>Web App - <a href="https://marketplace.firefox.com/app/super-time-tracker">on Firefox Marketplace</a>.</li></ul>
 
   wordpress:
     title: WordPress
@@ -36,7 +36,7 @@ devel:
     title: Instant "Oh, the humanity!"
     first: A website I built for fun. I really like Herbert Morrison's report of the Hindenburg disaster expression for 'facepalm moments'. Since I couldn't find any, I created a button to get an instant audio of Morrison's 'Oh, the humanity!'.
     second: This same app was my first test for Firefox OS, I turned it into a Firefox OS app and <a href="https://marketplace.firefox.com/app/oh-the-humanity" title="Oh, the humanity! on Firefox Marketplace">uploaded it to the Firefox Marketplace</a>.
-    third: <ul><li>Website - <a href="http://instantohthehumanity.com" title="Oh, the humanity!">instantohthehumanity.com</a></li><li>Source code - <a href="https://github.com/picandocodigo/instantoh">on GitHub</a>.</li></ul>
+    third: <ul><li>Website - <a href="http://instantohthehumanity.com" title="Oh, the humanity!">instantohthehumanity.com</a></li><li>Source code - <a href="https://github.com/picandocodigo/instantoh">on GitHub</a>.</li><li>Web App - <a href="https://marketplace.firefox.com/app/oh-the-humanity">on Firefox Marketplace</a>.</li></ul>
 
 
 
@@ -45,4 +45,4 @@ contact:
   email: E-Mail
   message: Message
   send_msg: Send Message
-  success: Thanks for contacting! 
+  success: Thanks for contacting!
