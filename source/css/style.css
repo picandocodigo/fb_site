@@ -1,0 +1,116 @@
+@import url("simplegrid.css");
+@import url("octicons.css");
+@import url("genericons.css");
+
+@font-face{
+	font-family: 'Inconsolata';
+	src: url('../fonts/Inconsolata.otf');
+}
+
+@font-face{
+  font-family: 'Octicons';
+	src: url('../fonts/octicons.eot');
+	src: url('../fonts/octicons.eot') format('embedded-opentype'),
+	     url('../fonts/octicons.woff') format('woff'),
+	     url('../fonts/octicons.ttf') format('truetype'),
+	     url('../fonts/octicons.svg') format('svg');
+}
+
+@font-face{
+    font-family: 'FiraSans';
+    src: url('../fonts/FiraSans-Regular.eot');
+    src: url('../fonts/FiraSans-Regular.woff') format('woff'),
+	       url('../fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'FiraSans';
+}
+
+h1, h2{
+  font-family: "Inconsolata";
+  font-weight: bold;
+}
+
+a{
+	color: #4E7442;
+}
+a:visited{
+	color: #2C542D;
+}
+
+a:hover{
+	color: #2C542D
+}
+
+#languages{
+	margin: 21px 0;
+	line-height: 33px;
+	text-align: right;
+	font-weight: bold;
+	font-family: 'Inconsolata';
+}
+
+h2{
+	background-color: #AEC4B0;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+ul.menu{
+	list-style: none;
+	padding: 0.1em;
+}
+
+section p{
+	padding: 0.5em;
+}
+
+section h3{
+  background-color: #ddd;
+	padding: 0.5em;
+}
+
+.right{
+    float: right;
+}
+
+.gems{
+	font-family: 'Inconsolata';
+}
+
+.gems td{
+	border-bottom: 1px solid #ddd;
+	padding: 0.5em;
+	margin: 0;
+}
+
+.octicon-ruby{
+	color: #F00;
+}
+
+.visible{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: opactiy 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  height: auto;
+  display: block;
+}
+
+.hidden{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
+  display: block;
+}
+
+img.left{
+    float: left;
+    margin-right: 0.5em;
+}

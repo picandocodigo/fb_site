@@ -1,0 +1,45 @@
+%section
+  %h2#programmer
+    %span{class: 'mega-octicon octicon-file-code'}
+    = t(:programmer)
+
+  #programming.unit.hidden
+    = text(:programmer_content)
+
+    %h3
+      %span{class: 'octicon octicon-mark-github'}
+      = t(:programmer_languages)
+
+    //%ul
+    //- github.each do |lang|
+    //%li= "#{lang[0]} : #{lang[1]}"
+
+    %h3
+      %span{class: 'octicon octicon-ruby'}
+      RubyGems I've built
+    %table.gems
+      - rubygems.each do |gem|
+        %tr
+          %td
+            %strong
+              %a{href: gem['homepage_uri']}>= gem['name']
+          %td
+            = gem['info']
+
+    %h3
+      %span{class: 'genericon genericon-wordpress'}
+      =t(:wordpress)
+    =text(:wordpress_content)
+    %table.gems
+      - wordpress_plugins.each do |plugin|
+        %tr
+          %td
+            %strong
+              %a{href: plugin[:url]}>= plugin[:name]
+          %td
+            = plugin[:downloads]
+
+
+    %h3
+      %span{class: 'octicon octicon-database'}
+      Open Data

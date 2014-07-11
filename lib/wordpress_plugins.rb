@@ -3,14 +3,19 @@ module WordPressPlugins
   require 'open-uri'
 
   def self.get_plugins user
-    @plugins = Array.new
+    @plugins = []
     #Nokogiri FTW
-    url = "http://wordpress.org/extend/plugins/profile/#{user}"
+    url = "http://profiles.wordpress.org/#{user}"
     doc = Nokogiri::HTML( open (url) )
-    doc.css('div.plugin-block').each do |p|
-      @plugins.push p
+    doc.css('div#content-plugins ul li').each do |p|
+      plugin = {
+        url: p.children[1].children[1].attributes['href'].value,
+        name: p.children[1].children[1].children[0].content,
+        downloads: p.children[3].children[0].content
+      }
+      @plugins.push plugin
     end
-    
-    return @plugins
+
+    @plugins
   end
 end

@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %link{rel: 'stylesheet', href: 'css/style.css', type: 'text/css'}
+    %title
+      Fernando Briano
+  %body
+    .grid
+      .col-1-2
+        %h1 Fernando Briano
+      .col-1-2
+        = partial 'languages', locals: {lang: lang}
+      .col-1-1
+        = partial 'contact'
+      = yield
+      #footer
+        =tag :img, src: "images/pc.png", class: "left"
+        Last generated:
+        =time
+      %script{type: 'text/javascript', src: 'js/all.js'}
