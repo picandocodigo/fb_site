@@ -8,7 +8,7 @@ _gaq.push(['_trackPageview']);
 })();
 
 var code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-var input = []
+var input = [];
 
 document.onkeyup = function(key){
   for(var i = 0; i < code.length; i++){
@@ -17,7 +17,6 @@ document.onkeyup = function(key){
       if (input[i] == code[i]){
         if (arraysEqual(code, input)){
           alert("****KONAMI CODE****\nYou get 30 lives! :D");
-          window.location = "https://github.com/picandocodigo/konami_code#konami-code";
         }
       }else{
         input = [];
@@ -26,11 +25,11 @@ document.onkeyup = function(key){
     }
   }
   return false;
-}
+};
 
 function arraysEqual(a, b) {
   if (a === b) return true;
-  if (a == null || b == null) return false;
+  if (a === null || b === null) return false;
   if (a.length != b.length) return false;
 
   for (var i = 0; i < a.length; ++i) {

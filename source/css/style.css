@@ -69,6 +69,7 @@ section p{
 section h3{
   background-color: #ddd;
 	padding: 0.5em;
+  cursor: pointer;
 }
 
 .right{
@@ -90,24 +91,24 @@ section h3{
 }
 
 .visible{
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: opactiy 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: opactiy 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   opacity: 1;
   height: auto;
   display: block;
 }
 
 .hidden{
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   opacity: 0;
   overflow: hidden;
   height: 0;
-  display: block;
+  display: none;
 }
 
 img.left{

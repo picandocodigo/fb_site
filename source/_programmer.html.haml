@@ -1,45 +1,63 @@
-%section
+%section.hiddable
   %h2#programmer
     %span{class: 'mega-octicon octicon-file-code'}
     = t(:programmer)
 
-  #programming.unit.hidden
+  -# Start hidden part
+  #programming.unit.hidden.hiddable_content
     = text(:programmer_content)
 
-    %h3
-      %span{class: 'octicon octicon-mark-github'}
-      = t(:programmer_languages)
+    -# GitHub profile
+    .hiddable
+      %h3
+        %span{class: 'octicon octicon-mark-github'}
+        = t(:programmer_languages)
+      .hidden.hiddable_content
+        Uncomment this
+        //%ul
+        //- github.each do |lang|
+        //%li= "#{lang[0]} : #{lang[1]}"
 
-    //%ul
-    //- github.each do |lang|
-    //%li= "#{lang[0]} : #{lang[1]}"
+    -# RubyGems
+    .hiddable
+      %h3
+        %span{class: 'octicon octicon-ruby'}
+        = t(:rubygems)
 
-    %h3
-      %span{class: 'octicon octicon-ruby'}
-      RubyGems I've built
-    %table.gems
-      - rubygems.each do |gem|
-        %tr
-          %td
-            %strong
-              %a{href: gem['homepage_uri']}>= gem['name']
-          %td
-            = gem['info']
+      .hidden.hiddable_content
+        Uncomment this
+        %table.gems
+        -# - rubygems.each do |gem|
+        -#   %tr
+        -#     %td
+        -#       %strong
+        -#         %a{href: gem['homepage_uri']}>= gem['name']
+        -#     %td
+        -#       = gem['info']
 
-    %h3
-      %span{class: 'genericon genericon-wordpress'}
-      =t(:wordpress)
-    =text(:wordpress_content)
-    %table.gems
-      - wordpress_plugins.each do |plugin|
-        %tr
-          %td
-            %strong
-              %a{href: plugin[:url]}>= plugin[:name]
-          %td
-            = plugin[:downloads]
+    -# WordPress
+    .hiddable
+      %h3
+        %span{class: 'genericon genericon-wordpress'}
+        =t(:wordpress)
 
+      .hidden.hiddable_content
+        Uncomment this
+        =text(:wordpress_content)
+        %table.gems
+        -# - wordpress_plugins.each do |plugin|
+        -#   %tr
+        -#     %td
+        -#       %strong
+        -#         %a{href: plugin[:url]}>= plugin[:name]
+        -#     %td
+        -#       = plugin[:downloads]
 
-    %h3
-      %span{class: 'octicon octicon-database'}
-      Open Data
+    -# Open Data
+    .hiddable
+      %h3
+        %span{class: 'octicon octicon-database'}
+        Open Data
+
+      .hidden.hiddable_content
+        =text(:opendata_content)

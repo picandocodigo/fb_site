@@ -26,6 +26,7 @@ Dir['./lib/*.rb'].each { |l| require l}
 # activate :automatic_image_sizes
 
 activate :i18n, langs: [:en, :es], mount_at_root: :en
+activate :gzip
 
 # Reload the browser automatically whenever files change
 configure :development do
