@@ -1,6 +1,25 @@
 ---
 es:
   programmer: "Soy programador"
-  programmer_content: "I've done *Freelance development*, worked at a big corporate software factory, startups, consultancy and more.\n\nYou can see some of my code in [my GitHub profile](https://github.com/picandocodigo) and know more about my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo)."
-  speaker: "I love conferences"
-  speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. You can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to or spoken at in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
+  programmer_content: "He hecho *Desarrollo Freelance* y he trabajo en de todo desde *fábricas de software gigantes*, *startups*, *consultor&iacute;as* y más.\n\nSe puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). \n\nSi est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo)."
+
+  free_software: "Herramientas y Software Libre"
+  free_software_content: "Soy usuario de GNU/Linux y defensor del Software Libre. Vos también podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto.\n\nLos lenguajes de programación más frecuentes en los proyectos en los que he colaborado en GitHub son:"
+
+  rubygems: "Gemas Ruby que he programado"
+
+  wordpress: "Desarrollo WordPress"
+  wordpress_content: "Soy usuario de WordPress desde hace un buen tiempo, hice varios sitios y [desarroll&eacute; algunos plugins](http://profiles.wordpress.org/fernandobt/). Mi perfil en la comunidad de WordPress.org es [fernandobt](http://profiles.wordpress.org/users/fernandobt/). Tambi&eacute;n intento contribu&iacute;r en el sitio [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando) cuando puedo.\n\n**Plugins:**"
+
+  opendata: "Datos Abiertos"
+  opendata_content: "Creo que aprovechar los Datos Abiertos es una de las maneras que tenemos como programadores para hacer del mundo un lugar mejor. He participado en algunos proyectos de Datos Abiertos y eventos, Ac&aacute; est&aacute;n algunos de los proyectos en los que he trabajado:\n* **Ombudsman** - Plataforma de Datos Abiertos para reportar problemas en tu ciudad como luces rotas, pozos, etc. Hecho durante la hackatón [Desarrollando América Latina](http://desarrollandoamerica.org/) 2013. [Proyecto inicial](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)\n* **Mo&ntilde;ita Azul** -  Proyecto de Datos Abiertos para la hackatón [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012. [Sitio web](http://dal.picandocodigo.org/) | [Proyecto en GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)\n* **MNAV API - API para los datos abiertos del museo MNAV** -  API que usa Datos Abiertos del Museo Nacional de Artes Visuales y provee información en JSON y XML. [Sitio Web](https://mnav.heroku.com/) | [Proyecto en GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [App frontend de ejemplo](https://mnavf.heroku.com/)"
+
+
+  speaker: "Me encantan las conferencias"
+  speaker_content: "He dado charlas sobre Ruby, Datos Abiertos, trabajo, programación y otros temas en meetups y algunas conferencias. Pod&eacute;s encontrar algunas de mis presentaciones en [SpeakerDeck](http://speakerdeck.com/picandocodigo) y ver algunas de las conferencias a las que he ido o en las que he hablado en [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
+
+  misc: "Otros"
+  misc_content: "Otras cosas..."
+
+  about: "Acerca de este sitio"
+  about_content: "Este sitio es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Octicons](https://octicons.github.com/) y [Genericons](http://genericons.com/) para los íconos."

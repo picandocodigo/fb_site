@@ -7,16 +7,16 @@
   #programming.unit.hidden.hiddable_content
     = text(:programmer_content)
 
-    -# GitHub profile
+    -# Free Software
     .hiddable
       %h3
         %span{class: 'octicon octicon-mark-github'}
-        = t(:programmer_languages)
+        = t(:free_software)
       .hidden.hiddable_content
-        Uncomment this
-        //%ul
-        //- github.each do |lang|
-        //%li= "#{lang[0]} : #{lang[1]}"
+        =text(:free_software_content)
+        %ul
+          - github.each do |lang|
+            %li= "#{lang[0]} : #{lang[1]}"
 
     -# RubyGems
     .hiddable
@@ -25,15 +25,14 @@
         = t(:rubygems)
 
       .hidden.hiddable_content
-        Uncomment this
         %table.gems
-        -# - rubygems.each do |gem|
-        -#   %tr
-        -#     %td
-        -#       %strong
-        -#         %a{href: gem['homepage_uri']}>= gem['name']
-        -#     %td
-        -#       = gem['info']
+          - rubygems.each do |gem|
+            %tr
+              %td
+                %strong
+                  %a{href: gem['homepage_uri']}>= gem['name']
+              %td
+                = gem['info']
 
     -# WordPress
     .hiddable
@@ -42,22 +41,21 @@
         =t(:wordpress)
 
       .hidden.hiddable_content
-        Uncomment this
         =text(:wordpress_content)
         %table.gems
-        -# - wordpress_plugins.each do |plugin|
-        -#   %tr
-        -#     %td
-        -#       %strong
-        -#         %a{href: plugin[:url]}>= plugin[:name]
-        -#     %td
-        -#       = plugin[:downloads]
+          - wordpress_plugins.each do |plugin|
+            %tr
+              %td
+                %strong
+                  %a{href: plugin[:url]}>= plugin[:name]
+              %td
+                = plugin[:downloads]
 
     -# Open Data
     .hiddable
       %h3
         %span{class: 'octicon octicon-database'}
-        Open Data
+        =t(:opendata)
 
       .hidden.hiddable_content
         =text(:opendata_content)

@@ -1,17 +1,24 @@
 ---
 en:
-  my_blog: " My blog (in Spanish) [Picando C&oacute;digo](http://picandocodigo.net)"
   programmer: "I'm a programmer"
-  programmer_content: "I've done *Freelance development*, worked in a *big corporate software factory*, *startups*, *consultancy* and more. You can see some of my code in [my GitHub profile](https://github.com/picandocodigo).\n\nIf you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo)."
-  programmer_languages: "Top programming languages on GitHub"
+  programmer_content: "I've done *Freelance development* and worked in everything from *big corporate software factory*, *startups*, *consultancy* and more. You can see some of my code in [my GitHub profile](https://github.com/picandocodigo).\n\nIf you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo)."
 
-  speaker: "I love conferences"
-  speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. You can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to or spoken at in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
+  free_software: "Tools & Free Software"
+  free_software_content: "I am a GNU/Linux user and free software advocate. You too can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice.\n\nThe top programming languages on the GitHub projects I've worked on are:"
 
   rubygems: "RubyGems I've built"
 
   wordpress: "WordPress Development"
-  wordpress_content: "I've used WordPress for quite some time, have built many websites with it and [developed some plugins](http://profiles.wordpress.org/fernandobt/).My profile on the WordPress.org community is [fernandobt](http://profiles.wordpress.org/users/fernandobt/). I also try to to contribute on the [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando) site when I can.\n\n**Plugins:**"
+  wordpress_content: "I've used WordPress for quite some time, have built many websites with it and [developed some plugins](http://profiles.wordpress.org/fernandobt/). My profile on the WordPress.org community is [fernandobt](http://profiles.wordpress.org/users/fernandobt/). I also try to to contribute on the [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando) site when I can.\n\n**Plugins:**"
 
   opendata: "Open Data"
-  opendata_content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events. Here are some of my Open Data projects:\n\n* **Mo&ntilde;ita Azul** -  Open Data project for the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012 hackathon. [Website](http://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)\n* **MNAV API - API for the MNAV Museum Open Data** -  An API that uses Open Data from Museo Nacional de Artes Visuales and provides this information in JSON and XML. [Website](https://mnav.heroku.com/) | [Project on GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [Frontend example app](https://mnavf.heroku.com/)"
+  opendata_content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events. Here are some projects I've worked on:\n* **Ombudsman** - Open data platform to report issues in your city such as broken lights, puddles, etc. Built during the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2013 hackathon. [Initial project](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)\n* **Mo&ntilde;ita Azul** -  Open Data project for the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012 hackathon. [Website](http://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)\n* **MNAV API - API for the MNAV Museum Open Data** -  An API that uses Open Data from Museo Nacional de Artes Visuales and provides this information in JSON and XML. [Website](https://mnav.heroku.com/) | [Project on GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [Frontend example app](https://mnavf.heroku.com/)"
+
+  speaker: "I love conferences"
+  speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. You can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to or spoken at in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
+
+  misc: "Other stuff"
+  misc_content: "Stuff..."
+
+  about: "About this site"
+  about_content: "This site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using [Octicons](https://octicons.github.com/) and [Genericons](http://genericons.com/) for the icons."
