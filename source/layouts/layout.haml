@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %link{rel: 'stylesheet', href: 'css/style.css', type: 'text/css'}
+    %link{rel: 'stylesheet', href: '/css/style.css', type: 'text/css'}
     %title
       Fernando Briano
   %body
@@ -14,7 +14,7 @@
         = partial 'contact'
       = yield
       #footer
-        =tag :img, src: "images/pc.png", class: "left"
+        =tag :img, src: "/images/pc.png", class: "left"
         Last generated:
         =time
-      %script{type: 'text/javascript', src: 'js/all.js'}
+      %script{type: 'text/javascript', src: '/js/all.js'}
