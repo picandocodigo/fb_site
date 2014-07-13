@@ -16,7 +16,7 @@ document.onkeyup = function(key){
       input.push(code[i]);
       if (input[i] == code[i]){
         if (arraysEqual(code, input)){
-          alert("****KONAMI CODE****\nYou get 30 lives! :D");
+          document.getElementById("konami").className = "visible";
         }
       }else{
         input = [];

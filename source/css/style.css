@@ -112,6 +112,19 @@ section h3{
 }
 
 img.left{
-    float: left;
-    margin-right: 0.5em;
+  float: left;
+  margin-right: 0.5em;
+}
+
+#konami{
+  position: fixed;
+  top: 0;
+  right: 0.1em;
+  z-index: 999;
+  font-size: 64px;
+	font-family: 'Inconsolata';
+}
+
+#konami img{
+  float: right;
 }

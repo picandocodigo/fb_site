@@ -1,5 +1,5 @@
 # Require everything in /lib:
-Dir['./lib/*.rb'].each { |l| require l}
+Dir['./lib/*.rb'].each { |l| require l }
 
 ###
 # Page options, layouts, aliases and proxies
@@ -42,11 +42,11 @@ helpers do
                                        autolink: true,
                                        no_intra_emphasis: true,
                                        lax_spacing: true)
-    markdown.render( t(string) )
+    markdown.render(t(string))
   end
 
   def github
-    GitHub::getstuff
+    GitHub.getstuff
   end
 
   def time
@@ -54,7 +54,7 @@ helpers do
   end
 
   def rubygems
-    RubyGems::info
+    RubyGems.info
   end
 
   def wordpress_plugins
@@ -70,8 +70,6 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown
-
-
 
 # Build-specific configuration
 configure :build do
