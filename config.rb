@@ -50,7 +50,7 @@ helpers do
   end
 
   def time
-    Time.now
+    Time.now.strftime('%F')
   end
 
   def rubygems

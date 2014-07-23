@@ -1,6 +1,8 @@
-@import url("simplegrid.css");
-@import url("octicons.css");
-@import url("genericons.css");
+/*
+ *= require _simplegrid
+ *= require _octicons.css
+ *= require _genericons.css
+ */
 
 @font-face{
 	font-family: 'Inconsolata';
@@ -127,4 +129,8 @@ img.left{
 
 #konami img{
   float: right;
+}
+
+#footer img{
+  margin-bottom: 1em;
 }
