@@ -14,11 +14,14 @@ en:
   opendata: "Open Data"
   opendata_content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events. Here are some projects I've worked on:\n* **Ombudsman** - Open data platform to report issues in your city such as broken lights, puddles, etc. Built during the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2013 hackathon. [Initial project](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)\n* **Mo&ntilde;ita Azul** -  Open Data project for the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012 hackathon. [Website](http://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)\n* **MNAV API - API for the MNAV Museum Open Data** -  An API that uses Open Data from Museo Nacional de Artes Visuales and provides this information in JSON and XML. [Website](https://mnav.heroku.com/) | [Project on GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [Frontend example app](https://mnavf.heroku.com/)"
 
+  otherprojects: "Other projects"
+  otherprojects_content: "Some other projects I've created:\n  * **[ci_js](https://github.com/picandocodigo/ci_js) and [ci.jquery](http://plugins.jquery.com/ci/)** - JavaScript Uruguayan document validator and jQuery plugin.\n  * **[Emacs.sexy](http://emacs.sexy)** - Website to promote Emacs.\n  * **[Super Simple Time Tracker](http://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker) | [App on Mozilla Marketplace](https://marketplace.firefox.com/app/super-time-tracker).\n  * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh) | [App on Mozilla Marketplace](https://marketplace.firefox.com/app/oh-the-humanity)"
+
   speaker: "I love conferences"
   speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. You can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to or spoken at in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
 
   misc: "Other stuff"
-  misc_content: "Stuff..."
+  misc_content: "Soon..."
 
   about: "About this site"
   about_content: "This site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using [Octicons](https://octicons.github.com/) and [Genericons](http://genericons.com/) for the icons."

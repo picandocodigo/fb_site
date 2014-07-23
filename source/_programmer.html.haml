@@ -10,7 +10,7 @@
     -# Free Software
     .hiddable
       %h3
-        %span{class: 'octicon octicon-mark-github'}
+        %span{class: 'octicon octicon-tools'}
         = t(:free_software)
       .hidden.hiddable_content
         =text(:free_software_content)
@@ -34,6 +34,15 @@
               %td
                 = gem['info']
 
+    -# Open Data
+    .hiddable
+      %h3
+        %span{class: 'octicon octicon-database'}
+        =t(:opendata)
+
+      .hidden.hiddable_content
+        =text(:opendata_content)
+
     -# WordPress
     .hiddable
       %h3
@@ -51,11 +60,11 @@
               %td
                 = plugin[:downloads]
 
-    -# Open Data
+    -# Other projects
     .hiddable
       %h3
-        %span{class: 'octicon octicon-database'}
-        =t(:opendata)
+        %span{class:'genericon genericon-website'}
+        =t(:otherprojects)
 
       .hidden.hiddable_content
-        =text(:opendata_content)
+        =text(:otherprojects_content)
