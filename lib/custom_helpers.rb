@@ -17,7 +17,7 @@ module CustomHelpers
   end
 
   def rubygems
-    RubyGems.info
+    RubyGems.info 'picandocodigo'
   end
 
   def wordpress_plugins
