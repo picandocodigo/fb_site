@@ -8,7 +8,7 @@
     %title
       Fernando Briano
   %body
-    .grid
+    .grid#main
       .col-1-2
         %h1 Fernando Briano
       .col-1-2
@@ -21,8 +21,9 @@
         Last generated:
         =time
       / If you're looking at this code, you should know what to do to display this:
-      #konami.hidden
-        -4.times do
-          =tag :img, src: "/images/contra-lives.png"
+    #konami.hidden
+      -4.times do
+        =tag :img, src: "/images/contra-lives.png"
+    #contra.hidden
+      %img{src: "/images/contra.gif", title: "REST 30"}
       %script{type: 'text/javascript', src: '/js/all.js'}
-

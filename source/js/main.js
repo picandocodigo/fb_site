@@ -17,6 +17,8 @@ document.onkeyup = function(key){
       if (input[i] == code[i]){
         if (arraysEqual(code, input)){
           document.getElementById("konami").className = "visible";
+          document.getElementById("contra").className = "visible";
+          document.getElementById("main").style.marginTop = "195px";
         }
       }else{
         input = [];

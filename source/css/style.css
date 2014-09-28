@@ -119,14 +119,24 @@ img.left{
 }
 
 #konami{
+  background-image: url("../images/contra-bg.png");
+  height: 195px;
   position: fixed;
-  top: 1em;
+  top: 0;
   z-index: 999;
+	padding: 1em;
+  width: 100%;
 }
 
 #konami img{
-  float: right;
+  float: left;
   margin-left: 1em;
+}
+
+#contra{
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
 }
 
 #footer img{
