@@ -120,15 +120,13 @@ img.left{
 
 #konami{
   position: fixed;
-  top: 0;
-  right: 0.1em;
+  top: 1em;
   z-index: 999;
-  font-size: 64px;
-	font-family: 'Inconsolata';
 }
 
 #konami img{
   float: right;
+  margin-left: 1em;
 }
 
 #footer img{

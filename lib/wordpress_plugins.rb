@@ -6,7 +6,7 @@ module WordPressPlugins
   # plugins, url, name and downloads.
   def self.get_plugins(user)
     plugins = []
-    url = "http://profiles.wordpress.org/#{user}"
+    url = "https://profiles.wordpress.org/#{user}"
     doc = Nokogiri::HTML(open(url))
     doc.css('div#content-plugins ul li').each do |p|
       plugin = {

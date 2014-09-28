@@ -9,4 +9,3 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'redcarpet'
 gem 'nokogiri'
 gem 'middleman-gh-pages'
-gem 'debugger'
