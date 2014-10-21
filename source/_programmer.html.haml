@@ -43,6 +43,15 @@
       .hidden.hiddable_content
         =text(:opendata_content)
 
+    -# Other projects
+    .hiddable
+      %h3
+        %span{class:'genericon genericon-website'}
+        =t(:otherprojects)
+
+      .hidden.hiddable_content
+        =text(:otherprojects_content)
+
     -# WordPress
     .hiddable
       %h3
@@ -59,12 +68,3 @@
                   %a{href: plugin[:url]}>= plugin[:name]
               %td
                 = plugin[:downloads]
-
-    -# Other projects
-    .hiddable
-      %h3
-        %span{class:'genericon genericon-website'}
-        =t(:otherprojects)
-
-      .hidden.hiddable_content
-        =text(:otherprojects_content)
