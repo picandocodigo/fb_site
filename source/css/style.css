@@ -78,11 +78,11 @@ section h3{
     float: right;
 }
 
-.gems{
+.gems, .opendata{
 	font-family: 'Inconsolata';
 }
 
-.gems td{
+.gems td, .opendata td{
 	border-bottom: 1px solid #ddd;
 	padding: 0.5em;
 	margin: 0;
@@ -139,6 +139,15 @@ img.left{
 	bottom: 1em;
 }
 
+#footer{
+  text-align: right;
+}
+
 #footer img{
   margin-bottom: 1em;
+  float: right;
+}
+
+.right{
+  float: right;
 }

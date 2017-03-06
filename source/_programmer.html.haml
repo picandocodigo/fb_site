@@ -2,27 +2,18 @@
   %h2#programmer
     %span{class: 'mega-octicon octicon-file-code'}
     = t(:programmer)
+    %span{class: 'mega-octicon octicon-chevron-down right'}
 
   -# Start hidden part
   #programming.unit.hidden.hiddable_content
     = text(:programmer_content)
-
-    -# Free Software
-    .hiddable
-      %h3
-        %span{class: 'octicon octicon-tools'}
-        = t(:free_software)
-      .hidden.hiddable_content
-        =text(:free_software_content)
-        %ul
-          - github.each do |lang|
-            %li= "#{lang[0]} : #{lang[1]}"
 
     -# RubyGems
     .hiddable
       %h3
         %span{class: 'octicon octicon-ruby'}
         = t(:rubygems)
+        %span{class: 'octicon octicon-chevron-down right'}
 
       .hidden.hiddable_content
         %table.gems
@@ -42,25 +33,28 @@
     .hiddable
       %h3
         %span{class: 'octicon octicon-database'}
-        =t(:opendata)
+        =t("opendata.title")
+        %span{class: 'octicon octicon-chevron-down right'}
 
       .hidden.hiddable_content
-        =text(:opendata_content)
-
-    -# Other projects
-    .hiddable
-      %h3
-        %span{class:'genericon genericon-website'}
-        =t(:otherprojects)
-
-      .hidden.hiddable_content
-        =text(:otherprojects_content)
+        =text("opendata.content")
+        %table.opendata
+          - (1..5).each do |i|
+            %tr
+              %td
+                %strong
+                  =text("opendata.project#{i}.title")
+              %td
+                =text("opendata.project#{i}.description")
+              %td
+                =text("opendata.project#{i}.links")
 
     -# WordPress
     .hiddable
       %h3
         %span{class: 'genericon genericon-wordpress'}
         =t(:wordpress)
+        %span{class: 'octicon octicon-chevron-down right'}
 
       .hidden.hiddable_content
         =text(:wordpress_content)
@@ -72,3 +66,26 @@
                   %a{href: plugin[:url]}>= plugin[:name]
               %td
                 = plugin[:downloads]
+
+    -# Other projects
+    .hiddable
+      %h3
+        %span{class:'genericon genericon-website'}
+        =t(:otherprojects)
+        %span{class: 'octicon octicon-chevron-down right'}
+
+      .hidden.hiddable_content
+        =text(:otherprojects_content)
+
+    -# Free Software
+    .hiddable
+      %h3
+        %span{class: 'octicon octicon-tools'}
+        = t(:free_software)
+        %span{class: 'octicon octicon-chevron-down right'}
+
+      .hidden.hiddable_content
+        =text(:free_software_content)
+        %ul
+          - github.each do |lang|
+            %li= "#{lang[0]} : #{lang[1]}"
