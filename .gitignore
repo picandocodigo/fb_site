@@ -19,3 +19,4 @@
 
 lib/.env
 .byebug_history
+.tool-versions

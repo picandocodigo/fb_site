@@ -36,6 +36,7 @@ h1, h2{
 
 a{
 	color: #4E7442;
+  text-decoration: none;
 }
 a:visited{
 	color: #2C542D;
@@ -44,7 +45,10 @@ a:visited{
 a:hover{
 	color: #2C542D
 }
-
+a.cultivate{
+  color: #e21d87;
+  font-weight: bold;
+}
 #languages{
 	margin: 21px 0;
 	line-height: 33px;

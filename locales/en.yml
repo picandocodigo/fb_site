@@ -1,7 +1,7 @@
 ---
 en:
-  programmer: "Programmer - Available for work!"
-  programmer_content: "I've worked in everything from **big corporate software factory**, **startups**, **consultancy**, **NGO's** and more. I'm generally available for freelance or part-time work. You can contact me at <code>mail[a]fernandobriano.com</code>\n\nYou can see some of my code in [my GitHub profile](https://github.com/picandocodigo). If you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). The following content shows some of the stuff I've worked on"
+  programmer: "Programmer"
+  programmer_content: "I'm a software developer currently working at <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a>. I've worked in several environments: big corporate software factory, startup, consultancy, NGO, freelancing and more.\n\nYou can see some of my code in [my GitHub profile](https://github.com/picandocodigo). If you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). The following content shows some of the stuff I've worked on"
 
   free_software: "Tools & Free Software"
   free_software_content: "I am a GNU/Linux user and free software advocate. You too can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice.\n\nThe top programming languages on the GitHub projects I've worked on are:"
@@ -13,7 +13,7 @@ en:
 
   opendata:
     title: "Open Data Projects"
-    content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events. I'm a part of [http://datauy.org](DATA) and I sometimes work with them. Here are some projects I've worked on:"
+    content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events and I'm a member of [DATA](http://datauy.org): an Open Data, transparency and information access NGO. Here are some projects I've worked on:"
     project1:
       title: "Montevideo Bicis"
       description: "Personal project, website with open data information related to cycling in the city of Montevideo"
@@ -42,7 +42,7 @@ en:
   speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. I also worked in the organization of **RubyConf Uruguay** and several Ruby Meetups in Montevideo as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
 
   misc: "Other stuff"
-  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock."
+  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo), in case you want to know my favorite music."
 
   about: "About this site"
   about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using [Octicons](https://octicons.github.com/) and [Genericons](http://genericons.com/) for the icons. You can try the konami code for a visual easter egg."

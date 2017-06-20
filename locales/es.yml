@@ -1,7 +1,7 @@
 ---
 es:
-  programmer: "Programador - ¡Disponible para trabajar!"
-  programmer_content: "He trabajado en varias cosas desde **fábricas de software gigantes**, **startups**, **consultor&iacute;as**, **organizaciones no gubernamentales** y más. Generalmente tengo disponibilidad de trabajo freelance y part-time, se me puede contactar por el correo electrónico:  <code>mail[a]fernandobriano.com</code>\n\nSe puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). Si est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). A continuación un poco de contenido que muestra algunas cosas en las que he trabajado."
+  programmer: "Programador"
+  programmer_content: "Soy desarrollador de software actualmente trabajando en <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a>. He trabajado en varias cosas desde fábricas de software corporativas, startups, consultor&iacute;as, organizaciones no gubernamentales y más.\n\nSe puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). Si est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). A continuación un poco de contenido que muestra algunas cosas en las que he trabajado."
 
   free_software: "Herramientas y Software Libre"
   free_software_content: "Soy usuario de GNU/Linux y defensor del Software Libre. Vos también podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto.\n\nLos lenguajes de programación más frecuentes en los proyectos en los que he colaborado en GitHub son:"
@@ -13,7 +13,7 @@ es:
 
   opendata:
     title: "Datos Abiertos"
-    content: "Creo que aprovechar los Datos Abiertos es una de las maneras que tenemos como programadores para hacer del mundo un lugar mejor. He participado en algunos proyectos de Datos Abiertos y eventos. Soy parte de [http://datauy.org](DATA) y a veces trabajo con ellos. Ac&aacute; est&aacute;n algunos de los proyectos en los que he trabajado:"
+    content: "Creo que aprovechar los Datos Abiertos es una de las maneras que tenemos como programadores para hacer del mundo un lugar mejor. He participado en algunos proyectos de Datos Abiertos y eventos y soy miembro de [DATA](http://datauy.org). Ac&aacute; est&aacute;n algunos de los proyectos en los que he trabajado:"
     project1:
       title: "Montevideo Bicis"
       description: "Sitio web con información de Datos Abiertos pertinentes a ciclistas en la ciudad de Montevideo."
@@ -42,7 +42,7 @@ es:
   speaker_content: "He dado charlas sobre Ruby, Datos Abiertos, trabajo, programación y otros temas en meetups y algunas conferencias. También trabajé en la organización de **RubyConf Uruguay** y varios Meetups de Ruby en Montevideo así como otros eventos relacionados.\n\nPod&eacute;s encontrar algunas de mis presentaciones en [SpeakerDeck](http://speakerdeck.com/picandocodigo) y ver algunas de las conferencias a las que he asistido en [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
 
   misc: "Otros"
-  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock."
+  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo), en caso que quieras conocer más de mis gustos musicales."
 
   about: "Acerca de este sitio"
   about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Octicons](https://octicons.github.com/) y [Genericons](http://genericons.com/) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
