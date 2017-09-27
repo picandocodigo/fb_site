@@ -12,4 +12,4 @@ $ middleman
 == Inspect your site configuration at http://0.0.0.0:4567/__middleman/
 ```
 
-Published to [fernandobriano.com](http://fernandobriano.com) with [middleman-gh-pages](https://github.com/neo/middleman-gh-pages).
+Published to [fernandobriano.com](http://fernandobriano.com) with [middleman-deploy](https://github.com/middleman-contrib/middleman-deploy).
