@@ -10,9 +10,9 @@ module WordPressPlugins
     doc = Nokogiri::HTML(open(url))
     doc.css('div#content-plugins ul li').each do |p|
       plugin = {
-        url: p.children[4].children[1].children[1].attributes['href'].value,
-        name: p.children[4].children[1].children[1].children[0].text,
-        downloads: p.children[4].children[3].text
+        url:  p.children[3].children[1].children[1].attributes["href"].value,
+        name: p.children[3].children[1].children[1].text,
+        downloads: p.children[3].children[3].text
       }
       plugins.push plugin
     end
