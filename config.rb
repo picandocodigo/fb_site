@@ -45,6 +45,11 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 set :markdown
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.build_before = true
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
