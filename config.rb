@@ -25,23 +25,21 @@ Dir['./lib/*.rb'].each { |l| require l }
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :i18n, langs: [:en, :es], mount_at_root: :en
+activate :i18n, langs: %i[en es], mount_at_root: :en
 activate :gzip
 activate :relative_assets
 activate :sprockets
 
 # Reload the browser automatically whenever files change
-#configure :development do
+# configure :development do
 #  activate :livereload
-#end
+# end
 
 # Methods defined in the helpers block are available in templates
 helpers CustomHelpers
 
 set :css_dir, 'css'
-
 set :js_dir, 'js'
-
 set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet

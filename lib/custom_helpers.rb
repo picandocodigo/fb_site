@@ -1,10 +1,12 @@
+# Custom functions for the different providers in `/lib`
 module CustomHelpers
   def text(string)
     markdown = Redcarpet::Markdown.new(
-                                       Redcarpet::Render::HTML,
-                                       autolink: true,
-                                       no_intra_emphasis: true,
-                                       lax_spacing: true)
+      Redcarpet::Render::HTML,
+      autolink: true,
+      no_intra_emphasis: true,
+      lax_spacing: true
+    )
     markdown.render(t(string))
   end
 

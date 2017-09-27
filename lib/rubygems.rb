@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'json'
 
+# Get a user's gems
 module RubyGems
   def self.info(user)
     JSON.parse(
