@@ -11,18 +11,31 @@ module CustomHelpers
   end
 
   def github
-    GitHub.getstuff
+    GitHub.getstuff(env['GITHUB_AUTH_TOKEN'])
   end
 
   def time
-    Time.now.strftime('%F')
+    Time.now.strftime('%d %m %Y')
   end
 
   def rubygems
-    RubyGems.info 'picandocodigo'
+    RubyGems.info(env['RUBYGEMS'])
   end
 
   def wordpress_plugins
-    WordPressPlugins.get_plugins 'fernandobt'
+    WordPressPlugins.plugins(env['WORDPRESS'])
+  end
+
+  private
+
+  def env
+    env = File.expand_path(__dir__ + '/.env')
+    env_vars = {}
+
+    File.readlines(env).each do |line|
+      values = line.split('=')
+      env_vars[values[0]] = values[1].delete("\n")
+    end
+    env_vars
   end
 end

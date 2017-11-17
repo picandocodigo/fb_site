@@ -1,7 +1,17 @@
 # Personal website
 
-Currently built using [Middleman](http://middlemanapp.com/). To run
-the app:
+Currently built using [Middleman](http://middlemanapp.com/).
+
+## Development
+
+```bash
+$ bundle install
+$ cp lib/.env{.sample,}
+```
+
+Edit `lib/.env` to add your RubyGems and WordPress developer username and [Personal access token from GitHub](https://github.com/settings/tokens).
+
+## Running the app
 
 ```bash
 $ middleman

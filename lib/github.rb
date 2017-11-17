@@ -5,12 +5,12 @@ require 'json'
 # Access a user's GitHub profile and get the top languages used by the
 # projects the user has worked on.
 module GitHub
-  def self.getstuff
+  def self.getstuff(token)
     uri = URI.parse('https://api.github.com/user/repos?type=owner&per_page=100')
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
 
-    headers = { 'Authorization' => "token #{auth_token}" }
+    headers = { 'Authorization' => "token #{token}" }
     request = Net::HTTP::Get.new(uri.request_uri, headers)
     response = http.request(request)
     data = JSON.parse(response.body)

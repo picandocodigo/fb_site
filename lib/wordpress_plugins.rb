@@ -5,7 +5,7 @@ module WordPressPlugins
 
   # Scraper for the WordPress.org's profile page. Gets a user's
   # plugins, url, name and downloads.
-  def self.get_plugins(user)
+  def self.plugins(user)
     plugins = []
     url = "https://profiles.wordpress.org/#{user}"
     doc = Nokogiri::HTML(open(url))
