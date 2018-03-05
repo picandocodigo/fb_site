@@ -1,1 +1,3 @@
-require 'middleman-gh-pages'
+task :publish do
+  sh 'middleman publish'
+end
