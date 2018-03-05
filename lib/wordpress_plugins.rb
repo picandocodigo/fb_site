@@ -18,11 +18,11 @@ module WordPressPlugins
 
   # rubocop:disable Metrics/AbcSize
   # This is parsing html, so it's probaby as good as it gets:
-  def self.plugin(p)
+  def self.plugin(plugin)
     {
-      url:  p.children[3].children[1].children[1].attributes['href'].value,
-      name: p.children[3].children[1].children[1].text,
-      downloads: p.children[3].children[3].text
+      url:  plugin.children[3].children[1].children[1].attributes['href'].value,
+      name: plugin.children[3].children[1].children[1].text,
+      downloads: plugin.children[3].children[3].text
 
     }
   end
