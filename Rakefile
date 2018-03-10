@@ -1,3 +1,3 @@
 task :publish do
-  sh 'middleman publish'
+  sh 'middleman deploy'
 end
