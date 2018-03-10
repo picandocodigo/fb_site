@@ -2,6 +2,7 @@
 module WordPressPlugins
   require 'nokogiri'
   require 'open-uri'
+  API_URL = 'https://api.wordpress.org/plugins/info/1.0/'.freeze
 
   # Scraper for the WordPress.org's profile page. Gets a user's
   # plugins, url, name and downloads.
@@ -19,11 +20,13 @@ module WordPressPlugins
   # rubocop:disable Metrics/AbcSize
   # This is parsing html, so it's probaby as good as it gets:
   def self.plugin(plugin)
-    {
-      url:  plugin.children[3].children[1].children[1].attributes['href'].value,
-      name: plugin.children[3].children[1].children[1].text,
-      downloads: plugin.children[3].children[3].text
+    installs = plugin.children[3].children[3].text
+    url = plugin.children[3].children[1].children[1].attributes['href'].value
+    slug = url.match(%r{.*\/([a-z-]+)\/$}).captures[0]
 
-    }
+    result = JSON.parse(
+      open("#{API_URL}#{slug}.json").read
+    ).merge('installs' => installs)
+    result
   end
 end

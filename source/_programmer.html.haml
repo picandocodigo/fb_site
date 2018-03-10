@@ -59,13 +59,22 @@
       .hidden.hiddable_content
         =text(:wordpress_content)
         %table.gems
+          %thead
+            %td Name
+            %td Rating
+            %td Downloads
+            %td
           - wordpress_plugins.each do |plugin|
             %tr
               %td
                 %strong
-                  %a{href: plugin[:url]}>= plugin[:name]
+                  %a{href: plugin['url']}>= plugin['name']
               %td
-                = plugin[:downloads]
+                = "#{plugin['rating']}/100"
+              %td
+                = plugin['downloaded']
+              %td
+                = plugin['installs']
 
     -# Other projects
     .hiddable
