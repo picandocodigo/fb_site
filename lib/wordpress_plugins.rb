@@ -26,7 +26,7 @@ module WordPressPlugins
 
     result = JSON.parse(
       open("#{API_URL}#{slug}.json").read
-    ).merge('installs' => installs)
+    ).merge('installs' => installs, 'url' => url)
     result
   end
 end
