@@ -6,8 +6,6 @@ document.getElementById("speaker").addEventListener("click", function(){
   toggleVisible('speaking');
 });
 
-
-
 function toggleVisible(id){
   var thing =  document.getElementById(id);
   if(thing.classList.contains("hidden")){

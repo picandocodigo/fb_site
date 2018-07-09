@@ -6,7 +6,7 @@ en:
   free_software: "Tools & Free Software"
   free_software_content: "I am a GNU/Linux user and free software advocate. You too can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice.\n\nThe top programming languages on the GitHub projects I've worked on are:"
 
-  rubygems: "RubyGems I've built"
+  rubygems: "RubyGems I've written"
 
   wordpress: "WordPress Development"
   wordpress_content: "I have used WordPress for quite some time, built many websites with it and [developed some plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). My profile on the WordPress.org community is [fernandobt](http://profiles.wordpress.org/users/fernandobt/). I used to contribute on [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando) too.\n\n**Plugins I developed:**"
@@ -38,9 +38,78 @@ en:
   otherprojects: "Other projects"
   otherprojects_content: "Some other projects I've created:\n  * **[ci_js](https://github.com/picandocodigo/ci_js) and [ci.jquery](http://plugins.jquery.com/ci/)** - JavaScript Uruguayan document validator and jQuery plugin.\n  * **[Emacs.sexy](http://emacs.sexy)** - Website to promote Emacs.\n  * **[Super Simple Time Tracker](http://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n  * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
 
-  speaker: "I ❤️ conferences"
-  speaker_content: "I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. I also worked in the organization of **RubyConf Uruguay** and several Ruby Meetups in Montevideo as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo) and see some of the conferences I've been to in [Lanyrd](http://lanyrd.com/profile/picandocodigo)."
+  writing: "Writing"
+  writing_content: "I really enjoy writing and I've been doing it in **[my personal blog](http://picandocodigo.net)** since 2007.<br><br>
 
+  I've written a couple of articles for **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**, independent newspaper from Uruguay:
+
+  - **[Navegar (casi) en soledad](https://findesemana.ladiaria.com.uy/articulo/2018/6/navegar-casi-en-soledad/)** Article about internet privacy.
+
+  - **[La ética hacker](https://ladiaria.com.uy/articulo/2018/3/la-etica-hacker/)** - article about hacker ethics.
+
+
+I've also written some technical posts in English in the <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a> blog:
+
+
+  - [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
+
+  - [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
+
+  - [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
+
+  - [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
+
+  - [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
+
+  speaker: "Conferences"
+  speaker_content: "I like going to conferences and I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. I also worked in the organization of **RubyConf Uruguay** and several Ruby Meetups in Montevideo as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo).
+
+  Some of the conferences I remember having been to:
+
+  - **2018** - Elixir Conf EU 2018 - 16-17 April 2018, Training 18 April 2018 - Warsaw, Poland
+
+  - **2017** - EuRuKo 2017 - Budapest, Hungary, 29th and 30th of September
+
+  - **2015** - JSConfUY 2015, Uruguay, Montevideo, 24th–25th April 2015
+
+  - **2015** - 3rd International Open Data Conference 2015, Canada, Ottawa, 28th–29th May 2015
+
+  - **2014** - Scottish Ruby Conference 2014, Scotland, 12th–13th May 2014
+
+  - **2014** - ScotlandJS 2014,Scotland, City of Edinburgh, 9th–10th May 2014
+
+  - **2014** - RubyConf Uruguay, Montevideo, Montevideo, 23rd–24th May 2014, gave a talk.
+
+  - **2014** - RubyConf Argentina 2014, Buenos Aires, Argentina. 24th–25th October 2014
+
+  - **2014** - JSConfUY 2014, Uruguay, Montevideo, 14th–15th March 2014, spoke
+
+  - **2013** - tech MeetupUY 2013, Uruguay, Montevideo, 23rd November 2013
+
+  - **2013** - Scottish Ruby Conference 2013, Scotland, Crieff, 12th–13th May 2013
+
+  - **2013** - ScotlandJS 2013, Scotland, Edinburgh, 9th–10th May 2013
+
+  - **2013** - RubyConf Uruguay 2013,  Uruguay, Montevideo, 22nd–23rd March 2013
+
+  - **2013** - RubyConf Argentina 2013, Argentina, Buenos Aires, 27th–28th November 2013
+
+  - **2013** - Conferencia Sobre Datos Abiertos en América Latina y el Caribe, Uruguay, Montevideo, 26th–27th June 2013
+
+  - **2012** - RubyConf Argentina 2012, Argentina, Buenos Aires, 19th–20th October 2012
+
+  - **2012** - PyConUy 2012, Uruguay Uruguay, Montevideo, 10th–11th November 2012
+
+  - **2012** - Mozilla MDN Hack Day in Montevideo,  Uruguay, Montevideo, 24th April 2012 - [gave a talk](https://github.com/picandocodigo/charla-mdn-2012-mvd)
+
+  - **2012** - BrazilJS,  Brazil, Porto Alegre, 30th–31st August 2012
+
+  - **2011** - Rubyconf Uruguay
+
+  - **2010** - Rubyconf Uruguay
+
+  - **2007** - JavaUy 2007, Uruguay, Montevideo, 11th-12th October, 2007"
+  
   misc: "Other stuff"
   misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo), in case you want to know my favorite music."
 
