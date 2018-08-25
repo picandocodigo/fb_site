@@ -50,6 +50,7 @@ es:
 
 También he escrito algunos artículos técnicos en Inglés en el blog de <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a>:
 
+  - [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
 
   - [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
 
@@ -110,7 +111,7 @@ También he escrito algunos artículos técnicos en Inglés en el blog de <a hre
   - **2010** - Rubyconf Uruguay
 
   - **2007** - JavaUy 2007, Uruguay, Montevideo, 11th-12th October, 2007"
-  
+
   misc: "Otros"
   misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo), en caso que quieras conocer más de mis gustos musicales."
 
