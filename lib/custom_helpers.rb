@@ -1,13 +1,13 @@
 # Custom functions for the different providers in `/lib`
 module CustomHelpers
-  def text(string)
+  def text(string, extra_content = '')
     markdown = Redcarpet::Markdown.new(
       Redcarpet::Render::HTML,
       autolink: true,
       no_intra_emphasis: true,
       lax_spacing: true
     )
-    markdown.render(t(string))
+    markdown.render(t(string) + extra_content)
   end
 
   def github

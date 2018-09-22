@@ -1,10 +1,9 @@
 ---
 es:
   programmer: "Programador"
-  programmer_content: "Soy desarrollador de software actualmente trabajando en <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='/images/cultivate.png'> Cultivate</a>. He trabajado en varias cosas desde fábricas de software corporativas, startups, consultor&iacute;as, organizaciones no gubernamentales y más.\n\nSe puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). Si est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). A continuación un poco de contenido que muestra algunas cosas en las que he trabajado."
-
-  free_software: "Herramientas y Software Libre"
-  free_software_content: "Soy usuario de GNU/Linux y defensor del Software Libre. Vos también podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto.\n\nLos lenguajes de programación más frecuentes en los proyectos en los que he colaborado en GitHub son:"
+  programmer_content: "Soy desarrollador de software actualmente trabajando en <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='/images/cultivate.png'> Cultivate</a>. He trabajado en varias cosas desde fábricas de software corporativas, startups, consultor&iacute;as, organizaciones no gubernamentales y más. Se puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). Si est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). A continuación un poco de contenido que muestra algunas cosas en las que he trabajado."
+  free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
+  programming_languages: "Los lenguajes de programación más frecuentes en mis proyectos de GitHub son:"
 
   rubygems: "Gemas Ruby que he programado"
 

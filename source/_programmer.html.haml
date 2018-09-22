@@ -7,6 +7,8 @@
   -# Start hidden part
   #programming.unit.hidden.hiddable_content
     = text(:programmer_content)
+    = text(:free_software_content)
+    = text(:programming_languages, ' ' + github.map {|k,v| "#{k} (#{v})"}.join(", "))
 
     -# RubyGems
     .hiddable
@@ -85,16 +87,3 @@
 
       .hidden.hiddable_content
         =text(:otherprojects_content)
-
-    -# Free Software
-    .hiddable
-      %h3
-        %span{class: 'octicon octicon-tools'}
-        = t(:free_software)
-        %span{class: 'octicon octicon-chevron-down right'}
-
-      .hidden.hiddable_content
-        =text(:free_software_content)
-        %ul
-          - github.each do |lang|
-            %li= "#{lang[0]} : #{lang[1]}"

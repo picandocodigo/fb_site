@@ -1,10 +1,9 @@
 ---
 en:
   programmer: "Programmer"
-  programmer_content: "I'm a software developer currently working at <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a>. I've worked in several environments: big corporate software factory, startup, consultancy, NGO, freelancing and more.\n\nYou can see some of my code in [my GitHub profile](https://github.com/picandocodigo). If you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). The following content shows some of the stuff I've worked on"
-
-  free_software: "Tools & Free Software"
-  free_software_content: "I am a GNU/Linux user and free software advocate. You too can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](http//affiliates.mozilla.org/link/banner/45662) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice.\n\nThe top programming languages on the GitHub projects I've worked on are:"
+  programmer_content: "I'm a software developer currently working at <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='images/cultivate.png'> Cultivate</a>. I've worked in several environments: big corporate software factory, startup, consultancy, NGO, freelancing and more. You can see some of my code in [my GitHub profile](https://github.com/picandocodigo). If you're looking for **my CV**, check out my professional experience on [LinkedIn](http://www.linkedin.com/in/fernandobriano) or [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). The following content shows some of the stuff I've worked on"
+  free_software_content: "I use GNU/Linux and free software when possible. You can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
+  programming_languages: "The top programming languages from my repositories on GitHub are:"
 
   rubygems: "RubyGems I've written"
 
