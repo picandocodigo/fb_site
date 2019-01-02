@@ -5,24 +5,24 @@
  */
 
 @font-face{
-	font-family: 'Inconsolata';
-	src: url('../fonts/Inconsolata.otf');
+  font-family: 'Inconsolata';
+  src: url('../fonts/Inconsolata.otf');
 }
 
 @font-face{
   font-family: 'Octicons';
-	src: url('../fonts/octicons.eot');
-	src: url('../fonts/octicons.eot') format('embedded-opentype'),
-	     url('../fonts/octicons.woff') format('woff'),
-	     url('../fonts/octicons.ttf') format('truetype'),
-	     url('../fonts/octicons.svg') format('svg');
+  src: url('../fonts/octicons.eot');
+  src: url('../fonts/octicons.eot') format('embedded-opentype'),
+       url('../fonts/octicons.woff') format('woff'),
+       url('../fonts/octicons.ttf') format('truetype'),
+       url('../fonts/octicons.svg') format('svg');
 }
 
 @font-face{
     font-family: 'FiraSans';
     src: url('../fonts/FiraSans-Regular.eot');
     src: url('../fonts/FiraSans-Regular.woff') format('woff'),
-	       url('../fonts/FiraSans-Regular.ttf') format('truetype');
+         url('../fonts/FiraSans-Regular.ttf') format('truetype');
 }
 
 body{
@@ -35,46 +35,46 @@ h1, h2{
 }
 
 a{
-	color: #4E7442;
+  color: #4E7442;
   text-decoration: none;
 }
 a:visited{
-	color: #2C542D;
+  color: #2C542D;
 }
 
 a:hover{
-	color: #2C542D
+  color: #2C542D
 }
 a.cultivate{
   color: #e21d87;
   font-weight: bold;
 }
 #languages{
-	margin: 21px 0;
-	line-height: 33px;
-	text-align: right;
-	font-weight: bold;
-	font-family: 'Inconsolata';
+  margin: 21px 0;
+  line-height: 33px;
+  text-align: right;
+  font-weight: bold;
+  font-family: 'Inconsolata';
 }
 
 h2{
-	background-color: #AEC4B0;
+  background-color: #AEC4B0;
   padding: 0.5em;
   cursor: pointer;
 }
 
 ul.menu{
-	list-style: none;
-	padding: 0.1em;
+  list-style: none;
+  padding: 0.1em;
 }
 
 section p{
-	padding: 0.5em;
+  padding: 0.5em;
 }
 
 section h3{
   background-color: #ddd;
-	padding: 0.5em;
+  padding: 0.5em;
   cursor: pointer;
 }
 
@@ -83,17 +83,29 @@ section h3{
 }
 
 .gems, .opendata{
-	font-family: 'Inconsolata';
+  font-family: 'Inconsolata';
 }
 
 .gems td, .opendata td{
-	border-bottom: 1px solid #ddd;
-	padding: 0.5em;
-	margin: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em;
+  margin: 0;
 }
 
 .octicon-ruby{
-	color: #F00;
+  color: #F00;
+}
+
+.octicon-database{
+  color: #ff0;
+}
+
+.genericon-wordpress{
+  color: #333;
+}
+
+.genericon-website{
+  color: #00f;
 }
 
 .visible{
@@ -128,7 +140,7 @@ img.left{
   position: fixed;
   top: 0;
   z-index: 999;
-	padding: 1em;
+  padding: 1em;
   width: 100%;
 }
 
@@ -138,9 +150,9 @@ img.left{
 }
 
 #contra{
-	position: fixed;
-	right: 1em;
-	bottom: 1em;
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
 }
 
 #footer{
