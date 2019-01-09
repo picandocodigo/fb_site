@@ -12,11 +12,16 @@ Dir['./lib/*.rb'].each { |l| require l }
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
+
 #
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"
 # end
+
+activate :directory_indexes
+page '/cv/index.html', layout: :cv
+mime_type :haml, "text/html"
 
 ###
 # Helpers

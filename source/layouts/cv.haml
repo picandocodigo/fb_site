@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %link{rel: 'stylesheet', href: '/css/style.css', type: 'text/css'}
+    %link{rel: 'icon', type: 'image/png', href: '/images/favicon.png'}
+    %meta{charset: 'UTF-8'}
+    %meta{name: 'viewport', content: 'width=device-width, user-scalable=no'}
+    %title
+      Fernando Briano
+  %body
+    .grid#main
+      = yield
+      #footer
+        Last generated:
+        =time
+        =tag :img, src: "/images/pc.png"
+      %script{type: 'text/javascript', src: '/js/analytics.js'}

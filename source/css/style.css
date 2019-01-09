@@ -78,10 +78,6 @@ section h3{
   cursor: pointer;
 }
 
-.right{
-    float: right;
-}
-
 .gems, .opendata{
   font-family: 'Inconsolata';
 }
@@ -166,4 +162,22 @@ img.left{
 
 .right{
   float: right;
+}
+
+.center{
+  text-align: center;
+}
+
+.strong{
+  font-weight: bold;
+}
+
+.job {
+  overflow: hidden;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.job .description{
+  padding-top: 0.5em;
 }
