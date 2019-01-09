@@ -119,3 +119,5 @@ I've also written some technical posts in English in the <a href='http://cultiva
 
   about: "About this site"
   about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using [Octicons](https://octicons.github.com/) and [Genericons](http://genericons.com/) for the icons. You can try the konami code for a visual easter egg."
+
+  lastgenerated: "Site last generated:"

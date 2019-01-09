@@ -120,3 +120,5 @@ También he escrito algunos artículos técnicos en Inglés en el blog de <a hre
 
   about: "Acerca de este sitio"
   about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Octicons](https://octicons.github.com/) y [Genericons](http://genericons.com/) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
+
+  lastgenerated: "Sitio generado por última vez:"
