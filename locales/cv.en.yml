@@ -139,17 +139,20 @@ en:
     ort:
       name: Universidad ORT - CTC
       degree: Programmer Analyst
+      location: Maldonado, Uruguay
       dates: 2006 - 2008
       description: Completed all the courses in the 2 year technical career, pending final project.
 
     udelar:
       name: Universidad de la República, Facultad de Ingeniería
+      location: Montevideo, Uruguay
       degree: Computer Engineering, University drop-out
       dates: 2005
       description: ""
 
     java:
       name: Ingeniero Carlos Soderguit
+      location: Maldonado, Uruguay
       degree: Java Intensive Course
       dates: 2008
       description: Java SE 5.0, Java EE 5.0, Introduction to JBoss Seam
