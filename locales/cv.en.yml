@@ -59,7 +59,7 @@ en:
     name: Neo Innovation, Inc.
     location: Montevideo, Uruguay
     position: Software Developer
-    description: "As a programmer I worked for several clients including AppDirect and ICANN and internal projects. Among the technologies involved were: Ruby, JavaScript, Rails, Sinatra, Cuba, Rspec, Minitest, SASS, HAML, Gem development, etc.<br><strong>Languages:</strong> Ruby - JavaScript"
+    description: "As a programmer I worked for several clients including AppDirect and ICANN, also worked on internal projects. Among the technologies involved were: Ruby, JavaScript, Rails, Sinatra, Cuba, Rspec, Minitest, SASS, HAML, Gem development, HTML, CSS."
 
   cubox:
     dates: March 2012 - September 2012
@@ -130,7 +130,7 @@ en:
       name: Universidad de la República, Facultad de Ingeniería
       degree: Computer Engineering, University drop-out
       dates: 2005
-      description: "¯\\_(ツ)_/¯"
+      description: ""
 
     java:
       name: Ingeniero Carlos Soderguit
