@@ -5,6 +5,21 @@
     %link{rel: 'icon', type: 'image/png', href: '/images/favicon.png'}
     %meta{charset: 'UTF-8'}
     %meta{name: 'viewport', content: 'width=device-width, user-scalable=no'}
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@picandocodigo"/>
+    %meta{name: 'twitter:title', content: t(:title)}
+    %meta{name: 'twitter:description', content: t(:description)}
+    <meta name="twitter:creator" content="@picandocodigo"/>
+    %meta{name: 'twitter:image:src', content: 'https://fernandobriano.com/' + image_path('og-image.jpg')}
+    <meta name="twitter:domain" content="https://fernandobriano.com"/>
+    <!-- Open Graph -->
+    %meta{name: 'og:title', content: t(:title)}
+    %meta{name: 'og:description', content: t(:description)}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fernandobriano.com" />
+    %meta{name: 'og:image', content: 'https://fernandobriano.com/' + image_path('og-image.jpg')}
+
     %title
       Fernando Briano
   %body

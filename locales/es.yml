@@ -1,5 +1,7 @@
 ---
 es:
+  title: Fernando Briano
+  description: "Desarrollador de software de Uruguay viviendo en Escocia."
   programmer: "Programador"
   programmer_content: "Soy desarrollador de software actualmente trabajando en <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='/images/cultivate.png'> Cultivate</a>. He trabajado en varias cosas desde fábricas de software corporativas, startups, consultor&iacute;as, organizaciones no gubernamentales y más. Se puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo). Si est&aacute;s buscando **mi CV**, pod&eacute;s ver mi experiencia profesional en [LinkedIn](http://www.linkedin.com/in/fernandobriano) o [StackOverflow Careers](http://careers.stackoverflow.com/picandocodigo). A continuación un poco de contenido que muestra algunas cosas en las que he trabajado."
   free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."

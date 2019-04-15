@@ -27,9 +27,12 @@ module CustomHelpers
   end
 
   def skills
-    ["Ruby", "Ruby On Rails", "Agile Methodologies (Scrum, XP)", "Team Management", "Linux", "System Administration", "SQL", "Git", "CSS", "HTML", "JavaScript", "Bash", "Java", "WordPress", "PHP", "Vagrant", "Docker"]
-    .shuffle
-    .join(', ')
+    ['Ruby', 'Ruby On Rails', 'Agile Methodologies (Scrum, XP)',
+     'Team Management', 'Linux', 'System Administration', 'SQL', 'Git',
+     'CSS', 'HTML', 'JavaScript', 'Bash', 'Java',
+     'WordPress', 'PHP', 'Vagrant', 'Docker']
+      .shuffle
+      .join(', ')
   end
 
   private
