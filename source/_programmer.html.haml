@@ -27,7 +27,7 @@
               %td
                 %strong
                   Downloads:
-                = gem['downloads']
+                = format_number(gem['downloads'])
               %td
                 = gem['info']
 
@@ -74,7 +74,7 @@
               %td
                 = "#{plugin['rating']}/100"
               %td
-                = plugin['downloaded']
+                = format_number(plugin['downloaded'])
               %td
                 = plugin['installs']
 
