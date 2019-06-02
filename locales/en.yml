@@ -37,7 +37,14 @@ en:
       links: "[Website](http://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
 
   otherprojects: "Other projects"
-  otherprojects_content: "Some other projects I've created:\n * **[Unofficial Interstate Sticker Club Web App](https://interstate-sticker-club.herokuapp.com/)** - A web app I built in a day to manage my  Brewdog [interstate Sticker Album](https://www.brewdog.com/lowdown/blog/the-interstate-sticker-club). [Source Code](https://github.com/picandocodigo/interstate_club)\n * **[ci_js](https://picandocodigo.github.io/ci_js/)** - JavaScript Uruguayan document validator. [Source Code](https://github.com/picandocodigo/ci_js) - [jQuery plugin](http://plugins.jquery.com/ci).\n * **[Emacs.sexy](http://emacs.sexy)** - Website to promote Emacs. [Source Code](https://github.com/picandocodigo/emacs.sexy)\n * **[Super Simple Time Tracker](http://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
+  otherprojects_content: "Some other projects I've created:\n
+  * **[The Unofficial Brewdog Discount Calculator](https://picandocodigo.github.io/efp_discount/)** - An online calculator for EFP's to figure out the discounts that apply.\n
+  * **[Brewdog Beer Visa Unofficial App](https://stampwankerapp.herokuapp.com/)** - A web app to manage the bars you've visited. You can keep track of the bars you've visited and the badges you've unlocked.\n
+  * **[Unofficial Interstate Sticker Club Web App](https://interstate-sticker-club.herokuapp.com/)** - Another web app I built in a day to manage my  Brewdog [interstate Sticker Album](https://www.brewdog.com/lowdown/blog/the-interstate-sticker-club). [Source Code](https://github.com/picandocodigo/interstate_club)\n
+  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - JavaScript Uruguayan document validator. [Source Code](https://github.com/picandocodigo/ci_js) - [jQuery plugin](http://plugins.jquery.com/ci).\n
+  * **[Emacs.sexy](http://emacs.sexy)** - Website to promote Emacs. [Source Code](https://github.com/picandocodigo/emacs.sexy)\n
+  * **[Super Simple Time Tracker](http://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n
+  * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
 
   writing: "Writing"
   writing_content: "I really enjoy writing and I've been doing it in **[my personal blog](http://picandocodigo.net)** since 2007.<br><br>
