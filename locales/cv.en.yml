@@ -5,14 +5,21 @@ en:
 
   skills: I have professional experience working as an employee for several companies and as a Freelancer. I've worked fully remote and on-site. I've also written several personal projects and contributed to other open source projects. I have experience managing teams, following Agile methodologies.
 
+  deliveroo:
+    dates: August 2019 - Present
+    name: Deliveroo
+    location: Edinburgh, Scotland
+    position: Software Developer
+    description: "Working on the Payments team."
+
   cultivate:
-    dates: June 2017 - Present
+    dates: June 2017 - July 2019
     name: Cultivate Software Ltd
     location: Edinburgh, Scotland
     position: Software Developer
     description: "Clients: Deliveroo Payments team, Money Advice Service.<br>
     Site: <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br>
-    <strong>Programming Languages:</strong> Ruby - Elixir - JavaScript - Go"
+    <strong>Programming Languages:</strong> Ruby - Elixir - JavaScript - Go<br>Cultivate was acquired by Deliveroo where I kept working as a Software Developer"
 
   entropia:
     dates: July 2006 - Present
