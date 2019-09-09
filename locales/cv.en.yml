@@ -43,7 +43,7 @@ en:
     name: DATA Uruguay
     location: Montevideo, Uruguay
     position: Software Developer (Freelance)
-    description: "Front-end and backend software development. I have worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more. I keep working with them occasionally regularly, updating ATuServicio.uy with updated data and features.<br>
+    description: "Front-end and backend software development. I have worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more. I keep working with them occasionally, updating ATuServicio.uy with updated data and features.<br>
     Site: datauy.org<br>
     <strong>Programming Languages:</strong> Ruby - Python - JavaScript"
 
@@ -52,7 +52,7 @@ en:
     name: Crafted Code
     location: Montevideo, Uruguay
     position: Software Developer (Freelance)
-    description: "Worked as a Ruby on Rails software developer for remote clients. Built a Rails API from scratch for Android and iOS apps. Other than authentication and other traditional technologies in an API, we also had to integrate media streaming into the system. Site: www.craftedcode.com<br>
+    description: "Worked as a Ruby on Rails software developer for remote clients. Built a Rails API from scratch for Android and iOS apps. Other than authentication and other traditional technologies in an API, we also had to integrate media streaming into the system. Site: <a href='www.craftedcode.com'>www.craftedcode.com</a><br>
     <strong>Programming Languages:</strong> Ruby"
 
   cultivateprime:
@@ -60,7 +60,7 @@ en:
     name: Cultivate Software Ltd
     location: Edinburgh, Scotland
     position: Software Developer (Freelance)
-    description: "Worked on the Money Advice Service Ruby on Rails frontend app and other MAS Rails applications. Site: cultivatehq.com<br>
+    description: "Worked on the Money Advice Service Ruby on Rails frontend app and other MAS Rails applications. <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br>
     <strong>Programming Languages:</strong> Ruby - JavaScript"
 
   livepress:
@@ -68,7 +68,7 @@ en:
     name: LivePress
     location: Remote
     position: Software Developer (Freelance)
-    description: "The LivePress WordPress plugin and backend. Development involved Ruby on Rails and PHP with WordPress. http://livepress.com<br>
+    description: "The LivePress WordPress plugin and backend. Development involved Ruby on Rails and PHP with WordPress. Site: livepress.com<br>
     <strong>Programming Languages:</strong> Ruby - PHP - JavaScript"
 
   neo:
@@ -107,7 +107,7 @@ en:
     name: Tochos
     location: Montevideo, Uruguay
     position: Software Developer
-    description: "Worked on a backend with Java EE 5 (JBoss 5, EJB 3, Hibernate), frontend with Adobe Flex 3 in a system which integrated XMPP and other technologies. I was also involved in the server technology and had a role as Scrum Master during the project management.<br>
+    description: "Worked on a backend written in Java EE 5 (JBoss 5, EJB 3, Hibernate), frontend with Adobe Flex 3 in a system which integrated XMPP and other technologies. I was also involved in the server technology and had a role as Scrum Master during the project management.<br>
     <strong>Programming Languages:</strong> Java - ActionScript - Adobe Flex"
 
   guerwin:
