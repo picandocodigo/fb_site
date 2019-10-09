@@ -9,8 +9,8 @@ en:
     dates: August 2019 - Present
     name: Deliveroo
     location: Edinburgh, Scotland
-    position: Software Developer
-    description: "Working on the Payments team."
+    position: Software Engineer
+    description: "Continued to work on the Payments team after Cultivate was acquired and became the Deliveroo Edinburgh office."
 
   cultivate:
     dates: June 2017 - July 2019
@@ -44,7 +44,7 @@ en:
     location: Montevideo, Uruguay
     position: Software Developer (Freelance)
     description: "Front-end and backend software development. I have worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more. I keep working with them occasionally, updating ATuServicio.uy with updated data and features.<br>
-    Site: datauy.org<br>
+    Site: <a href='https://data.org.uy/'>datauy.org</a><br>
     <strong>Programming Languages:</strong> Ruby - Python - JavaScript"
 
   craftedcode:
