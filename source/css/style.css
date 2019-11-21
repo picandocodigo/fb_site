@@ -45,8 +45,9 @@ a:visited{
 a:hover{
   color: #2C542D
 }
-a.cultivate{
-  color: #e21d87;
+
+a.elastic{
+  color: #0077cc;
   font-weight: bold;
 }
 #languages{
@@ -180,4 +181,8 @@ img.left{
 
 .job .description{
   padding-top: 0.5em;
+}
+
+.octicon-chevron-down{
+  cursor: pointer;
 }

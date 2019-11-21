@@ -5,7 +5,7 @@
     %span{class: 'mega-octicon octicon-chevron-down right'}
 
   -# Start hidden part
-  #programming.unit.hidden.hiddable_content
+  #programming.unit.visible.hiddable_content
     = text(:programmer_content)
     = text(:free_software_content)
     = text(:programming_languages, ' ' + github.map {|k,v| "#{k} (#{v})"}.join(", "))
