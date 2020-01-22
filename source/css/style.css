@@ -79,11 +79,11 @@ section h3{
   cursor: pointer;
 }
 
-.gems, .opendata{
+.gems, .opendata, .wordpress{
   font-family: 'Inconsolata';
 }
 
-.opendata td{
+.wordpress td, .opendata td{
   border-bottom: 1px solid #ddd;
   padding: 0.5em;
   margin: 0;
