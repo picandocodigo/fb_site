@@ -18,18 +18,15 @@
         %span{class: 'octicon octicon-chevron-down right'}
 
       .hidden.hiddable_content
-        %table.gems
-          - rubygems.each do |gem|
-            %tr
-              %td
-                %strong
-                  %a{href: gem['homepage_uri']}>= gem['name']
-              %td
-                %strong
-                  Downloads:
-                = format_number(gem['downloads'])
-              %td
-                = gem['info']
+        - gems = rubygems
+        %h4
+          = text(:personal)
+        - gems[:personal].each do |gem|
+          = partial 'gems_table', locals: {gem: gem}
+        %h4
+          = text(:elastic_gems)
+        - gems[:elastic].each do |gem|
+          = partial 'gems_table', locals: {gem: gem}
 
     -# Open Data
     .hiddable

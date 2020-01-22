@@ -19,7 +19,11 @@ module CustomHelpers
   end
 
   def rubygems
-    RubyGems.info(env['RUBYGEMS'])
+    gems = RubyGems.info(env['RUBYGEMS'])
+    elastic, personal = gems.partition do |gem|
+      gem['name'].match?(/^elasticsearch/)
+    end
+    { personal: personal, elastic: elastic }
   end
 
   def wordpress_plugins

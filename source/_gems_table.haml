@@ -1,0 +1,22 @@
+.gems.grid.grid-pad
+  .col-3-12
+    .content
+      %strong
+        %a{href: gem['homepage_uri']}>= gem['name']
+  .col-2-12
+    .content
+      %span{class: 'octicon octicon-octoface'}
+      %a{href: gem['homepage_uri'], title: "#{gem['name']} on GitHub"}
+        GitHub
+      %br
+      %span{class: 'octicon octicon-ruby'}
+      %a{href: gem['project_uri'], title: "#{gem['name']} on RubyGems"}
+        RubyGems
+  .col-2-12
+    .content
+      %strong
+        Downloads:
+        = format_number(gem['downloads'])
+  .col-5-12
+    .content
+      = gem['info']

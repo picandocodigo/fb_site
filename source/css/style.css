@@ -83,10 +83,15 @@ section h3{
   font-family: 'Inconsolata';
 }
 
-.gems td, .opendata td{
+.opendata td{
   border-bottom: 1px solid #ddd;
   padding: 0.5em;
   margin: 0;
+}
+
+.gems{
+  border-bottom: 1px solid #faa;
+  padding-bottom: 0.5em;
 }
 
 .octicon-ruby{
