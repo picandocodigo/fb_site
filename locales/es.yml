@@ -9,7 +9,7 @@ es:
 
   rubygems: "Gemas Ruby que mantengo"
   personal: "Gemas Personales"
-  elastic_gems: "Gemas de <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a>"
+  elastic_gems: "Gemas de <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='/images/elastic.png'> Elastic</a>"
 
 
   wordpress: "Desarrollo WordPress"
