@@ -130,7 +130,7 @@ I've also written some technical posts in English in the <a href='http://cultiva
   - **2007** - JavaUy 2007 - 11th-12th October, 2007 - Montevideo, Uruguay"
 
   misc: "Other stuff"
-  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo), in case you want to know my favorite music."
+  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo), in case you want to find out about my favorite music."
 
   about: "About this site"
   about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using [Octicons](https://octicons.github.com/) and [Genericons](http://genericons.com/) for the icons. You can try the konami code for a visual easter egg."
