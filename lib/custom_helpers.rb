@@ -21,7 +21,7 @@ module CustomHelpers
   def rubygems
     gems = RubyGems.info(env['RUBYGEMS'])
     elastic, personal = gems.partition do |gem|
-      gem['name'].match?(/^elasticsearch/)
+      gem['name'].match?(/^elastic/)
     end
     { personal: personal, elastic: elastic }
   end
