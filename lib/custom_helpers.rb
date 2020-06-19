@@ -28,6 +28,7 @@ module CustomHelpers
 
   def wordpress_plugins
     WordPressPlugins.plugins(env['WORDPRESS'])
+      .sort_by { |a| -a['downloaded'] }
   end
 
   def skills
