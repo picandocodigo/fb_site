@@ -1,0 +1,28 @@
+name: Deploy to GitHub Pages
+on: [pull_request]
+# Schedule
+# on:
+#   schedule:
+#     cron: 0 00 * * MON-FRI
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    strategy:
+      matrix:
+        ruby: ['2.6']
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6
+    - name: Bundle install
+      env:
+        GITHUB_AUTH_TOKEN: ${{secrets.GITHUB}}
+        RUBYGEMS: picandocodigo
+        WORDPRESS: fernandobt
+      run: |
+        git config --global user.email ${{secrets.EMAIL}}
+        git config --global user.name "Fernando Briano"
+        bundle install
+        middleman deploy
