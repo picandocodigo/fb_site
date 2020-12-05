@@ -43,33 +43,35 @@ es:
   otherprojects_content: "Otros proyectos que he creado:\n * **[Unofficial Interstate Sticker Club Web App](https://interstate-sticker-club.herokuapp.com/)** - Una app que escribí en un día para gestionar mi [Álbum de figuritas de BrewDog](https://www.brewdog.com/lowdown/blog/the-interstate-sticker-club). [Código Fuente](https://github.com/picandocodigo/interstate_club)\n * **[ci_js](https://picandocodigo.github.io/ci_js/)** - Validador de la Cédula Uruguaya en JavaScript. [Código fuente](https://github.com/picandocodigo/ci_js) - [plugin jQuery](http://plugins.jquery.com/ci/).\n * **[Emacs.sexy](http://emacs.sexy)** - Sitio web para promover Emacs.\n * **[Super Simple Time Tracker](http://supertimetracker.com/)** - Un gestor de horas para usar en tu navegador web o como aplicación web. No requiere registro ni inicio de sesión. [Código fuente](https://github.com/picandocodigo/supertimetracker).\n * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - Sitio web/aplicación web que hice por diversión. [Código fuente](https://github.com/picandocodigo/instantoh)"
 
   writing: "Escritura"
-  writing_content: "Disfruto mucho de escribir y lo vengo haciendo en **[mi blog personal](http://picandocodigo.net)** desde 2007.<br><br>
+  writing_content: "Disfruto mucho de escribir y lo vengo haciendo en mi blog personal **[Picando Código](http://picandocodigo.net)** desde 2007.<br><br>
 
-  He escrito algunos artículos para  **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**, diario independiente de Uruguay:
+Artículos para otros medios en español:
 
-  - **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Artículo sobre privacidad en internet.
+  - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Artículo sobre privacidad en internet.
 
-  - **[La ética hacker](https://ladiaria.com.uy/articulo/2018/3/la-etica-hacker/)** - Artículo sobre ética hacker.
+  - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[La ética hacker](https://ladiaria.com.uy/articulo/2018/3/la-etica-hacker/)** - Artículo sobre ética hacker.
 
-
-Después de publicado este último artículo, fue entrevistado en Sputnik Mundo: [Hackers: ¿amigos o enemigos de los ciudadanos?](https://mundo.sputniknews.com/mundo/201804021077545354-hacker-informatica-software-privacidad/)
-
+  - **Entrevista para Sputnik Mundo**: [Hackers: ¿amigos o enemigos de los ciudadanos?](https://mundo.sputniknews.com/mundo/201804021077545354-hacker-informatica-software-privacidad/)
 
 
-También he escrito algunos artículos técnicos en Inglés en el blog de <a href='http://cultivatehq.com' target='_blank' class='cultivate'><img src='/images/cultivate.png'> Cultivate</a>:
 
-  - [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
+Artículos en inglés:
 
-  - [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
+    - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
 
-  - [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
+  - <img src='images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python).
 
-  - [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
+  - <img src='images/cultivate.png'> Cultivate blog: [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
 
-  - [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
+  - <img src='images/cultivate.png'> Cultivate blog: [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
 
-  - [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
+  - <img src='images/cultivate.png'> Cultivate blog: [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
 
+  - <img src='images/cultivate.png'> Cultivate blog: [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
 
   speaker: "Conferencias"
   speaker_content: "He dado charlas sobre Ruby, Datos Abiertos, trabajo, programación y otros temas en meetups y algunas conferencias. También trabajé en la organización de **RubyConf Uruguay** y varios Meetups de Ruby en Montevideo así como otros eventos relacionados.\n\nPod&eacute;s encontrar algunas de mis presentaciones en [SpeakerDeck](http://speakerdeck.com/picandocodigo).
