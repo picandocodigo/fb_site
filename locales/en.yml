@@ -49,7 +49,10 @@ en:
   * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
 
   writing: "Writing"
-  writing_content: "I really enjoy writing and I've been doing it on my personal blog -**[Picando Código](http://picandocodigo.net)**- since 2007. Articles for other media in Spanish:
+  writing_content: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](http://picandocodigo.net)** since 2007.
+
+
+  Articles for other media in Spanish:
 
     - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Article about internet privacy.
 
@@ -60,11 +63,9 @@ en:
 
 Posts in English:
 
-    - <img src='images/ruby.png'> PlanetRuby: Article about the gamesdb gem in Ruby Advent Calendar 2020.
+  - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
 
-  - <img src='images/ruby.png'> PlanetRuby: Article about elastic/enterprise-search in Ruby Advent Calendar 2020.
-
-  - <img src='images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python)
+  - <img src='images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python).
 
   - <img src='images/cultivate.png'> Cultivate blog: [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
 
