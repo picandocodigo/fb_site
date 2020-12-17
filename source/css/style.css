@@ -35,11 +35,11 @@ h1, h2{
 }
 
 a{
-  color: #4E7442;
+  color: #AEC4B0;
   text-decoration: none;
 }
 a:visited{
-  color: #2C542D;
+  color: #ddd;
 }
 
 a:hover{
@@ -59,8 +59,9 @@ a.elastic{
 }
 
 h2{
-  background-color: #AEC4B0;
+  background-color: #4E7442 ;
   padding: 0.5em;
+  color: #ddd;
   cursor: pointer;
 }
 
@@ -74,9 +75,10 @@ section p{
 }
 
 section h3{
-  background-color: #ddd;
+  background-color: #8a9f8c; // #2C542D;
   padding: 0.5em;
   cursor: pointer;
+  color: #000;
 }
 
 .gems, .opendata, .wordpress{
@@ -190,4 +192,9 @@ img.left{
 
 .octicon-chevron-down{
   cursor: pointer;
+}
+
+html {
+  background-color: #071407;
+  color: #fff;
 }
