@@ -11,7 +11,8 @@ module CustomHelpers
   end
 
   def github
-    GitHub.getstuff(env['GITHUB_AUTH_TOKEN'])
+    load_env unless ENV['GITHUB_AUTH_TOKEN']
+    GitHub.getstuff(ENV['GITHUB_AUTH_TOKEN'])
   end
 
   def time
@@ -19,7 +20,8 @@ module CustomHelpers
   end
 
   def rubygems
-    gems = RubyGems.info(env['RUBYGEMS'])
+    load_env unless ENV['RUBYGEMS']
+    gems = RubyGems.info(ENV['RUBYGEMS'])
     elastic, personal = gems.partition do |gem|
       gem['name'].match?(/^elastic/)
     end
@@ -27,7 +29,8 @@ module CustomHelpers
   end
 
   def wordpress_plugins
-    WordPressPlugins.plugins(env['WORDPRESS'])
+    load_env unless ENV['WORDPRESS']
+    WordPressPlugins.plugins(ENV['WORDPRESS'])
       .sort_by { |a| -a['downloaded'] }
   end
 
@@ -46,14 +49,14 @@ module CustomHelpers
 
   private
 
-  def env
+  def load_env
+    return if ENV['GITHUB_AUTH_TOKEN'] && ENV['RUBYGEMS'] && ENV['WORDPRESS']
+
     env = File.expand_path(__dir__ + '/.env')
-    env_vars = {}
 
     File.readlines(env).each do |line|
       values = line.split('=')
-      env_vars[values[0]] = values[1].delete("\n")
+      ENV[values[0]] = values[1].delete("\n")
     end
-    env_vars
   end
 end

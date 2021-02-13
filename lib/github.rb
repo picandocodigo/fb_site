@@ -18,16 +18,6 @@ module GitHub
     projects(data)
   end
 
-  def self.auth_token
-    env = File.expand_path(__dir__ + '/.env')
-
-    File.readlines(env).each do |line|
-      values = line.split('=')
-      ENV[values[0]] = values[1]
-    end
-    ENV['GITHUB_AUTH_TOKEN']
-  end
-
   def self.projects(data)
     languages = {}
     data.each do |project|
