@@ -6,10 +6,6 @@
       %br
       = t(:more_info)
 
-  -# .col-1-1
-  -#   %p
-  -#     = t(:skills)
-
   .col-1-1
     %h2
       = t(:work_experience)
@@ -20,11 +16,7 @@
           = t("#{job}.dates")
         .col-2-3
           .strong
-            = t("#{job}.name")
-          = t("#{job}.position")
-          %br
-          %em
-            = t("#{job}.location")
+            = t("#{job}.title")
           .description
             = t("#{job}.description")
     .job
@@ -32,23 +24,15 @@
         = t("freelance.dates")
       .col-2-3
         .strong
-          = t("freelance.name")
-        = t("freelance.position")
-        %br
-        %em
-          = t("freelance.location")
+          = t("freelance.title")
         .description
           = t("freelance.description")
           - ['datauy', 'craftedcode', 'cultivate', 'livepress'].each do |job|
             .job
               .col-3-3
                 .strong
-                  = t("#{job}.position")
-                = t("#{job}.name")
+                  = t("#{job}.title")
                 = t("#{job}.dates")
-                %br
-                %em
-                  = t("#{job}.location")
                 .description
                   = t("#{job}.description")
     .job
@@ -56,11 +40,7 @@
         = t("neo.dates")
       .col-2-3
         .strong
-          = t("neo.name")
-        = t("neo.position")
-        %br
-        %em
-          = t("neo.location")
+          = t("neo.title")
         .description
           = t("neo.description")
     .job
@@ -68,21 +48,14 @@
         = t("globant.dates")
       .col-2-3
         .strong
-          = t("globant.name")
-        = t("globant.position")
-        %br
-        %em
-          = t("globant.location")
+          = t("globant.title")
         .description
           = t("globant.description")
           .job
             .col-3-3
               .strong
-                = t("citygrid.name")
+                = t("citygrid.title")
               = t("citygrid.dates")
-              %br
-              %em
-                = t("citygrid.location")
               .description
                 = t("citygrid.description")
 
@@ -92,11 +65,7 @@
           = t("#{job}.dates")
         .col-2-3
           .strong
-            = t("#{job}.name")
-          = t("#{job}.position")
-          %br
-          %em
-            = t("#{job}.location")
+            = t("#{job}.title")
           .description
             = t("#{job}.description")
 

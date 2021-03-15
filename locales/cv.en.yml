@@ -6,125 +6,93 @@ en:
   skills: I have professional experience working as an employee for several companies and as a Freelancer. I've worked fully remote and on-site. I've also written several personal projects and contributed to other open source projects. I have experience managing teams, following Agile methodologies.
 
   elastic:
+    title: Elastic - Senior Software Engineer - <em>Remote</em>
     dates: November 2019 - Present
-    name: Elastic
-    location: Remote
-    position: Senior Software Engineer
     description: "Working on the Clients team, maintaining the official Ruby Elasticsearch Client and Rails integrations. Developed the Ruby Enterprise Search Client. <br>Site: <a href='https://www.elastic.co/' target='_blank'>elastic.co</a>"
   deliveroo:
+    title: Cultivate Software Ltd | Deliveroo - Software Engineer - Edinburgh, Scotland
     dates: June 2017 - October 2019
-    name: Cultivate Software Ltd | Deliveroo
-    location: Edinburgh, Scotland
-    position: Software Engineer
     description: "At Cultivate I worked for the Money Advice Service, internal projects and Deliveroo. I continued to work on the Deliveroo Payments team after Cultivate was acquired by Deliveroo in August 2019. <br>Site: <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br><strong>Programming Languages:</strong> Ruby - Elixir - JavaScript"
 
   entropia:
+    title: Entropía Records - Founder/Fat Mike - Uruguay
     dates: July 2006 - Present
-    name: Entropía Records
-    location: Uruguay
-    position: Founder / Director
     description: "Punk rock record label I founded in Uruguay. I published some albums from local bands and produced and helped with several concerts.<br>
     Site: <a href='http://entropiarecords.com'>entropiarecords.com</a>"
 
   freelance:
+    title: Freelance Software Developer
     dates: June 2014 - Jun 2017
-    name: Freelance
-    location: ''
-    position: Software Developer
-    description: "As a freelance developer, I worked contracting for several clients:<br>"
+    description: "As a freelance developer, I worked contracting for several clients. Some of them are listed here:<br>"
 
   datauy:
+    title: DATA Uruguay - Software Developer - Montevideo, Uruguay
     dates: January 2015 - Present
-    name: DATA Uruguay
-    location: Montevideo, Uruguay
-    position: Software Developer
     description: "Front-end and backend software development. I have worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more. I keep working with them occasionally, updating ATuServicio.uy with updated data and features.<br>
     Site: <a href='https://data.org.uy/'>datauy.org</a><br>
     <strong>Programming Languages:</strong> Ruby - Python - JavaScript"
 
   craftedcode:
+    title: Crafted Code - Software Developer - Montevideo, Uruguay
     dates: June 2015 - December 2015
-    name: Crafted Code
-    location: Montevideo, Uruguay
-    position: Software Developer
     description: "Worked as a Ruby on Rails software developer for remote clients. Built a Rails API from scratch for Android and iOS apps. Other than authentication and other traditional technologies in an API, we also had to integrate media streaming into the system. <br>Site: <a href='www.craftedcode.com'>www.craftedcode.com</a><br>
     <strong>Programming Languages:</strong> Ruby"
 
   cultivate:
+    title: Cultivate Software Ltd - Software Developer - Edinburgh, Scotland
     dates: March 2015 - April 2015
-    name: Cultivate Software Ltd
-    location: Edinburgh, Scotland
-    position: Software Developer
     description: "Worked on the Money Advice Service Ruby on Rails frontend app and other MAS Rails applications. <br>Site: <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br>
     <strong>Programming Languages:</strong> Ruby - JavaScript"
 
   livepress:
+    title: LivePress - Software Developer - Remote
     dates: August 2014 - November 2014
-    name: LivePress
-    location: Remote
-    position: Software Developer
     description: "The LivePress WordPress plugin and backend. Development involved Ruby on Rails and PHP with WordPress. <br>Site: livepress.com<br>
     <strong>Programming Languages:</strong> Ruby - PHP - JavaScript"
 
   neo:
+    title: Cubox SA | Neo Innovation, Inc. - Software Developer - Montevideo, Uruguay 
     dates: March 2012 - June 2014
-    name: Cubox SA | Neo Innovation, Inc.
-    location: Montevideo, Uruguay
-    position: Software Developer
     description: "I worked on several Ruby projects with Rails, Cuba, Sinatra, RSpec, Minitest, Capybara, SASS, Haml, gem development, HTML and CSS. Clients were in the United States, including AppDirect and ICANN. Cubox was acquired by Neo in September 2012."
 
   globant:
+    title: Globant - Software Developer - Montevideo, Uruguay
     dates: July 2010 - February 2012
-    name: Globant
-    location: Montevideo, Uruguay
-    position: Software Developer
-    description: "Worked in a couple of projects as a Java Developer (Spring, Spring MVC, Hibernate, Seam) and small Ruby On Rails applications..<br>
+    description: "I worked as a Java Developer (Spring, Spring MVC, Hibernate, Seam) and a few Ruby On Rails applications.<br>
     <strong>Programming Languages:</strong> Ruby - Java"
 
   citygrid:
+    title: CityGrid Media - Software Developer
     dates: August 2010 - September 2011
-    name: CityGrid Media
-    location: Remote
-    position: Software Developer
     description: "As a Globant employee, I worked remotely with the CityGrid team from Montevideo. The main project involved web development with Java technologies: Spring, SpringMVC and Hibernate. I worked on the server administration too which involved Apache Tomcat over CentOS.<br>I also built my first professional Ruby on Rails project in this job.<br>
     <strong>Programming Languages:</strong> Java - Ruby"
 
   tochos:
+    title: Tochos - Software Developer - Montevideo, Uruguay
     dates: December 2009 - July 2010
-    name: Tochos
-    location: Montevideo, Uruguay
-    position: Software Developer
     description: "Worked on a backend written in Java EE 5 (JBoss 5, EJB 3, Hibernate), frontend with Adobe Flex 3 in a system which integrated XMPP and other technologies. I was also involved in the server technology and had a role as Scrum Master during the project management.<br>
     <strong>Programming Languages:</strong> Java - ActionScript - Adobe Flex"
 
   guerwin:
+    title: Guerwin S.A. - Development Team Director, Software Developer - Maldonado, Uruguay
     dates: September 2008 - November 2009
-    name: Guerwin S.A.
-    location: Maldonado, Uruguay
-    position: Development Team Director
-    description: "I was the first developer hired for a new startup. I was in charge of building and managing the development team and the initial infrastructure for the company. My first project acting as a Scrum Master and turning the process into Agile. I also did some development. <br>
+    description: "I was the first developer hired for a new startup. I was in charge of building and managing the development team and the initial infrastructure for the company. My first project acting as a Scrum Master and turning the process into Agile. I also did development.<br>
     <strong>Programming Languages:</strong> Java - PHP"
 
   professor:
+    title: CEI-CTC Maldonado - Professor at Programmer Analyst technical career - Maldonado, Uruguay
     dates: April 2008 - September 2008
-    name: CEI-CTC Maldonado
-    location: Maldonado, Uruguay
-    position: Professor - Programmer Analyst technical career
-    description: "Taught Operative Systems with GNU/Linux on the first semester and part of the Networks course for the second semester."
+    description: "I taught Operative Systems with GNU/Linux on the first semester of the course and part of the Networks course for the second semester."
 
   pronet:
+    title: ProNet - Programmer - Maldonado, Uruguay
     dates: March 2007 - May 2008
-    name: ProNet
-    location: Maldonado, Uruguay
-    position: Programmer
     description: "I worked in several individual and group projects, mostly with .NET technology and SQL Server. Built desktop applications including a shared contact manager and the system for selling boarding passes in Laguna del Sauce International Airport.<br>
     <strong>Programming Languages:</strong> Visual Basic.Net - C#"
 
   visituruguay:
+    title: Visit-Uruguay - Web Developer - Punta del Este, Uruguay
     dates: March 2006 - November 2006
-    name: Visit-Uruguay
-    location: Punta del Este, Uruguay
-    position: Web Developer
     description: Website maintenance, graphic design, HTML, JavaScript and SEO. I was in charge of the entire website, including adding new content, designing graphics for promotions and new pages, and managing the system.
 
   education:
