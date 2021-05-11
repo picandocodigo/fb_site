@@ -198,3 +198,9 @@ html {
   background-color: #071407;
   color: #fff;
 }
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+}

@@ -10,7 +10,7 @@
   %body
     .grid#main
       = yield
-      #footer
+      #footer.no-print
         = t(:lastgenerated)
         =time
         =tag :img, src: "/images/pc.png"
