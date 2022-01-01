@@ -3,7 +3,7 @@ en:
   title: Fernando Briano
   description: "Software developer from Uruguay currently living in Scotland."
   programmer: "Programmer"
-  programmer_content: "I'm a software engineer at <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a>.<br>You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>, or check out my professional experience on <a href='http://www.linkedin.com/in/fernandobriano'>LinkedIn</a> or <a href='http://careers.stackoverflow.com/picandocodigo'>StackOverflow Careers</a>."
+  programmer_content: "I'm a Software Engineer at <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a>. You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>."
   free_software_content: "I use GNU/Linux and free software when possible. You can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
   programming_languages: "My favourite programming language right now is Ruby, but I've written code in several languages along my career. The top programming languages from my repositories on GitHub are:"
 
