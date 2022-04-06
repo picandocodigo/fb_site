@@ -8,7 +8,7 @@ en:
   elastic:
     title: Elastic - Senior Software Engineer - <em>Remote</em>
     dates: November 2019 - Present
-    description: "Working on the Clients team, maintaining the official Ruby Elasticsearch Client and Rails integrations. Developed the Ruby Enterprise Search Client. <br>Site: <a href='https://www.elastic.co/' target='_blank'>elastic.co</a>"
+    description: "Working on the Clients team, maintaining the official Ruby Elasticsearch Client and Rails integrations. Developed the Ruby Enterprise Search Client. <br>Site: <a href='https://www.elastic.co/' target='_blank'>elastic.co</a><br><strong>Programming Languages:</strong> Ruby - Bash"
   deliveroo:
     title: Cultivate Software Ltd | Deliveroo - Software Engineer - Edinburgh, Scotland
     dates: June 2017 - October 2019
@@ -17,7 +17,7 @@ en:
   entropia:
     title: Entropía Records - Founder/Fat Mike - Uruguay
     dates: July 2006 - Present
-    description: "Punk rock record label I founded in Uruguay. I published some albums from local bands and produced and helped with several concerts.<br>
+    description: "Punk rock record label I founded in Uruguay and is still active in Scotland. I have published albums from local independent bands and produced and helped with several shows.<br>
     Site: <a href='http://entropiarecords.com'>entropiarecords.com</a>"
 
   freelance:
@@ -28,26 +28,26 @@ en:
   datauy:
     title: DATA Uruguay - Software Developer - Montevideo, Uruguay
     dates: January 2015 - Present
-    description: "Front-end and backend software development. I have worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more. I keep working with them occasionally, updating ATuServicio.uy with updated data and features.<br>
+    description: "Front-end and backend software development. I worked in web projects such as ATuServicio.uy, ¿Qué Sabés? and several more.<br>
     Site: <a href='https://data.org.uy/'>datauy.org</a><br>
     <strong>Programming Languages:</strong> Ruby - Python - JavaScript"
 
   craftedcode:
     title: Crafted Code - Software Developer - Montevideo, Uruguay
     dates: June 2015 - December 2015
-    description: "Worked as a Ruby on Rails software developer for remote clients. Built a Rails API from scratch for Android and iOS apps. Other than authentication and other traditional technologies in an API, we also had to integrate media streaming into the system. <br>Site: <a href='www.craftedcode.com'>www.craftedcode.com</a><br>
+    description: "I worked as a Ruby on Rails software developer for remote clients. I built a Rails backend which consisted of an API and authentication for Android and iOS apps and video streaming.<br>Site: <a href='https://web.archive.org/web/20190511182624/http://www.craftedcode.com/'>www.craftedcode.com</a> (web archive)<br>
     <strong>Programming Languages:</strong> Ruby"
 
   cultivate:
     title: Cultivate Software Ltd - Software Developer - Edinburgh, Scotland
     dates: March 2015 - April 2015
-    description: "Worked on the Money Advice Service Ruby on Rails frontend app and other MAS Rails applications. <br>Site: <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br>
+    description: "I worked on the Money Advice Service Ruby on Rails frontend app and other MAS Rails applications. <br>Site: <a href='http://cultivatehq.com' target='_blank'>cultivatehq.com</a><br>
     <strong>Programming Languages:</strong> Ruby - JavaScript"
 
   livepress:
     title: LivePress - Software Developer - Remote
     dates: August 2014 - November 2014
-    description: "The LivePress WordPress plugin and backend. Development involved Ruby on Rails and PHP with WordPress. <br>Site: livepress.com<br>
+    description: "I maintained and developed new features for the LivePress WordPress plugin and backend. Development involved Ruby on Rails and PHP with WordPress. <br>Site: livepress.com<br>
     <strong>Programming Languages:</strong> Ruby - PHP - JavaScript"
 
   neo:
@@ -70,13 +70,12 @@ en:
   tochos:
     title: Tochos - Software Developer - Montevideo, Uruguay
     dates: December 2009 - July 2010
-    description: "Worked on a backend written in Java EE 5 (JBoss 5, EJB 3, Hibernate), frontend with Adobe Flex 3 in a system which integrated XMPP and other technologies. I was also involved in the server technology and had a role as Scrum Master during the project management.<br>
-    <strong>Programming Languages:</strong> Java - ActionScript - Adobe Flex"
+    description: "I worked on a backend server written in Java EE 5 (JBoss 5, EJB 3, Hibernate), and the frontend was written in Adobe Flex 3 for a project which integrated XMPP and other technologies. I also had a role as Scrum Master during project management.<br><strong>Programming Languages</strong>: Java - ActionScript - Adobe Flex"
 
   guerwin:
     title: Guerwin S.A. - Development Team Director, Software Developer - Maldonado, Uruguay
     dates: September 2008 - November 2009
-    description: "I was the first developer hired for a new startup. I was in charge of building and managing the development team and the initial infrastructure for the company. My first project acting as a Scrum Master and turning the process into Agile. I also did development.<br>
+    description: "I was the first developer hired for a new startup. Apart from development, I was in charge of building and managing the development team and the initial infrastructure for the company. My first project acting as a Scrum Master and turning the process into Agile.<br>
     <strong>Programming Languages:</strong> Java - PHP"
 
   professor:
