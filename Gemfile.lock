@@ -1,7 +1,6 @@
 GIT
-  remote: https://github.com/middleman-contrib/middleman-deploy.git
+  remote: https://github.com/karlfreeman/middleman-deploy
   revision: 4d04b550b4c6888265d83ee9689f41e29dbae535
-  branch: master
   specs:
     middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
@@ -157,6 +156,9 @@ DEPENDENCIES
   nokogiri
   redcarpet
   rubocop
+
+RUBY VERSION
+   ruby 2.6.10p210
 
 BUNDLED WITH
    1.17.3
