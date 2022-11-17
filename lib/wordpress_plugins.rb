@@ -8,8 +8,8 @@ module WordPressPlugins
   # plugins, url, name and downloads.
   def self.plugins(user)
     plugins = []
-    url = "https://profiles.wordpress.org/#{user}"
-    doc = Nokogiri::HTML(open(url))
+    url = "https://profiles.wordpress.org/#{user}/"
+    doc = Nokogiri::HTML(URI.open(url))
     doc.css('div#content-plugins ul li').each do |p|
       plugins.push plugin(p)
     end
@@ -25,7 +25,7 @@ module WordPressPlugins
     slug = url.match(%r{.*\/([a-z-]+)\/$}).captures[0]
 
     result = JSON.parse(
-      open("#{API_URL}#{slug}.json").read
+      URI.open("#{API_URL}#{slug}.json").read
     ).merge('installs' => installs, 'url' => url)
     result
   end
