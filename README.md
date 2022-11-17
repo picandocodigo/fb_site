@@ -24,18 +24,14 @@ $ middleman
 
 ## Deploy to GitHub Pages
 
-Add this code to `config.rb`:
-
-```ruby
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.build_before = true
-end
-```
-
 Run:
 ```bash
-$ middleman deploy
+$ bundle exec rake publish
+```
+
+If you want to publish uncommitted changes, use:
+```bash
+$ bundle exec rake publish ALLOW_DIRTY=true
 ```
 
 Published to [fernandobriano.com](http://fernandobriano.com) with [middleman-deploy](https://github.com/middleman-contrib/middleman-deploy).

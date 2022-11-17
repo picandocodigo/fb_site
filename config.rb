@@ -21,7 +21,7 @@ Dir['./lib/*.rb'].each { |l| require l }
 
 activate :directory_indexes
 page '/cv/index.html', layout: :cv
-mime_type :haml, "text/html"
+mime_type :haml, 'text/html'
 
 ###
 # Helpers
@@ -49,11 +49,6 @@ set :images_dir, 'images'
 
 set :markdown_engine, :redcarpet
 set :markdown
-
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.build_before = true
-end
 
 # Build-specific configuration
 configure :build do

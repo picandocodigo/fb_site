@@ -1,7 +1,4 @@
-desc 'Publish to GitHub pages'
-task :publish do
-  sh 'middleman deploy'
-end
+require 'middleman-gh-pages'
 
 desc 'Run middleman to serve the page'
 task :serve do
