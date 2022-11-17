@@ -1,21 +1,11 @@
 /*
  *= require _simplegrid
- *= require _octicons.css
- *= require _genericons.css
+ *= require _icomoon.css
  */
 
 @font-face{
   font-family: 'Inconsolata';
   src: url('../fonts/Inconsolata.otf');
-}
-
-@font-face{
-  font-family: 'Octicons';
-  src: url('../fonts/octicons.eot');
-  src: url('../fonts/octicons.eot') format('embedded-opentype'),
-       url('../fonts/octicons.woff') format('woff'),
-       url('../fonts/octicons.ttf') format('truetype'),
-       url('../fonts/octicons.svg') format('svg');
 }
 
 @font-face{
@@ -96,22 +86,6 @@ section h3{
   padding-bottom: 0.5em;
 }
 
-.octicon-ruby{
-  color: #F00;
-}
-
-.octicon-database{
-  color: #ff0;
-}
-
-.genericon-wordpress{
-  color: #333;
-}
-
-.genericon-website{
-  color: #00f;
-}
-
 .visible{
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: opactiy 1s ease-in-out;
@@ -188,10 +162,6 @@ img.left{
 
 .job .description{
   padding-top: 0.5em;
-}
-
-.octicon-chevron-down{
-  cursor: pointer;
 }
 
 html {

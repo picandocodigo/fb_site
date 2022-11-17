@@ -144,6 +144,6 @@ Artículos en inglés:
   misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo), en caso que quieras conocer más de mis gustos musicales."
 
   about: "Acerca de este sitio"
-  about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Octicons](https://octicons.github.com/) y [Genericons](http://genericons.com/) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
+  about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Icomoon](https://icomoon.io) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
 
   lastgenerated: "Sitio generado por última vez:"

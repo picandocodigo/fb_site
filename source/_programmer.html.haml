@@ -1,8 +1,8 @@
 %section.hiddable
   %h2#programmer
-    %span{class: 'mega-octicon octicon-file-code'}
+    %span{class: 'icon-embed2'}
     = t(:programmer)
-    %span{class: 'mega-octicon octicon-chevron-down right'}
+    %span{class: 'icon-chevron-down right'}
 
   -# Start hidden part
   #programming.unit.visible.hiddable_content
@@ -13,9 +13,9 @@
     -# RubyGems
     .hiddable
       %h3
-        %span{class: 'octicon octicon-ruby'}
+        %span{class: 'icon-ruby'}
         = t(:rubygems)
-        %span{class: 'octicon octicon-chevron-down right'}
+        %span{class: 'icon-chevron-down right'}
 
       .hidden.hiddable_content
         - gems = rubygems
@@ -31,9 +31,9 @@
     -# Open Data
     .hiddable
       %h3
-        %span{class: 'octicon octicon-database'}
+        %span{class: 'icon-database'}
         =t("opendata.title")
-        %span{class: 'octicon octicon-chevron-down right'}
+        %span{class: 'icon-chevron-down right'}
 
       .hidden.hiddable_content
         =text("opendata.content")
@@ -51,9 +51,9 @@
     -# WordPress
     .hiddable
       %h3
-        %span{class: 'genericon genericon-wordpress'}
+        %span{class: 'icon-wordpress'}
         =t(:wordpress)
-        %span{class: 'octicon octicon-chevron-down right'}
+        %span{class: 'icon-chevron-down right'}
 
       .hidden.hiddable_content
         =text(:wordpress_content)
@@ -78,9 +78,9 @@
     -# Other projects
     .hiddable
       %h3
-        %span{class:'genericon genericon-website'}
+        %span{class:'icon-headphones'}
         =t(:otherprojects)
-        %span{class: 'octicon octicon-chevron-down right'}
+        %span{class: 'icon-chevron-down right'}
 
       .hidden.hiddable_content
         =text(:otherprojects_content)
