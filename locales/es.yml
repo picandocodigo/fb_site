@@ -84,6 +84,10 @@ Artículos en inglés:
 
   Algunas de las conferencias que recuerdo haber asistido:
 
+  - **2021** - Elastic Community - 10 de agosto - Di una charla en un livestream sobre Ruby y Elasticsearch. <a href='https://www.youtube.com/watch?v=RfA_2eO-21k&t=8s' target='_blank' rel='nofollow'>Video</a>.
+
+  - **2020** - Elastic Community Webinar - 10 de noviembre - Di una charla 'Introduction into the Elastic Enterprise Search Clients'. <a href='https://www.youtube.com/watch?v=l-X-kT2lJHk' target='_blank' rel='nofollow'>Video</a>.
+
   - **2020** - ElasticON Global - 13 al 15 de octubre - Conferencia remota. Di una charla sobre los clientes Elastic Enterprise Search como parte de *The Elastic clients: Recent developments*
 
   - **2020** - Brighton Ruby - 3 de julio - Conferencia remota
@@ -141,7 +145,7 @@ Artículos en inglés:
   - **2007** - JavaUy 2007 - 11 y 13 de octubre de 2007 - Montevideo, Uruguay"
 
   misc: "Otros"
-  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo), en caso que quieras conocer más de mis gustos musicales."
+  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo) y mi [Bandcamp](https://bandcamp.com/entropiarecords), en caso que quieras saber más de mis gustos musicales."
 
   about: "Acerca de este sitio"
   about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Icomoon](https://icomoon.io) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?a43w38');
+  src:  url('fonts/icomoon.eot?a43w38#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?a43w38') format('truetype'),
+    url('fonts/icomoon.woff?a43w38') format('woff'),
+    url('fonts/icomoon.svg?a43w38#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-down:before {
+  content: "\e903";
+}
+.icon-microphone:before {
+  content: "\e900";
+}
+.icon-voice:before {
+  content: "\e900";
+}
+.icon-record:before {
+  content: "\e900";
+}
+.icon-mastodon:before {
+  content: "\e901";
+  color: #3088d4;
+}
+.icon-ruby:before {
+  content: "\e902";
+  color: #cc342d;
+}
+.icon-pencil2:before {
+  content: "\e906";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-wordpress:before {
+  content: "\eab4";
+}
