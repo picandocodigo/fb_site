@@ -8,5 +8,6 @@ gem 'middleman-deploy',
 gem 'middleman-livereload'
 gem 'middleman-sprockets'
 gem 'nokogiri'
+gem 'rake'
 gem 'redcarpet'
 gem 'rubocop'
