@@ -1,0 +1,16 @@
+name: publish
+on: workflow_dispatch
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+    - name: Publish page
+      env:
+        GITHUB_AUTH_TOKEN: ${{secrets.GITHUB}}
+        RUBYGEMS: picandocodigo
+        WORDPRESS: fernandobt
+      run: bundle install && bundle exec rake publish
