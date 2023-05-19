@@ -1,5 +1,11 @@
 name: publish
-on: workflow_dispatch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * 2'
+    - cron: '0 7 * * 4'
+
 jobs:
   publish:
     runs-on: ubuntu-latest
