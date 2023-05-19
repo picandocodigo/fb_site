@@ -13,7 +13,8 @@ jobs:
         GITHUB_AUTH_TOKEN: ${{secrets.GITHUB}}
         RUBYGEMS: picandocodigo
         WORDPRESS: fernandobt
-      run: bundle exec rake build &&
+      run: bundle install &&
+             bundle exec rake build &&
              git checkout gh-pages &&
              cp build/* . &&
              git add . &&
