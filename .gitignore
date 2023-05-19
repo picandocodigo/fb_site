@@ -19,3 +19,5 @@
 
 lib/.env
 .byebug_history
+
+Gemfile.lock
