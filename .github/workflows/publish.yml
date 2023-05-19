@@ -16,6 +16,6 @@ jobs:
       run: bundle install &&
              bundle exec middleman build --verbose &&
              git checkout -b gh-pages &&
-             cp build/* . &&
+             cp build/* . -r &&
              git add . &&
              git push
