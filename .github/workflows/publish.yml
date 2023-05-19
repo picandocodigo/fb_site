@@ -15,7 +15,13 @@ jobs:
         WORDPRESS: fernandobt
       run: bundle install &&
              bundle exec middleman build --verbose &&
+             git config --global user.name "Fernando Briano" &&
+             git config --global user.email "fernando@picandocodigo.net" &&
+             git fetch &&
              git checkout -b gh-pages &&
+             git branch --set-upstream-to=origin/gh-pages gh-pages &&
+             git reset --hard origin/gh-pages &&
              cp build/* . -r &&
              git add . &&
-             git push
+             git commit -m "`date` Updates gh-pages" &&
+             git push --set-upstream origin gh-pages
