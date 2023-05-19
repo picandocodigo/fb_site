@@ -15,7 +15,7 @@ jobs:
         WORDPRESS: fernandobt
       run: bundle install &&
              bundle exec middleman build --verbose &&
-             git checkout gh-pages &&
+             git checkout -b gh-pages &&
              cp build/* . &&
              git add . &&
              git push
