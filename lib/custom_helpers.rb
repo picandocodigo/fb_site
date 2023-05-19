@@ -11,7 +11,7 @@ module CustomHelpers
   end
 
   def github
-    GitHub.getstuff(env['GITHUB_AUTH_TOKEN'])
+    GitHub.getstuff(env['GITHUB'] || env['GITHUB_AUTH_TOKEN'])
   end
 
   def time

@@ -19,13 +19,15 @@ module GitHub
   end
 
   def self.auth_token
-    env = File.expand_path(__dir__ + '/.env')
+    if File.exist?(File.expand_path(__dir__ + '/.env'))
+      env = File.expand_path(__dir__ + '/.env')
 
-    File.readlines(env).each do |line|
-      values = line.split('=')
-      ENV[values[0]] = values[1]
+      File.readlines(env).each do |line|
+        values = line.split('=')
+        ENV[values[0]] = values[1]
+      end
     end
-    ENV['GITHUB_AUTH_TOKEN']
+    ENV['GITHUB_AUTH_TOKEN'] || ENV['GITHUB']
   end
 
   def self.projects(data)
