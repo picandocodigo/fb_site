@@ -11,7 +11,7 @@ module CustomHelpers
   end
 
   def github
-    GitHub.getstuff(env['GITHUB_AUTH_TOKEN'])
+    GitHub.getstuff(env['GITHUB'] || env['GITHUB_AUTH_TOKEN'])
   end
 
   def time
@@ -47,13 +47,22 @@ module CustomHelpers
   private
 
   def env
-    env = File.expand_path(__dir__ + '/.env')
-    env_vars = {}
+    if File.exist?(File.expand_path(__dir__ + '/.env'))
+      env = File.expand_path(__dir__ + '/.env')
+      env_vars = {}
 
-    File.readlines(env).each do |line|
-      values = line.split('=')
-      env_vars[values[0]] = values[1].delete("\n")
+      File.readlines(env).each do |line|
+        values = line.split('=')
+        env_vars[values[0]] = values[1].delete("\n")
+      end
+      env_vars
+    else
+      {
+        'GITHUB' => ENV['GITHUB'],
+        'WORDPRESS' => ENV['WORDPRESS'],
+        'RUBYGEMS' => ENV['RUBYGEMS'],
+        'GITHUB_AUTH_TOKEN' => ENV['GITHUB_AUTH_TOKEN']
+      }
     end
-    env_vars
   end
 end
