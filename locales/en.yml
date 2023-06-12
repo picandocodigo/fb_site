@@ -81,7 +81,7 @@ Posts in English:
   - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
 
   speaker: "Conferences"
-  speaker_content: "I like going to conferences and I've done some talks about Ruby, Open Data, work, programming and other subjects in meetups and some conferences. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo).
+  speaker_content: "I like going to conferences and I've done talks about Ruby, Open Data, work, programming and other subjects in meetups, conferences and I've been invited to talk at some Universities. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo).
 
   Some of the conferences I remember having been to:
 
@@ -146,9 +146,22 @@ Posts in English:
   - **2007** - JavaUy 2007 - 11th-12th October, 2007 - Montevideo, Uruguay"
 
   misc: "Other stuff"
-  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music."
+  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. These are the CD's we've released so far:
+
+- Chango Munks – We Want All Your Minds. Scotland, 2022
+
+- Punkzer – 10:10. Uruguay, 2016
+
+- Artista Desconocido – Album sin título. Uruguay, 2015
+
+- Gogo Squat – Gogoland. Uruguay, 2010
+
+- Nada Que Hacer – Punto Impropio. Uruguay, 2009
+
+
+It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music."
 
   about: "About this site"
-  about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
+  about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
 
   lastgenerated: "Site last generated:"
