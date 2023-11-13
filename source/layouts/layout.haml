@@ -30,6 +30,8 @@
         = partial 'languages', locals: {lang: lang}
       .col-1-1
         = partial 'contact'
+      .col-1-1
+        = text(:description)
       = yield
       #footer
         =tag :img, src: "/images/pc.png"

@@ -1,11 +1,11 @@
 ---
 es:
   title: Fernando Briano
-  description: "Desarrollador de software de Uruguay viviendo en Escocia."
+  description: "Soy programador de computadoras de Uruguay viviendo en Escocia. Este es mi sitio web personal, pero mi rinconcito principal de internet es mi blog [Picando Código](https://picandocodigo.net) donde he estado escribiendo desde 2007."
   programmer: "Programador"
-  programmer_content: "Soy Ingeniero de Software en <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='/images/elastic.png'> Elastic</a>. Se puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo) y mantengo <a href='/cv'>mi CV</a> en este sitio."
-  free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Podés ayudar al Software Libre [uniéndote a la Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
-  programming_languages: "Los lenguajes de programación más frecuentes en mis proyectos de GitHub son:"
+  programmer_content: "Trabajo con computadoras, más que nada escribiendo código. Se puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo) y mantengo <a href='/cv'>mi CV</a> en este sitio."
+  free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Podés ayudar al Software Libre [uniéndote a la Free Software Foundation](https://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
+  programming_languages: "Mi lenguage de programación favorito es <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, pero he escrito código en varios lenguajes a lo largo de mi carrera.<br/>Los lenguajes de programación más frecuentes en mis proyectos de GitHub son:"
 
   rubygems: "Gemas Ruby que mantengo"
   personal: "Gemas Personales"
@@ -13,41 +13,41 @@ es:
 
 
   wordpress: "Desarrollo WordPress"
-  wordpress_content: "Soy usuario de WordPress desde hace un buen tiempo, hice varios sitios y [desarroll&eacute; algunos plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). Mi perfil en la comunidad de WordPress.org es [fernandobt](http://profiles.wordpress.org/users/fernandobt/). Tambi&eacute;n contribu&iacute;a en el sitio [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando).\n\n**Plugins:**"
+  wordpress_content: "Soy usuario de WordPress desde hace un buen tiempo, hice varios sitios y [desarroll&eacute; algunos plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). Mi perfil en la comunidad de WordPress.org es [fernandobt](https://profiles.wordpress.org/users/fernandobt/). Tambi&eacute;n contribu&iacute;a en el sitio [WordPress Answers](https://wordpress.stackexchange.com/users/298/fernando).\n\n**Plugins:**"
 
   opendata:
     title: "Datos Abiertos"
-    content: "Creo que aprovechar los Datos Abiertos es una de las maneras que tenemos como programadores para hacer del mundo un lugar mejor. He participado en algunos proyectos de Datos Abiertos y eventos y soy miembro de [DATA](http://datauy.org). Ac&aacute; est&aacute;n algunos de los proyectos en los que he trabajado:"
+    content: "Creo que aprovechar los Datos Abiertos es una de las maneras que tenemos como programadores para hacer del mundo un lugar mejor. He participado en algunos proyectos de Datos Abiertos y eventos y soy miembro de [DATA](https://datauy.org). Ac&aacute; est&aacute;n algunos de los proyectos en los que he trabajado:"
     project1:
       title: "Montevideo Bicis"
       description: "Sitio web con información de Datos Abiertos pertinentes a ciclistas en la ciudad de Montevideo."
-      links: "[Website](http://montevideobicis.com) | [en Github](https://github.com/picandocodigo/montevideo-bicis)"
+      links: "[Website](https://montevideobicis.com) | [en Github](https://github.com/picandocodigo/montevideo-bicis)"
     project2:
       title: "AtuServicio.uy"
-      description: "Aplicación en la que trabajé con [DATA](http://datauy.org) que usa datos abiertos del Ministerio de Salud Pública para ayudar a los usuarios a comparar mutualistas y elegir la que más les sirva."
-      links: "[Website](http://atuservicio.uy) | [Project on GitHub](https://github.com/datauy/atuservicio_rails/)"
+      description: "Aplicación en la que trabajé con [DATA](https://datauy.org) que usa datos abiertos del Ministerio de Salud Pública para ayudar a los usuarios a comparar mutualistas y elegir la que más les sirva."
+      links: "[Website](https://atuservicio.uy) | [Project on GitHub](https://github.com/datauy/atuservicio_rails/)"
     project3:
       title: "MNAV API - API para los datos abiertos del museo MNAV"
       description: "API que usa Datos Abiertos del Museo Nacional de Artes Visuales y provee información en JSON y XML."
       links: "[Sitio Web](https://mnav.herokuapp.com/) | [Proyecto en GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [App frontend de ejemplo](https://mnavf.herokuapp.com/)"
     project4:
       title: "Ombudsman"
-      description: "Plataforma de Datos Abiertos para reportar problemas en tu ciudad como luces rotas, pozos, etc. Hecho durante la hackatón [Desarrollando América Latina](http://desarrollandoamerica.org/) 2013."
+      description: "Plataforma de Datos Abiertos para reportar problemas en tu ciudad como luces rotas, pozos, etc. Hecho durante la hackatón [Desarrollando América Latina](https://desarrollandoamerica.org/) 2013."
       links: "[Proyecto inicial](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)"
     project5:
       title: "Mo&ntilde;ita Azul"
-      description: "Proyecto de Datos Abiertos para la hackatón [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012."
-      links: "[Sitio web](http://dal.picandocodigo.org/) | [Proyecto en GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
+      description: "Proyecto de Datos Abiertos para la hackatón [Desarrollando América Latina](https://desarrollandoamerica.org/) 2012."
+      links: "[Sitio web](https://dal.picandocodigo.org/) | [Proyecto en GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
 
   otherprojects: "Otros proyectos"
   otherprojects_content: "Otros proyectos que he creado:\n
-    * **[Super Simple Time Tracker](http://supertimetracker.com/)** - Un gestor de horas para usar en tu navegador web o como aplicación web. No requiere registro ni inicio de sesión. [Código fuente](https://github.com/picandocodigo/supertimetracker).\n
-  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - Validador de la Cédula Uruguaya en JavaScript. [Código fuente](https://github.com/picandocodigo/ci_js) - [plugin jQuery](http://plugins.jquery.com/ci/).\n
-  * **[Emacs.sexy](http://emacs.sexy)** - Sitio web para promover Emacs.\n
-  * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - Sitio web/aplicación web que hice por diversión. [Código fuente](https://github.com/picandocodigo/instantoh)"
+    * **[Super Simple Time Tracker](https://supertimetracker.com/)** - Un gestor de horas para usar en tu navegador web o como aplicación web. No requiere registro ni inicio de sesión. [Código fuente](https://github.com/picandocodigo/supertimetracker).\n
+  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - Validador de la Cédula Uruguaya en JavaScript. [Código fuente](https://github.com/picandocodigo/ci_js) - [plugin jQuery](https://plugins.jquery.com/ci/).\n
+  * **[Emacs.sexy](https://emacs.sexy)** - Sitio web para promover Emacs.\n
+  * **[Instant 'Oh, The Humanity'](https://instantohthehumanity.com)** - Sitio web/aplicación web que hice por diversión. [Código fuente](https://github.com/picandocodigo/instantoh)"
 
   writing: "Escritura"
-  writing_content: "Disfruto mucho de escribir y lo vengo haciendo en mi blog personal **[Picando Código](http://picandocodigo.net)** desde 2007.<br><br>
+  writing_content: "Disfruto mucho de escribir y lo vengo haciendo en mi blog personal **[Picando Código](https://picandocodigo.net)** desde 2007.<br><br>
 
 Artículos para otros medios en español:
 
@@ -80,7 +80,7 @@ Artículos en inglés:
   - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
 
   speaker: "Conferencias"
-  speaker_content: "He dado charlas sobre Ruby, Datos Abiertos, trabajo, programación y otros temas en meetups y algunas conferencias. También trabajé en la organización de **RubyConf Uruguay** y varios Meetups de Ruby en Montevideo así como otros eventos relacionados.\n\nPod&eacute;s encontrar algunas de mis presentaciones en [SpeakerDeck](http://speakerdeck.com/picandocodigo).
+  speaker_content: "He dado charlas sobre Ruby, Datos Abiertos, trabajo, programación y otros temas en meetups y algunas conferencias. También trabajé en la organización de **RubyConf Uruguay** y varios Meetups de Ruby en Montevideo así como otros eventos relacionados.\n\nPod&eacute;s encontrar algunas de mis presentaciones en [SpeakerDeck](https://speakerdeck.com/picandocodigo).
 
   Algunas de las conferencias que recuerdo haber asistido:
 
@@ -102,7 +102,7 @@ Artículos en inglés:
 
   - **2017** - EuRuKo 2017 - 29 y 30 de setiembre - Budapest, Hungría
 
-  - **2015** - Ruby Onlineconf - 4 de diciembre - Conferencia Online - Di una charla sobre <a href='http://picandocodigo.github.io/ruby_onlineconf/'>Ruby, Linux y Software Libre</a>
+  - **2015** - Ruby Onlineconf - 4 de diciembre - Conferencia Online - Di una charla sobre <a href='https://picandocodigo.github.io/ruby_onlineconf/'>Ruby, Linux y Software Libre</a>
 
   - **2015** - JSConfUY 2015 - 24 y 25 de abril 2015 - Uruguay, Montevideo
 
@@ -144,10 +144,10 @@ Artículos en inglés:
 
   - **2007** - JavaUy 2007 - 11 y 13 de octubre de 2007 - Montevideo, Uruguay"
 
-  misc: "Otros"
-  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](http://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo) y mi [Bandcamp](https://bandcamp.com/entropiarecords), en caso que quieras saber más de mis gustos musicales."
+  misc: "Música"
+  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](https://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo) y mi [Bandcamp](https://bandcamp.com/entropiarecords), en caso que quieras saber más de mis gustos musicales."
 
   about: "Acerca de este sitio"
-  about_content: "Este sitio estático es generado dinámicamente con [Middleman](http://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Icomoon](https://icomoon.io) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
+  about_content: "Este sitio estático es generado dinámicamente con [Middleman](https://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Icomoon](https://icomoon.io) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."
 
   lastgenerated: "Sitio generado por última vez:"

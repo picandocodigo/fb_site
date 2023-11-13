@@ -1,52 +1,52 @@
 ---
 en:
   title: Fernando Briano
-  description: "Software developer from Uruguay currently living in Scotland."
-  programmer: "Programmer"
-  programmer_content: "I'm a Software Engineer at <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a>. You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>."
-  free_software_content: "I use GNU/Linux and free software when possible. You can help Free Software by [joining the Free Software Foundation](http://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
-  programming_languages: "My favourite programming language right now is Ruby, but I've written code in several languages along my career. The top programming languages from my repositories on GitHub are:"
+  description: "I am a computer programmer from Uruguay who lives in Scotland. This is my personal website, but my main small corner of the internet is my blog [Picando Código](https://picandocodigo.net) where I've been blogging since 2007."
+  programmer: "Programming"
+  programmer_content: "I work with computers mostly writing code. You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>."
+  free_software_content: "I use GNU/Linux and free software when possible. You can help Free Software by [joining the Free Software Foundation](https://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
+  programming_languages: "My favourite programming language is <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, but I've written code in several languages along my career.<br/>The top programming languages from my repositories on GitHub are:"
 
   rubygems: "RubyGems I maintain"
   personal: "Personal gems"
   elastic_gems: "<a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a> gems"
 
   wordpress: "WordPress Development"
-  wordpress_content: "I have used WordPress for quite some time, built many websites with it and [developed some plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). My profile on the WordPress.org community is [fernandobt](http://profiles.wordpress.org/users/fernandobt/). I used to contribute on [WordPress Answers](http://wordpress.stackexchange.com/users/298/fernando) too.\n\n**Plugins I developed:**"
+  wordpress_content: "I have used WordPress for quite some time, built many websites with it and [developed some plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). My profile on the WordPress.org community is [fernandobt](https://profiles.wordpress.org/users/fernandobt/). I used to contribute on [WordPress Answers](https://wordpress.stackexchange.com/users/298/fernando) too.\n\n**Plugins I developed:**"
 
   opendata:
     title: "Open Data Projects"
-    content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events and I'm a member of [DATA](http://datauy.org): an Open Data, transparency and information access NGO. Here are some projects I've worked on:"
+    content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events and I'm a member of [DATA](https://datauy.org): an Open Data, transparency and information access NGO. Here are some projects I've worked on:"
     project1:
       title: "Montevideo Bicis"
       description: "Personal project, website with open data information related to cycling in the city of Montevideo"
-      links: "[Website](http://montevideobicis.com) | [Github](https://github.com/picandocodigo/montevideo-bicis)"
+      links: "[Website](https://montevideobicis.com) | [Github](https://github.com/picandocodigo/montevideo-bicis)"
     project2:
       title: "AtuServicio.uy"
-      description: "An app I worked on with [DATA](http://datauy.org) which uses open data from the Public Health Ministry to help users compare health companies and decide which one is best for them"
-      links: "[Website](http://atuservicio.uy) | [Project on GitHub](https://github.com/datauy/atuservicio_rails/)"
+      description: "An app I worked on with [DATA](https://datauy.org) which uses open data from the Public Health Ministry to help users compare health companies and decide which one is best for them"
+      links: "[Website](https://atuservicio.uy) | [Project on GitHub](https://github.com/datauy/atuservicio_rails/)"
     project3:
       title: "MNAV API - API for the MNAV Museum Open Data"
       description: "Personal project, an API that uses Open Data from Museo Nacional de Artes Visuales and provides this information in JSON and XML."
       links: "[Website](https://mnav.herokuapp.com/) | [Project on GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [Frontend example app](https://mnavf.herokuapp.com/)"
     project4:
       title: "Ombudsman"
-      description: "Open data platform to report issues in your city such as broken lights, puddles, etc. Built during the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2013 hackathon."
+      description: "Open data platform to report issues in your city such as broken lights, puddles, etc. Built during the [Desarrollando América Latina](https://desarrollandoamerica.org/) 2013 hackathon."
       links: "[Initial project](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)"
     project5:
       title: "Mo&ntilde;ita Azul"
-      description: "Open Data project for the [Desarrollando América Latina](http://desarrollandoamerica.org/) 2012 hackathon."
-      links: "[Website](http://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
+      description: "Open Data project for the [Desarrollando América Latina](https://desarrollandoamerica.org/) 2012 hackathon."
+      links: "[Website](https://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
 
   otherprojects: "Other projects"
   otherprojects_content: "Some other projects I've created:\n
-  * **[Super Simple Time Tracker](http://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n
-  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - JavaScript Uruguayan document validator. [Source Code](https://github.com/picandocodigo/ci_js) - [jQuery plugin](http://plugins.jquery.com/ci).\n
-  * **[Emacs.sexy](http://emacs.sexy)** - Website to promote Emacs. [Source Code](https://github.com/picandocodigo/emacs.sexy)\n
-  * **[Instant 'Oh, The Humanity'](http://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
+  * **[Super Simple Time Tracker](https://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n
+  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - JavaScript Uruguayan document validator. [Source Code](https://github.com/picandocodigo/ci_js) - [jQuery plugin](https://plugins.jquery.com/ci).\n
+  * **[Emacs.sexy](https://emacs.sexy)** - Website to promote Emacs. [Source Code](https://github.com/picandocodigo/emacs.sexy)\n
+  * **[Instant 'Oh, The Humanity'](https://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
 
   writing: "Writing"
-  writing_content: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](http://picandocodigo.net)** since 2007.
+  writing_content: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](https://picandocodigo.net)** since 2007.
 
 
   Articles for other media in Spanish:
@@ -81,7 +81,7 @@ Posts in English:
   - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
 
   speaker: "Conferences"
-  speaker_content: "I like going to conferences and I've done talks about Ruby, Open Data, work, programming and other subjects in meetups, conferences and I've been invited to talk at some Universities. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](http://speakerdeck.com/picandocodigo).
+  speaker_content: "I like going to conferences and I've done talks about Ruby, Open Data, work, programming and other subjects in meetups, conferences and I've been invited to talk at some Universities. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](https://speakerdeck.com/picandocodigo).
 
   Some of the conferences I remember having been to:
 
@@ -103,7 +103,7 @@ Posts in English:
 
   - **2017** - EuRuKo 2017 - 29th and 30th of September - Budapest, Hungary
 
-  - **2015** - Ruby Onlineconf - 4th of December - Online conference - I gave a talk about Ruby, Linux and Free Software. <a href='https://www.youtube.com/watch?v=YMJL0jN4yyk' target='_blank' rel='nofollow'>Video (in Spanish)</a>, <a href='http://picandocodigo.github.io/ruby_onlineconf/' target='_blank' rel='nofollow'>slides</a>.
+  - **2015** - Ruby Onlineconf - 4th of December - Online conference - I gave a talk about Ruby, Linux and Free Software. <a href='https://www.youtube.com/watch?v=YMJL0jN4yyk' target='_blank' rel='nofollow'>Video (in Spanish)</a>, <a href='https://picandocodigo.github.io/ruby_onlineconf/' target='_blank' rel='nofollow'>slides</a>.
 
   - **2015** - JSConfUY 2015 - 24th–25th April 2015 - Uruguay, Montevideo
 
@@ -145,8 +145,8 @@ Posts in English:
 
   - **2007** - JavaUy 2007 - 11th-12th October, 2007 - Montevideo, Uruguay"
 
-  misc: "Other stuff"
-  misc_content: "I run an independent punk rock record label: [**Entropía Records**](http://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. These are the CD's we've released so far:
+  misc: "Music"
+  misc_content: "I run an independent punk rock record label: [**Entropía Records**](https://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. These are the CD's we've released so far:
 
 - Chango Munks – We Want All Your Minds. Scotland, 2022
 
@@ -162,6 +162,6 @@ Posts in English:
 It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music."
 
   about: "About this site"
-  about_content: "This static site is generated dynamically with [Middleman](http://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
+  about_content: "This static site is generated dynamically with [Middleman](https://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
 
   lastgenerated: "Site last generated:"
