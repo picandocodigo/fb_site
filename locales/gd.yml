@@ -1,0 +1,167 @@
+---
+gd:
+  title: Fernando Briano
+  description: "Is mise Fernando. 'S e einnseanair bathair-bog a th annam. Tha mi à Uruguaidh, ach tha mi a fuireach ann an Alba. Tha an làrach-lìn pearsanta agam a tha seo, ach tha an bloga agam am prìomh làrach-lìn agam [Picando Código](https://picandocodigo.net) fo tha mi air a bhith a' sgrìbhadh bhon 2007. Tha mi ag ionnsachadh Gàidhlig, tha beagan Gàidhlig agam an-drasta, ach is fheàrr Gàidhlig bhriste na Gàidhlig anns a chiste. Tha mi a deanamh Gàdhlig air an Oilthigh ann an Dùn Èideann agus SpeakGaelic, Duolingo agus àite sam bith eile."
+  programmer: "Prògramadh"
+  programmer_content: "Tha mi ag obair le coimpiutairean còd a sgrìobadh. Seall an còd agam air <a href='https://github.com/picandocodigo'>GitHub</a>. Seall an <a href='/cv'>CV agam</a>."
+  free_software_content: "Tha mi a' cleachdadh GNU/Linux agus bathar-bog saor. Tha mi a' cleachdadh [Mozilla Firefox](https://getfirefox.com) air eadar-lìon agus [Emacs](https://www.gnu.org/software/emacs/) airson a sgriobhadh còd agus facail."
+  programming_languages: "Is fheàrr leam <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span> airson bathair-bog a sgrìobhadh, ach tha mòran cànainean eile agam. <br/>Tha na cànainean air GitHub agam an seo:"
+
+  rubygems: "RubyGems"
+  personal: "Personal gems"
+  elastic_gems: "<a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a> gems"
+
+  wordpress: "WordPress Development"
+  wordpress_content: "I have used WordPress for quite some time, built many websites with it and [developed some plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). My profile on the WordPress.org community is [fernandobt](https://profiles.wordpress.org/users/fernandobt/). I used to contribute on [WordPress Answers](https://wordpress.stackexchange.com/users/298/fernando) too.\n\n**Plugins I developed:**"
+
+  opendata:
+    title: "Open Data Projects"
+    content: "I think taking advantage of Open Data is one of the ways we, as programmers, can make the world a better place. I have worked on some Open Data projects and events and I'm a member of [DATA](https://datauy.org): an Open Data, transparency and information access NGO. Here are some projects I've worked on:"
+    project1:
+      title: "Montevideo Bicis"
+      description: "Personal project, website with open data information related to cycling in the city of Montevideo"
+      links: "[Website](https://montevideobicis.com) | [Github](https://github.com/picandocodigo/montevideo-bicis)"
+    project2:
+      title: "AtuServicio.uy"
+      description: "An app I worked on with [DATA](https://datauy.org) which uses open data from the Public Health Ministry to help users compare health companies and decide which one is best for them"
+      links: "[Website](https://atuservicio.uy) | [Project on GitHub](https://github.com/datauy/atuservicio_rails/)"
+    project3:
+      title: "MNAV API - API for the MNAV Museum Open Data"
+      description: "Personal project, an API that uses Open Data from Museo Nacional de Artes Visuales and provides this information in JSON and XML."
+      links: "[Website](https://mnav.herokuapp.com/) | [Project on GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [Frontend example app](https://mnavf.herokuapp.com/)"
+    project4:
+      title: "Ombudsman"
+      description: "Open data platform to report issues in your city such as broken lights, puddles, etc. Built during the [Desarrollando América Latina](https://desarrollandoamerica.org/) 2013 hackathon."
+      links: "[Initial project](https://github.com/picandocodigo/ombuduy) | [API](https://github.com/picandocodigo/ombuduy_api) | [Twitter worker](https://github.com/picandocodigo/ombuduy-twitter)"
+    project5:
+      title: "Mo&ntilde;ita Azul"
+      description: "Open Data project for the [Desarrollando América Latina](https://desarrollandoamerica.org/) 2012 hackathon."
+      links: "[Website](https://dal.picandocodigo.org/) | [Project on GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
+
+  otherprojects: "Other projects"
+  otherprojects_content: "Some other projects I've created:\n
+  * **[Super Simple Time Tracker](https://supertimetracker.com/)** - A Time Tracker to use in your web browser or as a web app. No log in or register required. [Source code](https://github.com/picandocodigo/supertimetracker).\n
+  * **[ci_js](https://picandocodigo.github.io/ci_js/)** - JavaScript Uruguayan document validator. [Source Code](https://github.com/picandocodigo/ci_js) - [jQuery plugin](https://plugins.jquery.com/ci).\n
+  * **[Emacs.sexy](https://emacs.sexy)** - Website to promote Emacs. [Source Code](https://github.com/picandocodigo/emacs.sexy)\n
+  * **[Instant 'Oh, The Humanity'](https://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
+
+  writing: "Sgrìobhadh"
+  writing_content: "Is toil leam sgrìobhadh. Cha robh mi air sgrìobhadh sa Ghàidhlig fhathast, ach tha mi an dochas bidh mi as sgrìobhadh Gàidhlig luath. Tha mi a sgrìobhadh ann an bloga agam oir 2007 anns an Spàinntis **[Picando Código](https://picandocodigo.net)**.
+
+
+  Articles for other media in Spanish:
+
+  - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Article about internet privacy.
+
+  - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[La ética hacker](https://ladiaria.com.uy/articulo/2018/3/la-etica-hacker/)** - article about hacker ethics.
+
+  - Interview for Sputnik: **[Hackers: ¿amigos o enemigos de los ciudadanos?](https://mundo.sputniknews.com/mundo/201804021077545354-hacker-informatica-software-privacidad/)**
+
+  - [Interview for Underground about my record label Entropía Records](https://underground.com.uy/entropia/)
+
+
+Posts in English:
+
+  - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 9 - thegamesdb Gem - Get Donkey Kong, Super Mario Bros., The Legend of Zelda ‘n’ More. API Client for TheGamesDB, an Open Database for Video Game Data](https://planetruby.github.io/gems/2020/09-thegamesdb.html).
+
+  - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
+
+  - <img src='images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python).
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
+
+  - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
+
+  speaker: "Conferences"
+  speaker_content: "I like going to conferences and I've done talks about Ruby, Open Data, work, programming and other subjects in meetups, conferences and I've been invited to talk at some Universities. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](https://speakerdeck.com/picandocodigo).
+
+  Some of the conferences I remember having been to:
+
+  - **2021** - Elastic Community - 10 August - Elasticsearch & Ruby. A livestream focused on using Ruby and Elasticsearch together. <a href='https://www.youtube.com/watch?v=RfA_2eO-21k&t=8s' target='_blank' rel='nofollow'>Video</a>.
+
+  - **2020** - Elastic Community Webinar - 10 November - Introduction into the Elastic Enterprise Search Clients. <a href='https://www.youtube.com/watch?v=l-X-kT2lJHk' target='_blank' rel='nofollow'>Video</a>.
+
+  - **2020** - ElasticON Global - 13-15 October - Remote conference. Gave a talk about the Elastic Enterprise Search clients as part of *The Elastic clients: Recent developments*
+
+  - **2020** - Brighton Ruby - July 3rd - Remote conference
+
+  - **2019** - Code Elixir London 2019 - 18th July 2019 - London, England
+
+  - **2018** - WordCamp Edinburgh 2018 - 17th & 18th November 2018 - Edinburgh, Scotland
+
+  - **2018** - Elixir Conf EU 2018 - 16-17 April 2018, Training 18 April 2018 - Warsaw, Poland
+
+  - **2018** - Bath Ruby Conference 2018 - 22nd-23rd March 2018 - Bath, England
+
+  - **2017** - EuRuKo 2017 - 29th and 30th of September - Budapest, Hungary
+
+  - **2015** - Ruby Onlineconf - 4th of December - Online conference - I gave a talk about Ruby, Linux and Free Software. <a href='https://www.youtube.com/watch?v=YMJL0jN4yyk' target='_blank' rel='nofollow'>Video (in Spanish)</a>, <a href='https://picandocodigo.github.io/ruby_onlineconf/' target='_blank' rel='nofollow'>slides</a>.
+
+  - **2015** - JSConfUY 2015 - 24th–25th April 2015 - Uruguay, Montevideo
+
+  - **2015** - 3rd International Open Data Conference 2015 -  28th–29th May 2015 - Ottawa, Canada
+
+  - **2014** - Scottish Ruby Conference 2014 - 12th–13th May 2014 - Perthshire, Scotland
+
+  - **2014** - ScotlandJS 2014 - 9th–10th May 2014 - Edinburgh, Scotland
+
+  - **2014** - RubyConf Uruguay - 23rd–24th May 2014 - Montevideo, Uruguay (gave a talk).
+
+  - **2014** - RubyConf Argentina 2014 - 24th–25th October 2014 - Buenos Aires, Argentina
+
+  - **2014** - JSConfUY 2014 - 14th–15th March 2014 - Montevideo, Uruguay - I gave a workshop about Firefox OS.
+
+  - **2013** - tech MeetupUY 2013 - 23rd November 2013 = Montevideo, Uruguay
+
+  - **2013** - Scottish Ruby Conference 2013 - 12th–13th May 2013 - Perthshire, Scotland
+
+  - **2013** - ScotlandJS 2013 -  9th–10th May 2013 - Edinburgh, Scotland
+
+  - **2013** - RubyConf Uruguay 2013 - 22nd–23rd March 2013 - Montevideo, Uruguay
+
+  - **2013** - RubyConf Argentina 2013 - 27th–28th November 2013 - Buenos Aires, Argentina
+
+  - **2013** - Conferencia Sobre Datos Abiertos en América Latina y el Caribe - 26th–27th June 2013 - Montevideo, Uruguay
+
+  - **2012** - RubyConf Argentina 2012 - 19th–20th October 2012 - Buenos Aires, Argentina
+
+  - **2012** - PyConUy 2012 - 10th–11th November 2012 - Montevideo, Uruguay
+
+  - **2012** - Mozilla MDN Hack Day in Montevideo - 24th April 2012 - Montevideo, Uruguay - I [gave a talk](https://github.com/picandocodigo/charla-mdn-2012-mvd) about the web as a tool for social change
+
+  - **2012** - BrazilJS - 30th–31st August 2012 - Porto Alegre, Brazil
+
+  - **2011** - Rubyconf Uruguay - Montevideo, Uruguay
+
+  - **2010** - Rubyconf Uruguay - Montevideo, Uruguay
+
+  - **2007** - JavaUy 2007 - 11th-12th October, 2007 - Montevideo, Uruguay"
+
+  misc: "Ceòl"
+  misc_content: "I run an independent punk rock record label: [**Entropía Records**](https://entropiarecords.com). I've published some albums from local bands and produced and helped with several gigs. These are the CD's we've released so far:
+
+- Chango Munks – We Want All Your Minds. Scotland, 2022
+
+- Punkzer – 10:10. Uruguay, 2016
+
+- Artista Desconocido – Album sin título. Uruguay, 2015
+
+- Gogo Squat – Gogoland. Uruguay, 2010
+
+- Nada Que Hacer – Punto Impropio. Uruguay, 2009
+
+
+It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music."
+
+  about: "About this site"
+  about_content: "This static site is generated dynamically with [Middleman](https://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
+
+  lastgenerated: "Site last generated:"

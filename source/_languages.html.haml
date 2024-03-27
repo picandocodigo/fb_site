@@ -1,8 +1,19 @@
 #languages
   - if lang == :es
-    Go to
-    %a{href:"/"} English
-  - else
-    Ver en
+    %a{href:"/"}
+      In English
+    |
+    %a{href:"/gs"}
+      Anns a' Ghàidhlig
+  - elsif lang == :en
     %a{href:"/es"}
-      Espa&ntilde;ol
+      En Espa&ntilde;ol
+    |
+    %a{href:"/gd"}
+      Anns a' Ghàidhlig
+  - else
+    %a{href:"/es"}
+      En Espa&ntilde;ol
+    |
+    %a{href:"/"}
+      In English

@@ -30,7 +30,7 @@ mime_type :haml, 'text/html'
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :i18n, langs: %i[en es], mount_at_root: :en
+activate :i18n, langs: %i[en es gd], mount_at_root: :en
 activate :gzip
 activate :relative_assets
 activate :sprockets
