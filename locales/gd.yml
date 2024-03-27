@@ -62,23 +62,23 @@ gd:
 
 Posts in English:
 
-  - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 9 - thegamesdb Gem - Get Donkey Kong, Super Mario Bros., The Legend of Zelda ‘n’ More. API Client for TheGamesDB, an Open Database for Video Game Data](https://planetruby.github.io/gems/2020/09-thegamesdb.html).
+  - <img src='/images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 9 - thegamesdb Gem - Get Donkey Kong, Super Mario Bros., The Legend of Zelda ‘n’ More. API Client for TheGamesDB, an Open Database for Video Game Data](https://planetruby.github.io/gems/2020/09-thegamesdb.html).
 
-  - <img src='images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
+  - <img src='/images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
 
-  - <img src='images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python).
+  - <img src='/images/elastic.png'> Elastic blog: [Elastic Enterprise Search API clients for Ruby and Python](https://www.elastic.co/blog/elastic-enterprise-search-api-clients-for-ruby-and-python).
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
+  - <img src='/images/cultivate.png'> Cultivate blog: [Open sourcing our shared configuration for remote pairing](https://cultivatehq.com/posts/shared-config-open-source/): We open sourced our shared configuration for tmux, Spacemacs and other tools we use daily for development.
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
+  - <img src='/images/cultivate.png'> Cultivate blog: [Building and configuring a Phoenix app with Umbrella for releasing with Docker](https://cultivatehq.com/posts/elixir-distillery-umbrella-docker/): A tutorial to understand how Phoenix, Umbrella, Distillery and Docker fit together.
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
+  - <img src='/images/cultivate.png'> Cultivate blog: [Spacemacs shared configuration - custom private layers](https://cultivatehq.com/posts/spacemacs-shared-config/): How we use a shared configuration file for Spacemacs and managed to add personal configurations on each machine too.
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
+  - <img src='/images/cultivate.png'> Cultivate blog: [Getting started with Docker - images and containers](https://cultivatehq.com/posts/docker/): A quick guide to get you up and running with Docker.
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
+  - <img src='/images/cultivate.png'> Cultivate blog: [Using HTTPS with Elixir on Cowboy](https://cultivatehq.com/posts/elixir-https-cowboy/): How to serve https from a simple Elixir app running locally with Cowboy in development mode
 
-  - <img src='images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
+  - <img src='/images/cultivate.png'> Cultivate blog: [Euruko 2017 - Budapest, Hungary](https://cultivatehq.com/posts/euruko-2017/): My experience at the Annual European Ruby Conference in Budapest."
 
   speaker: "Conferences"
   speaker_content: "I like going to conferences and I've done talks about Ruby, Open Data, work, programming and other subjects in meetups, conferences and I've been invited to talk at some Universities. I also worked in the organization of several events: **RubyConf Uruguay**, Ruby Meetups in Montevideo, Red Tecnológica del Este (general development meetup in Maldonado) as well as other related events.\n\nYou can find some of my slides on [SpeakerDeck](https://speakerdeck.com/picandocodigo).
