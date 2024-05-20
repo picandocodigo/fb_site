@@ -28,6 +28,16 @@
         - gems[:elastic].each do |gem|
           = partial 'gems_table', locals: {gem: gem}
 
+    -# Videogames
+    .hiddable
+      %h3
+        %span{class: 'icon-gamepad'}
+        =t("videogames")
+        %span{class: 'icon-chevron-down right'}
+
+      .hidden.hiddable_content
+        =text("videogames_content")
+
     -# Open Data
     .hiddable
       %h3
