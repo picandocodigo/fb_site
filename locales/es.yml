@@ -4,7 +4,7 @@ es:
   description: "Soy programador de computadoras de Uruguay viviendo en Escocia. Este es mi sitio web personal, pero mi rinconcito principal de internet es mi blog [Picando Código](https://picandocodigo.net) donde he estado escribiendo desde 2007."
   programmer: "Programador"
   programmer_content: "Trabajo con computadoras, más que nada escribiendo código. Se puede ver parte del código que he escrito en [mi perfil de GitHub](https://github.com/picandocodigo) y mantengo <a href='/cv'>mi CV</a> en este sitio."
-  free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Podés ayudar al Software Libre [uniéndote a la Free Software Foundation](https://www.fsf.org/register_form?referrer=6661). Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
+  free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
   programming_languages: "Mi lenguage de programación favorito es <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, pero he escrito código en varios lenguajes a lo largo de mi carrera.<br/>Los lenguajes de programación más frecuentes en mis proyectos de GitHub son:"
 
   rubygems: "Gemas Ruby que mantengo"
@@ -49,7 +49,7 @@ es:
   writing: "Escritura"
   writing_content: "Disfruto mucho de escribir y lo vengo haciendo en mi blog personal **[Picando Código](https://picandocodigo.net)** desde 2007.<br><br>
 
-Artículos para otros medios en español:
+Artículos para distintos medios en español:
 
   - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Artículo sobre privacidad en internet.
 

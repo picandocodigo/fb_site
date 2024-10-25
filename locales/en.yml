@@ -3,8 +3,8 @@ en:
   title: Fernando Briano
   description: "I am a computer programmer from Uruguay who lives in Scotland. This is my personal website, but my main small corner of the internet is my blog [Picando Código](https://picandocodigo.net) where I've been blogging since 2007."
   programmer: "Programming"
-  programmer_content: "I work with computers mostly writing code. You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>."
-  free_software_content: "I use GNU/Linux and free software when possible. You can help Free Software by [joining the Free Software Foundation](https://www.fsf.org/register_form?referrer=6661). I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
+  programmer_content: "I work with computers, mostly writing code. You can see some of my code in <a href='https://github.com/picandocodigo'>my GitHub profile</a>. If you are interested, you can check out <a href='/cv'>my CV</a>."
+  free_software_content: "I use GNU/Linux and free software when possible. I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
   programming_languages: "My favourite programming language is <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, but I've written code in several languages along my career.<br/>The top programming languages from my repositories on GitHub are:"
 
   rubygems: "RubyGems I maintain"
@@ -49,7 +49,7 @@ en:
   writing_content: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](https://picandocodigo.net)** since 2007.
 
 
-  Articles for other media in Spanish:
+  Articles for different media in Spanish:
 
   - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Article about internet privacy.
 
