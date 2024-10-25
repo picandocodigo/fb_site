@@ -61,6 +61,10 @@ Artículos para distintos medios en español:
 
 Artículos en inglés:
 
+  - <img src='images/elastic.png'> Elastic Search Labs: [How to use the ES|QL Helper in the Elasticsearch Ruby Client](https://www.elastic.co/search-labs/blog/esql-ruby-helper-elasticsearch).
+
+  - <img src='/images/elastic.png'> Elastic Search Labs: [How to use Elasticsearch with popular Ruby tools](https://www.elastic.co/search-labs/blog/elasticsearch-ruby-tools).
+
   - <img src='/images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 9 - thegamesdb Gem - Get Donkey Kong, Super Mario Bros., The Legend of Zelda ‘n’ More. API Client for TheGamesDB, an Open Database for Video Game Data](https://planetruby.github.io/gems/2020/09-thegamesdb.html).
 
   - <img src='/images/ruby.png'> 25 Days of Ruby Gems - Ruby Advent Calendar 2020: [Day 2 - elastic-enterprise-search gem - Workplace Search, App Search, and Site Search all together](https://planetruby.github.io/gems/2020/02-elastic-enterprise-search.html).
