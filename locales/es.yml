@@ -21,7 +21,7 @@ es:
     project1:
       title: "Montevideo Bicis"
       description: "Sitio web con información de Datos Abiertos pertinentes a ciclistas en la ciudad de Montevideo."
-      links: "[Website](https://montevideobicis.com) | [en Github](https://github.com/picandocodigo/montevideo-bicis)"
+      links: "Sitio web fuera de línea | [en Github](https://github.com/picandocodigo/montevideo-bicis)"
     project2:
       title: "AtuServicio.uy"
       description: "Aplicación en la que trabajé con [DATA](https://datauy.org) que usa datos abiertos del Ministerio de Salud Pública para ayudar a los usuarios a comparar mutualistas y elegir la que más les sirva."
@@ -29,7 +29,7 @@ es:
     project3:
       title: "MNAV API - API para los datos abiertos del museo MNAV"
       description: "API que usa Datos Abiertos del Museo Nacional de Artes Visuales y provee información en JSON y XML."
-      links: "[Sitio Web](https://mnav.herokuapp.com/) | [Proyecto en GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [App frontend de ejemplo](https://mnavf.herokuapp.com/)"
+      links: "Sitio web fuera de línea | [Proyecto en GitHub](https://github.com/picandocodigo/mnav-opendata-api) | [App frontend de ejemplo](https://mnavf.herokuapp.com/)"
     project4:
       title: "Ombudsman"
       description: "Plataforma de Datos Abiertos para reportar problemas en tu ciudad como luces rotas, pozos, etc. Hecho durante la hackatón [Desarrollando América Latina](https://desarrollandoamerica.org/) 2013."
@@ -37,7 +37,7 @@ es:
     project5:
       title: "Mo&ntilde;ita Azul"
       description: "Proyecto de Datos Abiertos para la hackatón [Desarrollando América Latina](https://desarrollandoamerica.org/) 2012."
-      links: "[Sitio web](https://dal.picandocodigo.org/) | [Proyecto en GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
+      links: "Sitio web fuera de línea | [Proyecto en GitHub](https://github.com/picandocodigo/Mo-ita-Azul/)"
 
   otherprojects: "Otros proyectos"
   otherprojects_content: "Otros proyectos que he creado:\n
