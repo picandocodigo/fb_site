@@ -153,7 +153,11 @@ Artículos en inglés:
   - **2007** - JavaUy 2007 - 11 y 13 de octubre de 2007 - Montevideo, Uruguay"
 
   misc: "Música"
-  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](https://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo) y mi [Bandcamp](https://bandcamp.com/entropiarecords), en caso que quieras saber más de mis gustos musicales."
+  misc_content: "Tengo un sello discográfico independiente de punk rock: [**Entropía Records**](https://entropiarecords.com). Hemos lanzado algunos discos de bandas locales y he producido y ayudado con varios toques. Es un buen hobby y me encanta el punk rock. Este es mi [perfil en Last.fm](https://www.last.fm/user/picandocodigo) y mi [Bandcamp](https://bandcamp.com/entropiarecords), en caso que quieras saber más de mis gustos musicales.
+
+
+  [Entrevista para Underground Uruguay sobre Entropía Records](https://webcf.waybackmachine.org/web/20240228131009/https://underground.com.uy/entropia/).
+  "
 
   about: "Acerca de este sitio"
   about_content: "Este sitio estático es generado dinámicamente con [Middleman](https://middlemanapp.com/). Podés ver el código fuente [acá](https://github.com/picandocodigo/fb_site).\n\nEstoy usando [Icomoon](https://icomoon.io) para los íconos. Podés probar el código Konami para ver un huevo de pascua visual."

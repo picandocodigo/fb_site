@@ -57,8 +57,6 @@ en:
 
   - Interview for Sputnik: **[Hackers: ¿amigos o enemigos de los ciudadanos?](https://mundo.sputniknews.com/mundo/201804021077545354-hacker-informatica-software-privacidad/)**
 
-  - [Interview for Underground about my record label Entropía Records](https://underground.com.uy/entropia/)
-
 
 Posts in English:
 
@@ -167,7 +165,11 @@ Posts in English:
 - Nada Que Hacer – Punto Impropio. Uruguay, 2009
 
 
-It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music."
+It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www.last.fm/user/picandocodigo) and my [Bandcamp](https://bandcamp.com/entropiarecords), in case you want to find out about my favorite music.
+
+
+[Interview for Underground about Entropía Records](https://webcf.waybackmachine.org/web/20240228131009/https://underground.com.uy/entropia/).
+"
 
   about: "About this site"
   about_content: "This static site is generated dynamically with [Middleman](https://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
