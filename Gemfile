@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'concurrent-ruby', '1.3.4'
 gem 'haml', '~> 5'
 gem 'middleman'
 gem 'middleman-livereload'
