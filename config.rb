@@ -1,3 +1,5 @@
+require 'logger'
+require 'bigdecimal'
 # Require everything in /lib:
 Dir['./lib/*.rb'].each { |l| require l }
 
