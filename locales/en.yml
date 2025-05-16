@@ -7,9 +7,9 @@ en:
   free_software_content: "I use GNU/Linux and free software when possible. I use [Mozilla Firefox](https://getfirefox.com) as my web browser and [Emacs](https://www.gnu.org/software/emacs/) is my text editor of choice."
   programming_languages: "My favourite programming language is <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, but I've written code in several languages along my career.<br/>The top programming languages from my repositories on GitHub are:"
 
-  rubygems: "RubyGems I maintain"
-  personal: "Personal gems"
-  elastic_gems: "<a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a> gems"
+  rubygems: "RubyGems"
+  personal: "Gems I've built"
+  elastic_gems: "Gems I maintain via my work at <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='images/elastic.png'> Elastic</a>"
 
   wordpress: "WordPress Development"
   wordpress_content: "I have used WordPress for quite some time, built many websites with it and [developed some plugins](https://profiles.wordpress.org/fernandobt/#content-plugins). My profile on the WordPress.org community is [fernandobt](https://profiles.wordpress.org/users/fernandobt/). I used to contribute on [WordPress Answers](https://wordpress.stackexchange.com/users/298/fernando) too.\n\n**Plugins I developed:**"
