@@ -19,8 +19,6 @@
 
       .hidden.hiddable_content
         - gems = rubygems
-        %h4
-          = text(:personal)
         - gems[:personal].each do |gem|
           = partial 'gems_table', locals: {gem: gem}
         %h4

@@ -7,9 +7,9 @@ es:
   free_software_content: "Uso GNU/Linux y Software Libre en lo posible. Uso y recomiendo [Mozilla Firefox](https://getfirefox.com) como navegador web y [Emacs](https://www.gnu.org/software/emacs/) es mi editor de texto."
   programming_languages: "Mi lenguage de programación favorito es <span class='icon-ruby'></span> <span style='color: #f00'>**Ruby**</span>, pero he escrito código en varios lenguajes a lo largo de mi carrera.<br/>Los lenguajes de programación más frecuentes en mis proyectos de GitHub son:"
 
-  rubygems: "Gemas Ruby que mantengo"
-  personal: "Gemas Personales"
-  elastic_gems: "Gemas de <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='/images/elastic.png'> Elastic</a>"
+  rubygems: "Gemas Ruby"
+  personal: "Gemas  mantengo"
+  elastic_gems: "Gemas que mantengo por mi trabajo en <a href='https://www.elastic.co/' class='elastic' target='_blank'><img src='/images/elastic.png'> Elastic</a>"
 
 
   wordpress: "Desarrollo WordPress"
