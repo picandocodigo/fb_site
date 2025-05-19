@@ -6,7 +6,7 @@
   .col-2-12
     .content
       %span{class: 'icon-github'}
-      %a{href: gem['source_code_uri'], title: "#{gem['name']} on GitHub"}
+      %a{href: gem['homepage_uri'] || gem['source_code_uri'], title: "#{gem['name']} on GitHub"}
         GitHub
       %br
       %span{class: 'icon-ruby'}
