@@ -61,6 +61,8 @@ Artículos para distintos medios en español:
 
 Artículos en inglés:
 
+  - <img src='images/elastic.png'> Elastic Search Labs: [Introducing the ES|QL query builder for the Elasticsearch Ruby Client](https://www.elastic.co/search-labs/blog/esql-query-builder-elasticsearch-ruby-client).
+
   - <img src='/images/elastic.png'> Elastic Search Labs: [How to migrate your Ruby app from OpenSearch to Elasticsearch](https://www.elastic.co/search-labs/blog/ruby-opensearch-elasticsearch-migration).
 
   - <img src='/images/elastic.png'> Elastic Search Labs: [How to use the ES|QL Helper in the Elasticsearch Ruby Client](https://www.elastic.co/search-labs/blog/esql-ruby-helper-elasticsearch).
