@@ -31,6 +31,10 @@ module CustomHelpers
       .sort_by { |a| -a['downloaded'] }
   end
 
+  def blog_posts
+    Blog.info(env['BLOG_FEED'])
+  end
+
   def skills
     ['Ruby', 'Ruby On Rails', 'Agile Methodologies (Scrum, XP)',
      'Team Management', 'Linux', 'System Administration', 'SQL', 'Git',
@@ -62,6 +66,7 @@ module CustomHelpers
         'WORDPRESS' => ENV['WORDPRESS'],
         'RUBYGEMS' => ENV['RUBYGEMS'],
         'GITHUB_AUTH_TOKEN' => ENV['GITHUB_AUTH_TOKEN']
+        'BLOG_FEED' => ENV['BLOG_FEED']
       }
     end
   end

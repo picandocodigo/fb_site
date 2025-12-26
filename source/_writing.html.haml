@@ -6,4 +6,10 @@
 
   -# Start hidden part
   #writing.unit.hidden.hiddable_content
+    = text(:writing_intro)
+    %ul.blog
+      - blog_posts.each do |post|
+        %li
+          %a{href: post.link}>= "#{post.title} - "
+          = post.pubDate.strftime('%d/%m/%Y')
     = text(:writing_content)

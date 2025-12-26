@@ -46,10 +46,8 @@ en:
   * **[Instant 'Oh, The Humanity'](https://instantohthehumanity.com)** - A website/web app I did just for fun. [Source Code](https://github.com/picandocodigo/instantoh)"
 
   writing: "Writing"
-  writing_content: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](https://picandocodigo.net)** since 2007.
-
-
-  Articles for different media in Spanish:
+  writing_intro: "I really enjoy writing and I've been doing it on my personal blog **[Picando Código](https://picandocodigo.net)** since 2007. Latest blog posts:"
+  writing_content: "Articles for different media in Spanish:
 
   - **<a href='https://ladiaria.com.uy' target='_blank' style='color: #39f'>la diaria</a>**: **[Navegar (casi) en soledad](https://ladiaria.com.uy/opinion/articulo/2018/6/navegar-casi-en-soledad/)** Article about internet privacy.
 
