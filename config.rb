@@ -38,9 +38,9 @@ activate :relative_assets
 activate :sprockets
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#  activate :livereload
-# end
+configure :development do
+ activate :livereload
+end
 
 # Methods defined in the helpers block are available in templates
 helpers CustomHelpers
