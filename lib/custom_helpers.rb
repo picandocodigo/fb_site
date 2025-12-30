@@ -65,7 +65,7 @@ module CustomHelpers
         'GITHUB' => ENV['GITHUB'],
         'WORDPRESS' => ENV['WORDPRESS'],
         'RUBYGEMS' => ENV['RUBYGEMS'],
-        'GITHUB_AUTH_TOKEN' => ENV['GITHUB_AUTH_TOKEN']
+        'GITHUB_AUTH_TOKEN' => ENV['GITHUB_AUTH_TOKEN'],
         'BLOG_FEED' => ENV['BLOG_FEED']
       }
     end
