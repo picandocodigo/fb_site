@@ -10,6 +10,7 @@
     %ul.blog
       - blog_posts.each do |post|
         %li
-          %a{href: post.link}>= "#{post.title} - "
-          = post.pubDate.strftime('%d/%m/%Y')
+          %span{class: 'icon-rss'} &nbsp;
+          = "#{post.pubDate.strftime('%d/%m/%Y')} - "
+          %a{href: post.link}>= post.title
     = text(:writing_content)

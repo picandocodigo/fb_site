@@ -174,3 +174,6 @@ html {
     display: none !important;
   }
 }
+ul.blog li {
+  list-style: none;
+}
