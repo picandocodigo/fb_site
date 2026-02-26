@@ -20,7 +20,7 @@ jobs:
         GITHUB_AUTH_TOKEN: ${{secrets.GITHUB}}
         RUBYGEMS: picandocodigo
         WORDPRESS: fernandobt
-        BLOG_FEED: https://picandocodigo.net/feed
+        BLOG_FEED: https://picandocodigo.net/feed/
       run: bundle install &&
              bundle exec middleman build --verbose &&
              git config --global user.name "Fernando Briano" &&
