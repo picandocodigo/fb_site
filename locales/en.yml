@@ -176,7 +176,7 @@ It's a great hobby and I love punk rock. Here's my [Last.fm profile](https://www
 "
 
   about: "About this site"
-  about_content: "This static site is generated dynamically with [Middleman](https://middlemanapp.com/). Twice a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
+  about_content: "This static site is generated dynamically with [Middleman](https://middlemanapp.com/). Three times a week a GitHub action regenerates the code to update the data and pushes the changes to the website. You can see the source code [here](https://github.com/picandocodigo/fb_site).\n\nI'm using  [Icomoon](https://icomoon.io) for the icons. You can try the konami code for a visual easter egg."
 
   lastgenerated: "Site last generated:"
   videogames: "Game Development"
